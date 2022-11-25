@@ -1,0 +1,14 @@
+D:\Yuhan\Portfolio\2jo\Torder\Torder\bin\Debug\Torder.exe.config
+D:\Yuhan\Portfolio\2jo\Torder\Torder\bin\Debug\Torder.exe
+D:\Yuhan\Portfolio\2jo\Torder\Torder\bin\Debug\Torder.pdb
+D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.csprojAssemblyReference.cache
+D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.Form2.resources
+D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.Form3.resources
+D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.Form4.resources
+D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.Form5.resources
+D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.Properties.Resources.resources
+D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.csproj.GenerateResource.cache
+D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.csproj.CoreCompileInputs.cache
+D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.exe
+D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.pdb
+D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.Form1.resources

@@ -16,5 +16,17 @@ namespace Torder
         {
             InitializeComponent();
         }
+
+        private void btnBill_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.ShowDialog();
+        }
+
+        private void btnOlist_Click(object sender, EventArgs e)
+        {
+            Form5 form5 = new Form5();
+            form5.ShowDialog();
+        }
     }
 }

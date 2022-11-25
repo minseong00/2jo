@@ -28,13 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnOlist = new System.Windows.Forms.Button();
+            this.btnBill = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnOlist
+            // 
+            this.btnOlist.Location = new System.Drawing.Point(427, 325);
+            this.btnOlist.Name = "btnOlist";
+            this.btnOlist.Size = new System.Drawing.Size(75, 23);
+            this.btnOlist.TabIndex = 0;
+            this.btnOlist.Text = "주문내역";
+            this.btnOlist.UseVisualStyleBackColor = true;
+            this.btnOlist.Click += new System.EventHandler(this.btnOlist_Click);
+            // 
+            // btnBill
+            // 
+            this.btnBill.Location = new System.Drawing.Point(524, 325);
+            this.btnBill.Name = "btnBill";
+            this.btnBill.Size = new System.Drawing.Size(75, 23);
+            this.btnBill.TabIndex = 1;
+            this.btnBill.Text = "계산서";
+            this.btnBill.UseVisualStyleBackColor = true;
+            this.btnBill.Click += new System.EventHandler(this.btnBill_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(700, 360);
+            this.Controls.Add(this.btnBill);
+            this.Controls.Add(this.btnOlist);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "메인";
             this.ResumeLayout(false);
@@ -42,6 +67,9 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnOlist;
+        private System.Windows.Forms.Button btnBill;
     }
 }
 
