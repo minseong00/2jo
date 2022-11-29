@@ -43,24 +43,17 @@
             this.btn_call = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-<<<<<<< HEAD
-            this.btn_cart = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-=======
             this.btn_cart = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel_cart = new System.Windows.Forms.Panel();
->>>>>>> b0a5c134ee86ce87c78df328b6a9bc1cd4650fa6
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnOlist
@@ -146,6 +139,7 @@
             this.btn_admin.TabIndex = 12;
             this.btn_admin.Text = "관리자용";
             this.btn_admin.UseVisualStyleBackColor = true;
+            this.btn_admin.Click += new System.EventHandler(this.btn_admin_Click);
             // 
             // btn_top_menu1
             // 
@@ -227,6 +221,15 @@
             this.btn_cart.UseVisualStyleBackColor = true;
             this.btn_cart.CheckedChanged += new System.EventHandler(this.btn_cart_CheckedChanged);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(191, 67);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(115, 237);
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
@@ -245,26 +248,15 @@
             this.pictureBox3.TabIndex = 11;
             this.pictureBox3.TabStop = false;
             // 
-<<<<<<< HEAD
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(191, 67);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(115, 237);
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
-=======
             // panel_cart
             // 
             this.panel_cart.AutoScroll = true;
             this.panel_cart.BackColor = System.Drawing.Color.White;
-            this.panel_cart.Location = new System.Drawing.Point(460, 0);
+            this.panel_cart.Location = new System.Drawing.Point(460, -1);
             this.panel_cart.Name = "panel_cart";
             this.panel_cart.Size = new System.Drawing.Size(240, 319);
             this.panel_cart.TabIndex = 12;
             this.panel_cart.Visible = false;
->>>>>>> b0a5c134ee86ce87c78df328b6a9bc1cd4650fa6
             // 
             // Form1
             // 
@@ -289,14 +281,10 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
-<<<<<<< HEAD
-=======
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
->>>>>>> b0a5c134ee86ce87c78df328b6a9bc1cd4650fa6
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -317,18 +305,11 @@
         private System.Windows.Forms.Button btn_top_menu3;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
-<<<<<<< HEAD
-        private System.Windows.Forms.Button btn_cart;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox1;
-=======
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel_cart;
         private System.Windows.Forms.CheckBox btn_cart;
->>>>>>> b0a5c134ee86ce87c78df328b6a9bc1cd4650fa6
     }
 }
 
