@@ -12,6 +12,7 @@ namespace Torder
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
@@ -29,10 +30,25 @@ namespace Torder
             form5.ShowDialog();
         }
 
+<<<<<<< HEAD
         private void btn_call_Click(object sender, EventArgs e)
         {
             Form2 form2 = new Form2();
             form2.ShowDialog();
         }
+=======
+        private void Form1_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void btn_cart_CheckedChanged(object sender, EventArgs e)
+        {
+            if (btn_cart.Checked == true)
+                panel_cart.Visible = true;
+            else
+                panel_cart.Visible = false;
+        }
+        
+>>>>>>> b0a5c134ee86ce87c78df328b6a9bc1cd4650fa6
     }
 }
