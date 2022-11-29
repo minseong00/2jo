@@ -28,11 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblBill = new System.Windows.Forms.Label();
             this.lblTimer = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
             this.gbSum = new System.Windows.Forms.GroupBox();
+            this.lblSumCost = new System.Windows.Forms.Label();
+            this.lblTextSum = new System.Windows.Forms.Label();
             this.gbDut = new System.Windows.Forms.GroupBox();
             this.lblDutCost = new System.Windows.Forms.Label();
             this.lblDutNum = new System.Windows.Forms.Label();
@@ -40,8 +43,7 @@
             this.btnMinus = new System.Windows.Forms.Button();
             this.lblNum = new System.Windows.Forms.Label();
             this.lblTextDut = new System.Windows.Forms.Label();
-            this.lblTextSum = new System.Windows.Forms.Label();
-            this.lblSumCost = new System.Windows.Forms.Label();
+            this.time_close = new System.Windows.Forms.Timer(this.components);
             this.gbSum.SuspendLayout();
             this.gbDut.SuspendLayout();
             this.SuspendLayout();
@@ -60,9 +62,9 @@
             this.lblTimer.AutoSize = true;
             this.lblTimer.Location = new System.Drawing.Point(479, 14);
             this.lblTimer.Name = "lblTimer";
-            this.lblTimer.Size = new System.Drawing.Size(101, 12);
+            this.lblTimer.Size = new System.Drawing.Size(113, 12);
             this.lblTimer.TabIndex = 1;
-            this.lblTimer.Text = "초 후에 닫힙니다.";
+            this.lblTimer.Text = "30초 후에 닫힙니다.";
             // 
             // btnClose
             // 
@@ -72,6 +74,7 @@
             this.btnClose.TabIndex = 2;
             this.btnClose.Text = "닫기";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // listView1
             // 
@@ -91,6 +94,24 @@
             this.gbSum.Size = new System.Drawing.Size(442, 56);
             this.gbSum.TabIndex = 4;
             this.gbSum.TabStop = false;
+            // 
+            // lblSumCost
+            // 
+            this.lblSumCost.AutoSize = true;
+            this.lblSumCost.Location = new System.Drawing.Point(396, 27);
+            this.lblSumCost.Name = "lblSumCost";
+            this.lblSumCost.Size = new System.Drawing.Size(17, 12);
+            this.lblSumCost.TabIndex = 1;
+            this.lblSumCost.Text = "원";
+            // 
+            // lblTextSum
+            // 
+            this.lblTextSum.AutoSize = true;
+            this.lblTextSum.Location = new System.Drawing.Point(15, 27);
+            this.lblTextSum.Name = "lblTextSum";
+            this.lblTextSum.Size = new System.Drawing.Size(29, 12);
+            this.lblTextSum.TabIndex = 0;
+            this.lblTextSum.Text = "합계";
             // 
             // gbDut
             // 
@@ -161,23 +182,10 @@
             this.lblTextDut.TabIndex = 6;
             this.lblTextDut.Text = "더치페이";
             // 
-            // lblTextSum
+            // time_close
             // 
-            this.lblTextSum.AutoSize = true;
-            this.lblTextSum.Location = new System.Drawing.Point(15, 27);
-            this.lblTextSum.Name = "lblTextSum";
-            this.lblTextSum.Size = new System.Drawing.Size(29, 12);
-            this.lblTextSum.TabIndex = 0;
-            this.lblTextSum.Text = "합계";
-            // 
-            // lblSumCost
-            // 
-            this.lblSumCost.AutoSize = true;
-            this.lblSumCost.Location = new System.Drawing.Point(396, 27);
-            this.lblSumCost.Name = "lblSumCost";
-            this.lblSumCost.Size = new System.Drawing.Size(17, 12);
-            this.lblSumCost.TabIndex = 1;
-            this.lblSumCost.Text = "원";
+            this.time_close.Interval = 1000;
+            this.time_close.Tick += new System.EventHandler(this.time_close_Tick);
             // 
             // Form3
             // 
@@ -193,6 +201,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form3";
             this.Text = "계산서";
+            this.Load += new System.EventHandler(this.Form3_Load);
             this.gbSum.ResumeLayout(false);
             this.gbSum.PerformLayout();
             this.gbDut.ResumeLayout(false);
@@ -218,5 +227,6 @@
         private System.Windows.Forms.Label lblTextDut;
         private System.Windows.Forms.Label lblSumCost;
         private System.Windows.Forms.Label lblTextSum;
+        private System.Windows.Forms.Timer time_close;
     }
 }

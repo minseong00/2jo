@@ -28,5 +28,11 @@ namespace Torder
             Form5 form5 = new Form5();
             form5.ShowDialog();
         }
+
+        private void btn_call_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+        }
     }
 }

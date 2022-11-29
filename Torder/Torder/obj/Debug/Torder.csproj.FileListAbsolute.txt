@@ -12,3 +12,17 @@ D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.csproj.CoreCompileInputs.c
 D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.exe
 D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.pdb
 D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.Form1.resources
+C:\Users\YUHAN\Desktop\2jo\Torder\Torder\bin\Debug\Torder.exe.config
+C:\Users\YUHAN\Desktop\2jo\Torder\Torder\bin\Debug\Torder.exe
+C:\Users\YUHAN\Desktop\2jo\Torder\Torder\bin\Debug\Torder.pdb
+C:\Users\YUHAN\Desktop\2jo\Torder\Torder\obj\Debug\Torder.csprojAssemblyReference.cache
+C:\Users\YUHAN\Desktop\2jo\Torder\Torder\obj\Debug\Torder.Form1.resources
+C:\Users\YUHAN\Desktop\2jo\Torder\Torder\obj\Debug\Torder.Form2.resources
+C:\Users\YUHAN\Desktop\2jo\Torder\Torder\obj\Debug\Torder.Form3.resources
+C:\Users\YUHAN\Desktop\2jo\Torder\Torder\obj\Debug\Torder.Form4.resources
+C:\Users\YUHAN\Desktop\2jo\Torder\Torder\obj\Debug\Torder.Form5.resources
+C:\Users\YUHAN\Desktop\2jo\Torder\Torder\obj\Debug\Torder.Properties.Resources.resources
+C:\Users\YUHAN\Desktop\2jo\Torder\Torder\obj\Debug\Torder.csproj.GenerateResource.cache
+C:\Users\YUHAN\Desktop\2jo\Torder\Torder\obj\Debug\Torder.csproj.CoreCompileInputs.cache
+C:\Users\YUHAN\Desktop\2jo\Torder\Torder\obj\Debug\Torder.exe
+C:\Users\YUHAN\Desktop\2jo\Torder\Torder\obj\Debug\Torder.pdb
