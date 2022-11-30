@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.btnOlist = new System.Windows.Forms.Button();
-            this.btnBill = new System.Windows.Forms.Button();
+            this.btn_oList = new System.Windows.Forms.Button();
+            this.btn_bill = new System.Windows.Forms.Button();
             this.btn_admin = new System.Windows.Forms.Button();
             this.btn_top_menu1 = new System.Windows.Forms.Button();
             this.btn_top_menu2 = new System.Windows.Forms.Button();
@@ -38,51 +38,53 @@
             this.btn_call = new System.Windows.Forms.Button();
             this.btn_cart = new System.Windows.Forms.CheckBox();
             this.panel_cart = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.btn_left_menu3 = new System.Windows.Forms.Button();
-            this.btn_left_menu2 = new System.Windows.Forms.Button();
-            this.btn_left_menu4 = new System.Windows.Forms.Button();
-            this.btn_left_menu1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel_center = new System.Windows.Forms.Panel();
+            this.main_line = new System.Windows.Forms.Panel();
+            this.lbl_food1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel_top = new System.Windows.Forms.Panel();
+            this.pic_logo = new System.Windows.Forms.PictureBox();
+            this.panel_bottom = new System.Windows.Forms.Panel();
+            this.panel_left = new System.Windows.Forms.Panel();
+            this.btn_left_menu1 = new System.Windows.Forms.Button();
+            this.btn_left_menu4 = new System.Windows.Forms.Button();
+            this.btn_left_menu2 = new System.Windows.Forms.Button();
+            this.btn_left_menu3 = new System.Windows.Forms.Button();
+            this.panel_center.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel_top.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).BeginInit();
+            this.panel_bottom.SuspendLayout();
+            this.panel_left.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnOlist
+            // btn_oList
             // 
-            this.btnOlist.Font = new System.Drawing.Font("굴림", 13F);
-            this.btnOlist.Location = new System.Drawing.Point(474, 10);
-            this.btnOlist.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnOlist.Name = "btnOlist";
-            this.btnOlist.Size = new System.Drawing.Size(108, 32);
-            this.btnOlist.TabIndex = 0;
-            this.btnOlist.Text = "주문내역";
-            this.btnOlist.UseVisualStyleBackColor = true;
-            this.btnOlist.Click += new System.EventHandler(this.btnOlist_Click);
+            this.btn_oList.Font = new System.Drawing.Font("굴림", 13F);
+            this.btn_oList.Location = new System.Drawing.Point(474, 10);
+            this.btn_oList.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_oList.Name = "btn_oList";
+            this.btn_oList.Size = new System.Drawing.Size(108, 32);
+            this.btn_oList.TabIndex = 0;
+            this.btn_oList.Text = "주문내역";
+            this.btn_oList.UseVisualStyleBackColor = true;
+            this.btn_oList.Click += new System.EventHandler(this.btn_oList_Click);
             // 
-            // btnBill
+            // btn_bill
             // 
-            this.btnBill.Font = new System.Drawing.Font("굴림", 13F);
-            this.btnBill.Location = new System.Drawing.Point(588, 10);
-            this.btnBill.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnBill.Name = "btnBill";
-            this.btnBill.Size = new System.Drawing.Size(86, 32);
-            this.btnBill.TabIndex = 1;
-            this.btnBill.Text = "계산서";
-            this.btnBill.UseVisualStyleBackColor = true;
-            this.btnBill.Click += new System.EventHandler(this.btnBill_Click);
+            this.btn_bill.Font = new System.Drawing.Font("굴림", 13F);
+            this.btn_bill.Location = new System.Drawing.Point(588, 10);
+            this.btn_bill.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_bill.Name = "btn_bill";
+            this.btn_bill.Size = new System.Drawing.Size(86, 32);
+            this.btn_bill.TabIndex = 1;
+            this.btn_bill.Text = "계산서";
+            this.btn_bill.UseVisualStyleBackColor = true;
+            this.btn_bill.Click += new System.EventHandler(this.btn_bill_Click);
             // 
             // btn_admin
             // 
@@ -131,7 +133,7 @@
             // btn_call
             // 
             this.btn_call.Font = new System.Drawing.Font("굴림", 13F);
-            this.btn_call.Location = new System.Drawing.Point(12, 17);
+            this.btn_call.Location = new System.Drawing.Point(8, 10);
             this.btn_call.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_call.Name = "btn_call";
             this.btn_call.Size = new System.Drawing.Size(114, 32);
@@ -165,88 +167,118 @@
             this.panel_cart.TabIndex = 12;
             this.panel_cart.Visible = false;
             // 
-            // panel1
+            // panel_center
             // 
-            this.panel1.AutoScroll = true;
-            this.panel1.AutoScrollMinSize = new System.Drawing.Size(0, 800);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(132, 69);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(668, 326);
-            this.panel1.TabIndex = 3;
+            this.panel_center.AutoScroll = true;
+            this.panel_center.AutoScrollMinSize = new System.Drawing.Size(0, 8000);
+            this.panel_center.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_center.Controls.Add(this.main_line);
+            this.panel_center.Controls.Add(this.lbl_food1);
+            this.panel_center.Controls.Add(this.pictureBox2);
+            this.panel_center.Controls.Add(this.pictureBox3);
+            this.panel_center.Controls.Add(this.pictureBox1);
+            this.panel_center.Location = new System.Drawing.Point(132, 67);
+            this.panel_center.Name = "panel_center";
+            this.panel_center.Size = new System.Drawing.Size(668, 331);
+            this.panel_center.TabIndex = 3;
             // 
-            // panel2
+            // main_line
             // 
-            this.panel2.Controls.Add(this.pictureBox4);
-            this.panel2.Controls.Add(this.btn_admin);
-            this.panel2.Controls.Add(this.btn_top_menu1);
-            this.panel2.Controls.Add(this.btn_top_menu3);
-            this.panel2.Controls.Add(this.btn_top_menu2);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(800, 69);
-            this.panel2.TabIndex = 0;
+            this.main_line.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.main_line.Location = new System.Drawing.Point(72, 37);
+            this.main_line.Margin = new System.Windows.Forms.Padding(0);
+            this.main_line.Name = "main_line";
+            this.main_line.Size = new System.Drawing.Size(566, 2);
+            this.main_line.TabIndex = 13;
             // 
-            // panel3
+            // lbl_food1
             // 
-            this.panel3.Controls.Add(this.btnOlist);
-            this.panel3.Controls.Add(this.btn_call);
-            this.panel3.Controls.Add(this.btn_cart);
-            this.panel3.Controls.Add(this.btnBill);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 395);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(800, 55);
-            this.panel3.TabIndex = 0;
+            this.lbl_food1.AutoSize = true;
+            this.lbl_food1.Font = new System.Drawing.Font("굴림", 20F);
+            this.lbl_food1.Location = new System.Drawing.Point(17, 21);
+            this.lbl_food1.Name = "lbl_food1";
+            this.lbl_food1.Size = new System.Drawing.Size(49, 34);
+            this.lbl_food1.TabIndex = 12;
+            this.lbl_food1.Text = "탕";
             // 
-            // panel4
+            // pictureBox2
             // 
-            this.panel4.Controls.Add(this.btn_left_menu1);
-            this.panel4.Controls.Add(this.btn_left_menu4);
-            this.panel4.Controls.Add(this.btn_left_menu2);
-            this.panel4.Controls.Add(this.btn_left_menu3);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel4.Location = new System.Drawing.Point(0, 69);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(132, 326);
-            this.panel4.TabIndex = 0;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(471, 92);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(134, 133);
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
             // 
-            // btn_left_menu3
+            // pictureBox3
             // 
-            this.btn_left_menu3.Font = new System.Drawing.Font("굴림", 13F);
-            this.btn_left_menu3.Location = new System.Drawing.Point(9, 104);
-            this.btn_left_menu3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btn_left_menu3.Name = "btn_left_menu3";
-            this.btn_left_menu3.Size = new System.Drawing.Size(114, 41);
-            this.btn_left_menu3.TabIndex = 4;
-            this.btn_left_menu3.Text = "주류";
-            this.btn_left_menu3.UseVisualStyleBackColor = true;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(36, 92);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(132, 133);
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
             // 
-            // btn_left_menu2
+            // pictureBox1
             // 
-            this.btn_left_menu2.Font = new System.Drawing.Font("굴림", 13F);
-            this.btn_left_menu2.Location = new System.Drawing.Point(9, 55);
-            this.btn_left_menu2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btn_left_menu2.Name = "btn_left_menu2";
-            this.btn_left_menu2.Size = new System.Drawing.Size(114, 41);
-            this.btn_left_menu2.TabIndex = 3;
-            this.btn_left_menu2.Text = "음료";
-            this.btn_left_menu2.UseVisualStyleBackColor = true;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(257, 92);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(131, 133);
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
             // 
-            // btn_left_menu4
+            // panel_top
             // 
-            this.btn_left_menu4.Font = new System.Drawing.Font("굴림", 13F);
-            this.btn_left_menu4.Location = new System.Drawing.Point(9, 153);
-            this.btn_left_menu4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btn_left_menu4.Name = "btn_left_menu4";
-            this.btn_left_menu4.Size = new System.Drawing.Size(114, 41);
-            this.btn_left_menu4.TabIndex = 5;
-            this.btn_left_menu4.Text = "추가메뉴";
-            this.btn_left_menu4.UseVisualStyleBackColor = true;
+            this.panel_top.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_top.Controls.Add(this.pic_logo);
+            this.panel_top.Controls.Add(this.btn_admin);
+            this.panel_top.Controls.Add(this.btn_top_menu1);
+            this.panel_top.Controls.Add(this.btn_top_menu3);
+            this.panel_top.Controls.Add(this.btn_top_menu2);
+            this.panel_top.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel_top.Location = new System.Drawing.Point(0, 0);
+            this.panel_top.Name = "panel_top";
+            this.panel_top.Size = new System.Drawing.Size(800, 69);
+            this.panel_top.TabIndex = 0;
+            // 
+            // pic_logo
+            // 
+            this.pic_logo.Image = ((System.Drawing.Image)(resources.GetObject("pic_logo.Image")));
+            this.pic_logo.ImageLocation = "";
+            this.pic_logo.Location = new System.Drawing.Point(3, 3);
+            this.pic_logo.Name = "pic_logo";
+            this.pic_logo.Size = new System.Drawing.Size(127, 63);
+            this.pic_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_logo.TabIndex = 12;
+            this.pic_logo.TabStop = false;
+            // 
+            // panel_bottom
+            // 
+            this.panel_bottom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_bottom.Controls.Add(this.btn_oList);
+            this.panel_bottom.Controls.Add(this.btn_call);
+            this.panel_bottom.Controls.Add(this.btn_cart);
+            this.panel_bottom.Controls.Add(this.btn_bill);
+            this.panel_bottom.Location = new System.Drawing.Point(0, 395);
+            this.panel_bottom.Name = "panel_bottom";
+            this.panel_bottom.Size = new System.Drawing.Size(800, 55);
+            this.panel_bottom.TabIndex = 0;
+            // 
+            // panel_left
+            // 
+            this.panel_left.Controls.Add(this.btn_left_menu1);
+            this.panel_left.Controls.Add(this.btn_left_menu4);
+            this.panel_left.Controls.Add(this.btn_left_menu2);
+            this.panel_left.Controls.Add(this.btn_left_menu3);
+            this.panel_left.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel_left.Location = new System.Drawing.Point(0, 69);
+            this.panel_left.Name = "panel_left";
+            this.panel_left.Size = new System.Drawing.Size(132, 381);
+            this.panel_left.TabIndex = 0;
             // 
             // btn_left_menu1
             // 
@@ -259,57 +291,49 @@
             this.btn_left_menu1.Text = "메인메뉴";
             this.btn_left_menu1.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // btn_left_menu4
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(51, 14);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(131, 133);
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
+            this.btn_left_menu4.Font = new System.Drawing.Font("굴림", 13F);
+            this.btn_left_menu4.Location = new System.Drawing.Point(9, 153);
+            this.btn_left_menu4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_left_menu4.Name = "btn_left_menu4";
+            this.btn_left_menu4.Size = new System.Drawing.Size(114, 41);
+            this.btn_left_menu4.TabIndex = 5;
+            this.btn_left_menu4.Text = "추가메뉴";
+            this.btn_left_menu4.UseVisualStyleBackColor = true;
             // 
-            // pictureBox3
+            // btn_left_menu2
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(265, 14);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(132, 133);
-            this.pictureBox3.TabIndex = 11;
-            this.pictureBox3.TabStop = false;
+            this.btn_left_menu2.Font = new System.Drawing.Font("굴림", 13F);
+            this.btn_left_menu2.Location = new System.Drawing.Point(9, 55);
+            this.btn_left_menu2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_left_menu2.Name = "btn_left_menu2";
+            this.btn_left_menu2.Size = new System.Drawing.Size(114, 41);
+            this.btn_left_menu2.TabIndex = 3;
+            this.btn_left_menu2.Text = "음료";
+            this.btn_left_menu2.UseVisualStyleBackColor = true;
             // 
-            // pictureBox2
+            // btn_left_menu3
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(483, 14);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(134, 133);
-            this.pictureBox2.TabIndex = 10;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.ImageLocation = "";
-            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(127, 63);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 12;
-            this.pictureBox4.TabStop = false;
+            this.btn_left_menu3.Font = new System.Drawing.Font("굴림", 13F);
+            this.btn_left_menu3.Location = new System.Drawing.Point(9, 104);
+            this.btn_left_menu3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_left_menu3.Name = "btn_left_menu3";
+            this.btn_left_menu3.Size = new System.Drawing.Size(114, 41);
+            this.btn_left_menu3.TabIndex = 4;
+            this.btn_left_menu3.Text = "주류";
+            this.btn_left_menu3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panel_bottom);
+            this.Controls.Add(this.panel_left);
+            this.Controls.Add(this.panel_top);
+            this.Controls.Add(this.panel_center);
             this.Controls.Add(this.panel_cart);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
@@ -318,23 +342,24 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "메인";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel_center.ResumeLayout(false);
+            this.panel_center.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel_top.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).EndInit();
+            this.panel_bottom.ResumeLayout(false);
+            this.panel_bottom.PerformLayout();
+            this.panel_left.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnOlist;
-        private System.Windows.Forms.Button btnBill;
+        private System.Windows.Forms.Button btn_oList;
+        private System.Windows.Forms.Button btn_bill;
         private System.Windows.Forms.Button btn_call;
         private System.Windows.Forms.Button btn_admin;
         private System.Windows.Forms.Button btn_top_menu1;
@@ -345,15 +370,17 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel_cart;
         private System.Windows.Forms.CheckBox btn_cart;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel_center;
+        private System.Windows.Forms.Panel panel_top;
+        private System.Windows.Forms.Panel panel_bottom;
+        private System.Windows.Forms.Panel panel_left;
         private System.Windows.Forms.Button btn_left_menu1;
         private System.Windows.Forms.Button btn_left_menu4;
         private System.Windows.Forms.Button btn_left_menu2;
         private System.Windows.Forms.Button btn_left_menu3;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pic_logo;
+        private System.Windows.Forms.Panel main_line;
+        private System.Windows.Forms.Label lbl_food1;
     }
 }
 

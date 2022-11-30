@@ -22,13 +22,13 @@ namespace Torder
             Form2 form2 = new Form2();
             form2.ShowDialog();
         }
-        private void btnBill_Click(object sender, EventArgs e)
+        private void btn_bill_Click(object sender, EventArgs e)
         {
             Form3 form3 = new Form3();
             form3.ShowDialog();
         }
 
-        private void btnOlist_Click(object sender, EventArgs e)
+        private void btn_oList_Click(object sender, EventArgs e)
         {
             Form5 form5 = new Form5();
             form5.ShowDialog();
@@ -52,5 +52,6 @@ namespace Torder
             Form4 form4 = new Form4();
             form4.ShowDialog();
         }
+        
     }
 }
