@@ -29,10 +29,9 @@
         private void InitializeComponent()
         {
             this.gbTopbar = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnCall = new System.Windows.Forms.Button();
-            this.gbNeed = new System.Windows.Forms.GroupBox();
             this.btnSoi = new System.Windows.Forms.Button();
             this.btnWTissue = new System.Windows.Forms.Button();
             this.btnSpoon = new System.Windows.Forms.Button();
@@ -41,6 +40,7 @@
             this.btnApron = new System.Windows.Forms.Button();
             this.btnDish = new System.Windows.Forms.Button();
             this.btnAddBroth = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.gbTopbar.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,6 +55,16 @@
             this.gbTopbar.TabIndex = 0;
             this.gbTopbar.TabStop = false;
             // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(613, 12);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(75, 37);
+            this.btnClose.TabIndex = 1;
+            this.btnClose.Text = "X 닫기";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -64,15 +74,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "직원호출 - 무엇을 도와드릴까요?";
             // 
-            // btnClose
-            // 
-            this.btnClose.Location = new System.Drawing.Point(613, 12);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 37);
-            this.btnClose.TabIndex = 1;
-            this.btnClose.Text = "X 닫기";
-            this.btnClose.UseVisualStyleBackColor = true;
-            // 
             // btnCall
             // 
             this.btnCall.Location = new System.Drawing.Point(18, 300);
@@ -81,14 +82,6 @@
             this.btnCall.TabIndex = 2;
             this.btnCall.Text = "직원만 호출하기";
             this.btnCall.UseVisualStyleBackColor = true;
-            // 
-            // gbNeed
-            // 
-            this.gbNeed.Location = new System.Drawing.Point(434, 61);
-            this.gbNeed.Name = "gbNeed";
-            this.gbNeed.Size = new System.Drawing.Size(254, 287);
-            this.gbNeed.TabIndex = 3;
-            this.gbNeed.TabStop = false;
             // 
             // btnSoi
             // 
@@ -162,11 +155,20 @@
             this.btnAddBroth.Text = "육수 추가";
             this.btnAddBroth.UseVisualStyleBackColor = true;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Location = new System.Drawing.Point(427, 71);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(261, 277);
+            this.panel1.TabIndex = 12;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 360);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnAddBroth);
             this.Controls.Add(this.btnDish);
             this.Controls.Add(this.btnApron);
@@ -175,7 +177,6 @@
             this.Controls.Add(this.btnSpoon);
             this.Controls.Add(this.btnWTissue);
             this.Controls.Add(this.btnSoi);
-            this.Controls.Add(this.gbNeed);
             this.Controls.Add(this.btnCall);
             this.Controls.Add(this.gbTopbar);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -193,7 +194,6 @@
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCall;
-        private System.Windows.Forms.GroupBox gbNeed;
         private System.Windows.Forms.Button btnSoi;
         private System.Windows.Forms.Button btnWTissue;
         private System.Windows.Forms.Button btnSpoon;
@@ -202,5 +202,6 @@
         private System.Windows.Forms.Button btnApron;
         private System.Windows.Forms.Button btnDish;
         private System.Windows.Forms.Button btnAddBroth;
+        private System.Windows.Forms.Panel panel1;
     }
 }
