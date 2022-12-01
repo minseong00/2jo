@@ -34,13 +34,16 @@
             this.lv_ch_menu = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lv_ch_count = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lv_ch_cash = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.lb_total = new System.Windows.Forms.Label();
-            this.lb_totalcount = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_daily
             // 
-            this.btn_daily.Location = new System.Drawing.Point(304, 12);
+            this.btn_daily.Location = new System.Drawing.Point(220, 12);
             this.btn_daily.Name = "btn_daily";
             this.btn_daily.Size = new System.Drawing.Size(164, 46);
             this.btn_daily.TabIndex = 19;
@@ -49,7 +52,7 @@
             // 
             // btn_orderlist
             // 
-            this.btn_orderlist.Location = new System.Drawing.Point(106, 12);
+            this.btn_orderlist.Location = new System.Drawing.Point(50, 12);
             this.btn_orderlist.Name = "btn_orderlist";
             this.btn_orderlist.Size = new System.Drawing.Size(164, 46);
             this.btn_orderlist.TabIndex = 18;
@@ -63,9 +66,9 @@
             this.lv_ch_count,
             this.lv_ch_cash});
             this.lv_orderlist.HideSelection = false;
-            this.lv_orderlist.Location = new System.Drawing.Point(89, 96);
+            this.lv_orderlist.Location = new System.Drawing.Point(50, 64);
             this.lv_orderlist.Name = "lv_orderlist";
-            this.lv_orderlist.Size = new System.Drawing.Size(604, 234);
+            this.lv_orderlist.Size = new System.Drawing.Size(668, 331);
             this.lv_orderlist.TabIndex = 20;
             this.lv_orderlist.UseCompatibleStateImageBehavior = false;
             this.lv_orderlist.View = System.Windows.Forms.View.Details;
@@ -84,40 +87,60 @@
             this.lv_ch_cash.Text = "금액";
             this.lv_ch_cash.Width = 100;
             // 
-            // lb_total
+            // groupBox1
             // 
-            this.lb_total.AutoSize = true;
-            this.lb_total.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lb_total.Location = new System.Drawing.Point(101, 344);
-            this.lb_total.Name = "lb_total";
-            this.lb_total.Size = new System.Drawing.Size(55, 30);
-            this.lb_total.TabIndex = 21;
-            this.lb_total.Text = "합계";
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Location = new System.Drawing.Point(50, 401);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(669, 45);
+            this.groupBox1.TabIndex = 30;
+            this.groupBox1.TabStop = false;
             // 
-            // lb_totalcount
+            // label1
             // 
-            this.lb_totalcount.AutoSize = true;
-            this.lb_totalcount.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lb_totalcount.Location = new System.Drawing.Point(547, 344);
-            this.lb_totalcount.Name = "lb_totalcount";
-            this.lb_totalcount.Size = new System.Drawing.Size(34, 30);
-            this.lb_totalcount.TabIndex = 22;
-            this.lb_totalcount.Text = "원";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Location = new System.Drawing.Point(629, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(34, 30);
+            this.label1.TabIndex = 27;
+            this.label1.Text = "원";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label2.Location = new System.Drawing.Point(24, 12);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(55, 30);
+            this.label2.TabIndex = 26;
+            this.label2.Text = "합계";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(630, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(89, 46);
+            this.button1.TabIndex = 31;
+            this.button1.Text = "닫기";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lb_totalcount);
-            this.Controls.Add(this.lb_total);
+            this.ClientSize = new System.Drawing.Size(802, 458);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lv_orderlist);
             this.Controls.Add(this.btn_daily);
             this.Controls.Add(this.btn_orderlist);
             this.Name = "Form7";
             this.Text = "주문내역";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -128,7 +151,9 @@
         private System.Windows.Forms.ColumnHeader lv_ch_menu;
         private System.Windows.Forms.ColumnHeader lv_ch_count;
         private System.Windows.Forms.ColumnHeader lv_ch_cash;
-        private System.Windows.Forms.Label lb_total;
-        private System.Windows.Forms.Label lb_totalcount;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
     }
 }
