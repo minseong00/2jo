@@ -52,6 +52,47 @@ namespace Torder
             Form4 form4 = new Form4();
             form4.ShowDialog();
         }
-        
+
+        private void btn_left_menu1_Click(object sender, EventArgs e)
+        {
+            Point btn_location = new Point(0, 0);
+            panel_center.AutoScrollPosition = btn_location;
+        }
+
+        private void btn_top_menu1_Click(object sender, EventArgs e)
+        {
+            Point btn_location = new Point(0, 0);
+            panel_center.AutoScrollPosition = btn_location;
+        }
+
+        private void btn_top_menu2_Click(object sender, EventArgs e)
+        {
+            Point btn_location = new Point(0, 580);
+            panel_center.AutoScrollPosition = btn_location;
+        }
+
+        private void btn_top_menu3_Click(object sender, EventArgs e)
+        {
+            Point btn_location = new Point(0, 1160);
+            panel_center.AutoScrollPosition = btn_location;
+        }
+
+        private void btn_left_menu2_Click(object sender, EventArgs e)
+        {
+            Point btn_location = new Point(0, 1740);
+            panel_center.AutoScrollPosition = btn_location;
+        }
+
+        private void btn_left_menu3_Click(object sender, EventArgs e)
+        {
+            Point btn_location = new Point(0, 2320);
+            panel_center.AutoScrollPosition = btn_location;
+        }
+
+        private void btn_left_menu4_Click(object sender, EventArgs e)
+        {
+            Point btn_location = new Point(0, 2900);
+            panel_center.AutoScrollPosition = btn_location;
+        }
     }
 }

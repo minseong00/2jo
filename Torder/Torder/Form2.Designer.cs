@@ -59,12 +59,13 @@
             // 
             // btnClose
             // 
+            this.btnClose.Font = new System.Drawing.Font("굴림", 12F);
             this.btnClose.Location = new System.Drawing.Point(701, 15);
             this.btnClose.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(86, 46);
             this.btnClose.TabIndex = 1;
-            this.btnClose.Text = "X 닫기";
+            this.btnClose.Text = "닫기";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
