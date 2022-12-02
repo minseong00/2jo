@@ -35,7 +35,6 @@
             this.lblTimer = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lblTotal = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.time_close = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
@@ -93,7 +92,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.lblTotal);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Location = new System.Drawing.Point(15, 385);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(0);
@@ -102,16 +100,6 @@
             this.groupBox1.Size = new System.Drawing.Size(773, 53);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
-            // 
-            // lblTotal
-            // 
-            this.lblTotal.AutoSize = true;
-            this.lblTotal.Font = new System.Drawing.Font("굴림", 15F);
-            this.lblTotal.Location = new System.Drawing.Point(718, 18);
-            this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(37, 25);
-            this.lblTotal.TabIndex = 1;
-            this.lblTotal.Text = "원";
             // 
             // label4
             // 
@@ -159,7 +147,6 @@
         private System.Windows.Forms.Label lblTimer;
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Timer time_close;
     }

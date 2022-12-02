@@ -34,7 +34,6 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
             this.gbSum = new System.Windows.Forms.GroupBox();
-            this.lblSumCost = new System.Windows.Forms.Label();
             this.lblTextSum = new System.Windows.Forms.Label();
             this.gbDut = new System.Windows.Forms.GroupBox();
             this.lblDutCost = new System.Windows.Forms.Label();
@@ -89,7 +88,6 @@
             // 
             // gbSum
             // 
-            this.gbSum.Controls.Add(this.lblSumCost);
             this.gbSum.Controls.Add(this.lblTextSum);
             this.gbSum.Location = new System.Drawing.Point(26, 345);
             this.gbSum.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -98,15 +96,6 @@
             this.gbSum.Size = new System.Drawing.Size(505, 70);
             this.gbSum.TabIndex = 4;
             this.gbSum.TabStop = false;
-            // 
-            // lblSumCost
-            // 
-            this.lblSumCost.AutoSize = true;
-            this.lblSumCost.Location = new System.Drawing.Point(453, 34);
-            this.lblSumCost.Name = "lblSumCost";
-            this.lblSumCost.Size = new System.Drawing.Size(22, 15);
-            this.lblSumCost.TabIndex = 1;
-            this.lblSumCost.Text = "원";
             // 
             // lblTextSum
             // 
@@ -237,7 +226,6 @@
         private System.Windows.Forms.Button btnMinus;
         private System.Windows.Forms.Label lblNum;
         private System.Windows.Forms.Label lblTextDut;
-        private System.Windows.Forms.Label lblSumCost;
         private System.Windows.Forms.Label lblTextSum;
         private System.Windows.Forms.Timer time_close;
     }

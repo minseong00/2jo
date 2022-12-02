@@ -37,7 +37,6 @@ C:\Users\Lenovo\Desktop\study\C#\2jo_project\2jo\Torder\Torder\obj\Debug\Torder.
 C:\Users\Lenovo\Desktop\study\C#\2jo_project\2jo\Torder\Torder\obj\Debug\Torder.Form5.resources
 C:\Users\Lenovo\Desktop\study\C#\2jo_project\2jo\Torder\Torder\obj\Debug\Torder.Form6.resources
 C:\Users\Lenovo\Desktop\study\C#\2jo_project\2jo\Torder\Torder\obj\Debug\Torder.Form7.resources
-C:\Users\Lenovo\Desktop\study\C#\2jo_project\2jo\Torder\Torder\obj\Debug\Torder.Form8.resources
 C:\Users\Lenovo\Desktop\study\C#\2jo_project\2jo\Torder\Torder\obj\Debug\Torder.Properties.Resources.resources
 C:\Users\Lenovo\Desktop\study\C#\2jo_project\2jo\Torder\Torder\obj\Debug\Torder.csproj.GenerateResource.cache
 C:\Users\Lenovo\Desktop\study\C#\2jo_project\2jo\Torder\Torder\obj\Debug\Torder.csproj.CoreCompileInputs.cache
