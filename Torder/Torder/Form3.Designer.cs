@@ -34,6 +34,7 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.lv_bill = new System.Windows.Forms.ListView();
             this.gbSum = new System.Windows.Forms.GroupBox();
+            this.lb_amount = new System.Windows.Forms.Label();
             this.lblTextSum = new System.Windows.Forms.Label();
             this.gbDut = new System.Windows.Forms.GroupBox();
             this.lblDutCost = new System.Windows.Forms.Label();
@@ -43,7 +44,6 @@
             this.lblNum = new System.Windows.Forms.Label();
             this.lblTextDut = new System.Windows.Forms.Label();
             this.time_close = new System.Windows.Forms.Timer(this.components);
-            this.lb_amount = new System.Windows.Forms.Label();
             this.gbSum.SuspendLayout();
             this.gbDut.SuspendLayout();
             this.SuspendLayout();
@@ -97,6 +97,16 @@
             this.gbSum.Size = new System.Drawing.Size(442, 56);
             this.gbSum.TabIndex = 4;
             this.gbSum.TabStop = false;
+            // 
+            // lb_amount
+            // 
+            this.lb_amount.AutoSize = true;
+            this.lb_amount.Font = new System.Drawing.Font("맑은 고딕", 9F);
+            this.lb_amount.Location = new System.Drawing.Point(400, 27);
+            this.lb_amount.Name = "lb_amount";
+            this.lb_amount.Size = new System.Drawing.Size(19, 15);
+            this.lb_amount.TabIndex = 1;
+            this.lb_amount.Text = "원";
             // 
             // lblTextSum
             // 
@@ -188,16 +198,6 @@
             this.time_close.Interval = 1000;
             this.time_close.Tick += new System.EventHandler(this.time_close_Tick);
             // 
-            // lb_amount
-            // 
-            this.lb_amount.AutoSize = true;
-            this.lb_amount.Font = new System.Drawing.Font("맑은 고딕", 9F);
-            this.lb_amount.Location = new System.Drawing.Point(400, 27);
-            this.lb_amount.Name = "lb_amount";
-            this.lb_amount.Size = new System.Drawing.Size(19, 15);
-            this.lb_amount.TabIndex = 1;
-            this.lb_amount.Text = "원";
-            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -211,6 +211,8 @@
             this.Controls.Add(this.lblTimer);
             this.Controls.Add(this.lblBill);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "계산서";

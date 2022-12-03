@@ -16,5 +16,18 @@ namespace Torder
         {
             InitializeComponent();
         }
+
+        private void Form7_Load(object sender, EventArgs e)
+        {
+            this.MinimumSize = new Size(716, 399);
+            this.MaximumSize = new Size(716, 399);
+
+        }
+
+        private void btn_close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+        }
     }
 }

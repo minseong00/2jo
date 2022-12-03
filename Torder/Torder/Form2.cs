@@ -21,5 +21,11 @@ namespace Torder
         {
             this.Close();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            this.MinimumSize = new Size(716, 399);
+            this.MaximumSize = new Size(716, 399);
+        }
     }
 }

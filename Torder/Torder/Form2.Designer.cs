@@ -69,10 +69,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("맑은 고딕", 9F);
-            this.label1.Location = new System.Drawing.Point(12, 26);
+            this.label1.Font = new System.Drawing.Font("맑은 고딕", 13F);
+            this.label1.Location = new System.Drawing.Point(13, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(186, 15);
+            this.label1.Size = new System.Drawing.Size(279, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "직원호출 - 무엇을 도와드릴까요?";
             // 
@@ -192,9 +192,12 @@
             this.Controls.Add(this.btnCall);
             this.Controls.Add(this.gbTopbar);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "직원 호출";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.gbTopbar.ResumeLayout(false);
             this.gbTopbar.PerformLayout();
             this.ResumeLayout(false);

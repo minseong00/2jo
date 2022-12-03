@@ -35,9 +35,9 @@
             this.lblTimer = new System.Windows.Forms.Label();
             this.lv_olist = new System.Windows.Forms.ListView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.time_close = new System.Windows.Forms.Timer(this.components);
-            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -105,6 +105,16 @@
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("맑은 고딕", 15F);
+            this.label3.Location = new System.Drawing.Point(631, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(32, 28);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "원";
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -120,16 +130,6 @@
             this.time_close.Interval = 1000;
             this.time_close.Tick += new System.EventHandler(this.time_close_Tick);
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("맑은 고딕", 15F);
-            this.label3.Location = new System.Drawing.Point(631, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 28);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "원";
-            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -143,6 +143,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_close);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "주문내역";

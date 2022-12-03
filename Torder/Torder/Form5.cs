@@ -20,6 +20,8 @@ namespace Torder
 
         private void Form5_Load(object sender, EventArgs e)
         {
+            this.MinimumSize = new Size(716, 399);
+            this.MaximumSize = new Size(716, 399);
             time_close.Start();
         }
         

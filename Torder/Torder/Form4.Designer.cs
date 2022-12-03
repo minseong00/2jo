@@ -53,6 +53,7 @@
             this.admin_btn_olist.TabIndex = 0;
             this.admin_btn_olist.Text = "주문 내역보기";
             this.admin_btn_olist.UseVisualStyleBackColor = false;
+            this.admin_btn_olist.Click += new System.EventHandler(this.admin_btn_olist_Click);
             // 
             // admin_btn_daily
             // 
@@ -65,6 +66,7 @@
             this.admin_btn_daily.TabIndex = 1;
             this.admin_btn_daily.Text = "일일 정산";
             this.admin_btn_daily.UseVisualStyleBackColor = false;
+            this.admin_btn_daily.Click += new System.EventHandler(this.admin_btn_daily_Click);
             // 
             // btn_admin_table1
             // 
@@ -151,6 +153,7 @@
             this.btn_close.TabIndex = 2;
             this.btn_close.Text = "닫기";
             this.btn_close.UseVisualStyleBackColor = true;
+            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
             // 
             // panel2
             // 
@@ -176,9 +179,12 @@
             this.ControlBox = false;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "관리자";
+            this.Load += new System.EventHandler(this.Form4_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);

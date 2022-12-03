@@ -25,6 +25,8 @@ namespace Torder
         int dutNum = 0;
         private void Form3_Load(object sender, EventArgs e)
         {
+            this.MinimumSize = new Size(716, 399);
+            this.MaximumSize = new Size(716, 399);
             // access에서 테이블의 주문목록 가져와서 lvView에 넣기
             time_close.Start();
             dutNum = int.Parse(this.lblNum.Text);
