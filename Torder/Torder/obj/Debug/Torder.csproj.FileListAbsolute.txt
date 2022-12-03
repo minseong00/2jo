@@ -42,3 +42,5 @@ C:\Users\Lenovo\Desktop\study\C#\2jo_project\2jo\Torder\Torder\obj\Debug\Torder.
 C:\Users\Lenovo\Desktop\study\C#\2jo_project\2jo\Torder\Torder\obj\Debug\Torder.csproj.CoreCompileInputs.cache
 C:\Users\Lenovo\Desktop\study\C#\2jo_project\2jo\Torder\Torder\obj\Debug\Torder.exe
 C:\Users\Lenovo\Desktop\study\C#\2jo_project\2jo\Torder\Torder\obj\Debug\Torder.pdb
+C:\Users\Administrator\Documents\GitHub\2_C-_project\Torder\Torder\obj\Debug\Torder.Form6.resources
+C:\Users\Administrator\Documents\GitHub\2_C-_project\Torder\Torder\obj\Debug\Torder.Form7.resources

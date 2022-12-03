@@ -28,115 +28,181 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lb_totalcount = new System.Windows.Forms.Label();
-            this.lb_total = new System.Windows.Forms.Label();
+            this.admin_lb_amount = new System.Windows.Forms.Label();
+            this.admin_lb_total = new System.Windows.Forms.Label();
             this.btn_daily = new System.Windows.Forms.Button();
             this.btn_orderlist = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.admin_pn_daily = new System.Windows.Forms.Panel();
+            this.admin_lb_daily = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btn_close = new System.Windows.Forms.Button();
+            this.admin_btn_olist = new System.Windows.Forms.Button();
+            this.admin_btn_daily = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lb_totalcount
+            // admin_lb_amount
             // 
-            this.lb_totalcount.AutoSize = true;
-            this.lb_totalcount.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lb_totalcount.Location = new System.Drawing.Point(719, 15);
-            this.lb_totalcount.Name = "lb_totalcount";
-            this.lb_totalcount.Size = new System.Drawing.Size(44, 37);
-            this.lb_totalcount.TabIndex = 27;
-            this.lb_totalcount.Text = "원";
+            this.admin_lb_amount.AutoSize = true;
+            this.admin_lb_amount.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.admin_lb_amount.Location = new System.Drawing.Point(629, 9);
+            this.admin_lb_amount.Name = "admin_lb_amount";
+            this.admin_lb_amount.Size = new System.Drawing.Size(34, 30);
+            this.admin_lb_amount.TabIndex = 27;
+            this.admin_lb_amount.Text = "원";
             // 
-            // lb_total
+            // admin_lb_total
             // 
-            this.lb_total.AutoSize = true;
-            this.lb_total.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lb_total.Location = new System.Drawing.Point(27, 15);
-            this.lb_total.Name = "lb_total";
-            this.lb_total.Size = new System.Drawing.Size(71, 37);
-            this.lb_total.TabIndex = 26;
-            this.lb_total.Text = "합계";
+            this.admin_lb_total.AutoSize = true;
+            this.admin_lb_total.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.admin_lb_total.Location = new System.Drawing.Point(24, 9);
+            this.admin_lb_total.Name = "admin_lb_total";
+            this.admin_lb_total.Size = new System.Drawing.Size(55, 30);
+            this.admin_lb_total.TabIndex = 26;
+            this.admin_lb_total.Text = "합계";
             // 
             // btn_daily
             // 
-            this.btn_daily.Location = new System.Drawing.Point(253, 15);
-            this.btn_daily.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_daily.Location = new System.Drawing.Point(221, 12);
             this.btn_daily.Name = "btn_daily";
-            this.btn_daily.Size = new System.Drawing.Size(187, 58);
+            this.btn_daily.Size = new System.Drawing.Size(164, 46);
             this.btn_daily.TabIndex = 24;
             this.btn_daily.Text = "일일 정산";
             this.btn_daily.UseVisualStyleBackColor = true;
             // 
             // btn_orderlist
             // 
-            this.btn_orderlist.Location = new System.Drawing.Point(58, 15);
-            this.btn_orderlist.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_orderlist.Location = new System.Drawing.Point(40, 12);
             this.btn_orderlist.Name = "btn_orderlist";
-            this.btn_orderlist.Size = new System.Drawing.Size(187, 58);
+            this.btn_orderlist.Size = new System.Drawing.Size(164, 46);
             this.btn_orderlist.TabIndex = 23;
             this.btn_orderlist.Text = "주문 내역보기";
             this.btn_orderlist.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.lb_totalcount);
-            this.groupBox1.Controls.Add(this.lb_total);
-            this.groupBox1.Location = new System.Drawing.Point(12, 333);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Controls.Add(this.admin_lb_amount);
+            this.groupBox1.Controls.Add(this.admin_lb_total);
+            this.groupBox1.Location = new System.Drawing.Point(11, 308);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox1.Size = new System.Drawing.Size(765, 56);
+            this.groupBox1.Size = new System.Drawing.Size(669, 45);
             this.groupBox1.TabIndex = 29;
             this.groupBox1.TabStop = false;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(675, 15);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(591, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 58);
+            this.button1.Size = new System.Drawing.Size(89, 46);
             this.button1.TabIndex = 32;
             this.button1.Text = "닫기";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // panel1
+            // admin_pn_daily
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Location = new System.Drawing.Point(58, 80);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(713, 255);
-            this.panel1.TabIndex = 33;
+            this.admin_pn_daily.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.admin_pn_daily.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.admin_pn_daily.Location = new System.Drawing.Point(40, 108);
+            this.admin_pn_daily.Name = "admin_pn_daily";
+            this.admin_pn_daily.Size = new System.Drawing.Size(624, 204);
+            this.admin_pn_daily.TabIndex = 33;
+            // 
+            // admin_lb_daily
+            // 
+            this.admin_lb_daily.AutoSize = true;
+            this.admin_lb_daily.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.admin_lb_daily.Location = new System.Drawing.Point(35, 64);
+            this.admin_lb_daily.Name = "admin_lb_daily";
+            this.admin_lb_daily.Size = new System.Drawing.Size(134, 37);
+            this.admin_lb_daily.TabIndex = 34;
+            this.admin_lb_daily.Text = "일일 정산";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.btn_close);
+            this.panel2.Controls.Add(this.admin_btn_olist);
+            this.panel2.Controls.Add(this.admin_btn_daily);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(700, 58);
+            this.panel2.TabIndex = 35;
+            // 
+            // btn_close
+            // 
+            this.btn_close.Font = new System.Drawing.Font("맑은 고딕", 9F);
+            this.btn_close.Location = new System.Drawing.Point(574, 10);
+            this.btn_close.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_close.Name = "btn_close";
+            this.btn_close.Size = new System.Drawing.Size(115, 35);
+            this.btn_close.TabIndex = 2;
+            this.btn_close.Text = "닫기";
+            this.btn_close.UseVisualStyleBackColor = true;
+            // 
+            // admin_btn_olist
+            // 
+            this.admin_btn_olist.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.admin_btn_olist.Font = new System.Drawing.Font("맑은 고딕", 9F);
+            this.admin_btn_olist.Location = new System.Drawing.Point(63, 8);
+            this.admin_btn_olist.Name = "admin_btn_olist";
+            this.admin_btn_olist.Size = new System.Drawing.Size(164, 46);
+            this.admin_btn_olist.TabIndex = 0;
+            this.admin_btn_olist.Text = "주문 내역보기";
+            this.admin_btn_olist.UseVisualStyleBackColor = false;
+            // 
+            // admin_btn_daily
+            // 
+            this.admin_btn_daily.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.admin_btn_daily.Font = new System.Drawing.Font("맑은 고딕", 9F);
+            this.admin_btn_daily.Location = new System.Drawing.Point(268, 6);
+            this.admin_btn_daily.Margin = new System.Windows.Forms.Padding(0);
+            this.admin_btn_daily.Name = "admin_btn_daily";
+            this.admin_btn_daily.Size = new System.Drawing.Size(164, 46);
+            this.admin_btn_daily.TabIndex = 1;
+            this.admin_btn_daily.Text = "일일 정산";
+            this.admin_btn_daily.UseVisualStyleBackColor = false;
             // 
             // Form7
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(700, 360);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.admin_lb_daily);
+            this.Controls.Add(this.admin_pn_daily);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btn_daily);
             this.Controls.Add(this.btn_orderlist);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form7";
             this.Text = "관리자_일일 정산";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label lb_totalcount;
-        private System.Windows.Forms.Label lb_total;
+        private System.Windows.Forms.Label admin_lb_amount;
+        private System.Windows.Forms.Label admin_lb_total;
         private System.Windows.Forms.Button btn_daily;
         private System.Windows.Forms.Button btn_orderlist;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel admin_pn_daily;
+        private System.Windows.Forms.Label admin_lb_daily;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button btn_close;
+        private System.Windows.Forms.Button admin_btn_olist;
+        private System.Windows.Forms.Button admin_btn_daily;
     }
 }
