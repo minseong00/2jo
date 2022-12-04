@@ -1,7 +1,6 @@
 D:\Yuhan\Portfolio\2jo\Torder\Torder\bin\Debug\Torder.exe.config
 D:\Yuhan\Portfolio\2jo\Torder\Torder\bin\Debug\Torder.exe
 D:\Yuhan\Portfolio\2jo\Torder\Torder\bin\Debug\Torder.pdb
-D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.csprojAssemblyReference.cache
 D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.Form2.resources
 D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.Form3.resources
 D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.Form4.resources
@@ -44,3 +43,6 @@ C:\Users\Lenovo\Desktop\study\C#\2jo_project\2jo\Torder\Torder\obj\Debug\Torder.
 C:\Users\Lenovo\Desktop\study\C#\2jo_project\2jo\Torder\Torder\obj\Debug\Torder.pdb
 C:\Users\Administrator\Documents\GitHub\2_C-_project\Torder\Torder\obj\Debug\Torder.Form6.resources
 C:\Users\Administrator\Documents\GitHub\2_C-_project\Torder\Torder\obj\Debug\Torder.Form7.resources
+D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.csproj.AssemblyReference.cache
+D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.Form6.resources
+D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.Form7.resources
