@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.pn_olist = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.admin_lb_olist = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.admin_gb_amount = new System.Windows.Forms.GroupBox();
@@ -48,6 +49,15 @@
             this.pn_olist.Name = "pn_olist";
             this.pn_olist.Size = new System.Drawing.Size(684, 176);
             this.pn_olist.TabIndex = 32;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(381, 8);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(205, 12);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "리스트용 패널 안에 버튼용 패널 ㄱㄱ";
             // 
             // admin_lb_olist
             // 
@@ -104,6 +114,7 @@
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.panel1);
             this.panel2.Controls.Add(this.admin_lb_olist);
             this.panel2.Controls.Add(this.pn_olist);
@@ -144,5 +155,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label1;
     }
 }

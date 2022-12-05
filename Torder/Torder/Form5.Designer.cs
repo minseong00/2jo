@@ -43,8 +43,10 @@
             // 
             // btn_close
             // 
+            this.btn_close.FlatAppearance.BorderSize = 0;
+            this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_close.Font = new System.Drawing.Font("맑은 고딕", 10F);
-            this.btn_close.Location = new System.Drawing.Point(601, 15);
+            this.btn_close.Location = new System.Drawing.Point(613, 12);
             this.btn_close.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_close.Name = "btn_close";
             this.btn_close.Size = new System.Drawing.Size(75, 37);
@@ -134,6 +136,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(700, 360);
             this.ControlBox = false;
             this.Controls.Add(this.gb_amount);

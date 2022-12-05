@@ -70,8 +70,10 @@
             // 
             // btnClose
             // 
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Font = new System.Drawing.Font("맑은 고딕", 10F);
-            this.btnClose.Location = new System.Drawing.Point(606, 9);
+            this.btnClose.Location = new System.Drawing.Point(613, 12);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 37);
             this.btnClose.TabIndex = 2;
@@ -155,22 +157,26 @@
             // 
             // btnPlus
             // 
+            this.btnPlus.BackColor = System.Drawing.Color.White;
+            this.btnPlus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPlus.Location = new System.Drawing.Point(147, 93);
             this.btnPlus.Name = "btnPlus";
             this.btnPlus.Size = new System.Drawing.Size(30, 23);
             this.btnPlus.TabIndex = 9;
             this.btnPlus.Text = "+";
-            this.btnPlus.UseVisualStyleBackColor = true;
+            this.btnPlus.UseVisualStyleBackColor = false;
             this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click);
             // 
             // btnMinus
             // 
+            this.btnMinus.BackColor = System.Drawing.Color.White;
+            this.btnMinus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnMinus.Location = new System.Drawing.Point(24, 93);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.Size = new System.Drawing.Size(30, 23);
             this.btnMinus.TabIndex = 8;
             this.btnMinus.Text = "-";
-            this.btnMinus.UseVisualStyleBackColor = true;
+            this.btnMinus.UseVisualStyleBackColor = false;
             this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // lblNum
@@ -202,6 +208,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(700, 360);
             this.ControlBox = false;
             this.Controls.Add(this.gbDut);

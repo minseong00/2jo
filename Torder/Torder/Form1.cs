@@ -94,5 +94,10 @@ namespace Torder
             Point btn_location = new Point(0, 2900);
             panel_center.AutoScrollPosition = btn_location;
         }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -57,6 +57,8 @@
             // 
             // btnClose
             // 
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Font = new System.Drawing.Font("맑은 고딕", 10F);
             this.btnClose.Location = new System.Drawing.Point(613, 12);
             this.btnClose.Name = "btnClose";
@@ -78,93 +80,111 @@
             // 
             // btnCall
             // 
+            this.btnCall.BackColor = System.Drawing.Color.White;
+            this.btnCall.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCall.Font = new System.Drawing.Font("맑은 고딕", 9F);
             this.btnCall.Location = new System.Drawing.Point(18, 300);
             this.btnCall.Name = "btnCall";
             this.btnCall.Size = new System.Drawing.Size(393, 48);
             this.btnCall.TabIndex = 2;
             this.btnCall.Text = "직원만 호출하기";
-            this.btnCall.UseVisualStyleBackColor = true;
+            this.btnCall.UseVisualStyleBackColor = false;
             // 
             // btnSoi
             // 
+            this.btnSoi.BackColor = System.Drawing.Color.White;
+            this.btnSoi.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSoi.Font = new System.Drawing.Font("맑은 고딕", 9F);
             this.btnSoi.Location = new System.Drawing.Point(18, 71);
             this.btnSoi.Name = "btnSoi";
             this.btnSoi.Size = new System.Drawing.Size(75, 64);
             this.btnSoi.TabIndex = 4;
             this.btnSoi.Text = "간장";
-            this.btnSoi.UseVisualStyleBackColor = true;
+            this.btnSoi.UseVisualStyleBackColor = false;
             // 
             // btnWTissue
             // 
+            this.btnWTissue.BackColor = System.Drawing.Color.White;
+            this.btnWTissue.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnWTissue.Font = new System.Drawing.Font("맑은 고딕", 9F);
             this.btnWTissue.Location = new System.Drawing.Point(126, 71);
             this.btnWTissue.Name = "btnWTissue";
             this.btnWTissue.Size = new System.Drawing.Size(75, 64);
             this.btnWTissue.TabIndex = 5;
             this.btnWTissue.Text = "물티슈";
-            this.btnWTissue.UseVisualStyleBackColor = true;
+            this.btnWTissue.UseVisualStyleBackColor = false;
             // 
             // btnSpoon
             // 
+            this.btnSpoon.BackColor = System.Drawing.Color.White;
+            this.btnSpoon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSpoon.Font = new System.Drawing.Font("맑은 고딕", 9F);
             this.btnSpoon.Location = new System.Drawing.Point(231, 71);
             this.btnSpoon.Name = "btnSpoon";
             this.btnSpoon.Size = new System.Drawing.Size(75, 64);
             this.btnSpoon.TabIndex = 6;
             this.btnSpoon.Text = "숟가락";
-            this.btnSpoon.UseVisualStyleBackColor = true;
+            this.btnSpoon.UseVisualStyleBackColor = false;
             // 
             // btnChopsticks
             // 
+            this.btnChopsticks.BackColor = System.Drawing.Color.White;
+            this.btnChopsticks.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnChopsticks.Font = new System.Drawing.Font("맑은 고딕", 9F);
             this.btnChopsticks.Location = new System.Drawing.Point(336, 71);
             this.btnChopsticks.Name = "btnChopsticks";
             this.btnChopsticks.Size = new System.Drawing.Size(75, 64);
             this.btnChopsticks.TabIndex = 7;
             this.btnChopsticks.Text = "젓가락";
-            this.btnChopsticks.UseVisualStyleBackColor = true;
+            this.btnChopsticks.UseVisualStyleBackColor = false;
             // 
             // btnWater
             // 
+            this.btnWater.BackColor = System.Drawing.Color.White;
+            this.btnWater.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnWater.Font = new System.Drawing.Font("맑은 고딕", 9F);
             this.btnWater.Location = new System.Drawing.Point(18, 158);
             this.btnWater.Name = "btnWater";
             this.btnWater.Size = new System.Drawing.Size(75, 64);
             this.btnWater.TabIndex = 8;
             this.btnWater.Text = "물";
-            this.btnWater.UseVisualStyleBackColor = true;
+            this.btnWater.UseVisualStyleBackColor = false;
             // 
             // btnApron
             // 
+            this.btnApron.BackColor = System.Drawing.Color.White;
+            this.btnApron.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnApron.Font = new System.Drawing.Font("맑은 고딕", 9F);
             this.btnApron.Location = new System.Drawing.Point(126, 158);
             this.btnApron.Name = "btnApron";
             this.btnApron.Size = new System.Drawing.Size(75, 64);
             this.btnApron.TabIndex = 9;
             this.btnApron.Text = "앞치마";
-            this.btnApron.UseVisualStyleBackColor = true;
+            this.btnApron.UseVisualStyleBackColor = false;
             // 
             // btnDish
             // 
+            this.btnDish.BackColor = System.Drawing.Color.White;
+            this.btnDish.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDish.Font = new System.Drawing.Font("맑은 고딕", 9F);
             this.btnDish.Location = new System.Drawing.Point(232, 158);
             this.btnDish.Name = "btnDish";
             this.btnDish.Size = new System.Drawing.Size(75, 64);
             this.btnDish.TabIndex = 10;
             this.btnDish.Text = "접시";
-            this.btnDish.UseVisualStyleBackColor = true;
+            this.btnDish.UseVisualStyleBackColor = false;
             // 
             // btnAddBroth
             // 
+            this.btnAddBroth.BackColor = System.Drawing.Color.White;
+            this.btnAddBroth.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAddBroth.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnAddBroth.Location = new System.Drawing.Point(336, 158);
             this.btnAddBroth.Name = "btnAddBroth";
             this.btnAddBroth.Size = new System.Drawing.Size(75, 64);
             this.btnAddBroth.TabIndex = 11;
             this.btnAddBroth.Text = "육수 추가";
-            this.btnAddBroth.UseVisualStyleBackColor = true;
+            this.btnAddBroth.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -178,6 +198,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(700, 360);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
