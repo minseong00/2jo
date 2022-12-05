@@ -39,8 +39,6 @@
             this.btn_cart = new System.Windows.Forms.CheckBox();
             this.panel_cart = new System.Windows.Forms.Panel();
             this.panel_center = new System.Windows.Forms.Panel();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -49,16 +47,8 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lb_food_amount1 = new System.Windows.Forms.Label();
-            this.lb_food1 = new System.Windows.Forms.Label();
             this.lbl_side = new System.Windows.Forms.Label();
             this.lbl_alcohol = new System.Windows.Forms.Label();
             this.main_line6 = new System.Windows.Forms.Panel();
@@ -88,6 +78,14 @@
             this.btn_left_menu4 = new System.Windows.Forms.Button();
             this.btn_left_menu2 = new System.Windows.Forms.Button();
             this.btn_left_menu3 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.panel_center.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -216,9 +214,16 @@
             this.panel_center.AutoScroll = true;
             this.panel_center.AutoScrollMinSize = new System.Drawing.Size(0, 4500);
             this.panel_center.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel_center.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel_center.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel_center.Controls.Add(this.label20);
-            this.panel_center.Controls.Add(this.label19);
+            this.panel_center.Controls.Add(this.label9);
+            this.panel_center.Controls.Add(this.label10);
+            this.panel_center.Controls.Add(this.label5);
+            this.panel_center.Controls.Add(this.label6);
+            this.panel_center.Controls.Add(this.label3);
+            this.panel_center.Controls.Add(this.label4);
+            this.panel_center.Controls.Add(this.label1);
+            this.panel_center.Controls.Add(this.label2);
             this.panel_center.Controls.Add(this.label17);
             this.panel_center.Controls.Add(this.label18);
             this.panel_center.Controls.Add(this.label15);
@@ -227,16 +232,8 @@
             this.panel_center.Controls.Add(this.label14);
             this.panel_center.Controls.Add(this.label11);
             this.panel_center.Controls.Add(this.label12);
-            this.panel_center.Controls.Add(this.label9);
-            this.panel_center.Controls.Add(this.label10);
             this.panel_center.Controls.Add(this.label7);
             this.panel_center.Controls.Add(this.label8);
-            this.panel_center.Controls.Add(this.label5);
-            this.panel_center.Controls.Add(this.label6);
-            this.panel_center.Controls.Add(this.label3);
-            this.panel_center.Controls.Add(this.label4);
-            this.panel_center.Controls.Add(this.lb_food_amount1);
-            this.panel_center.Controls.Add(this.lb_food1);
             this.panel_center.Controls.Add(this.lbl_side);
             this.panel_center.Controls.Add(this.lbl_alcohol);
             this.panel_center.Controls.Add(this.main_line6);
@@ -263,26 +260,6 @@
             this.panel_center.Name = "panel_center";
             this.panel_center.Size = new System.Drawing.Size(585, 265);
             this.panel_center.TabIndex = 3;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label20.Location = new System.Drawing.Point(139, 358);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(92, 15);
-            this.label20.TabIndex = 45;
-            this.label20.Text = "font : 맑은 고딕";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("함초롬돋움", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label19.Location = new System.Drawing.Point(139, 183);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(102, 16);
-            this.label19.TabIndex = 44;
-            this.label19.Text = "font : 함초롬돋움";
             // 
             // label17
             // 
@@ -364,26 +341,6 @@
             this.label12.TabIndex = 36;
             this.label12.Text = "1번 메뉴";
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("맑은 고딕", 16F);
-            this.label9.Location = new System.Drawing.Point(242, 374);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(95, 30);
-            this.label9.TabIndex = 35;
-            this.label9.Text = "13000원";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("맑은 고딕", 12F);
-            this.label10.Location = new System.Drawing.Point(253, 349);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(73, 21);
-            this.label10.TabIndex = 34;
-            this.label10.Text = "1번 메뉴";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -403,66 +360,6 @@
             this.label8.Size = new System.Drawing.Size(73, 21);
             this.label8.TabIndex = 32;
             this.label8.Text = "1번 메뉴";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("함초롬돋움", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label5.Location = new System.Drawing.Point(444, 190);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 27);
-            this.label5.TabIndex = 31;
-            this.label5.Text = "13000원";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("함초롬돋움", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label6.Location = new System.Drawing.Point(455, 165);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(72, 21);
-            this.label6.TabIndex = 30;
-            this.label6.Text = "1번 메뉴";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("함초롬돋움", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label3.Location = new System.Drawing.Point(242, 190);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 27);
-            this.label3.TabIndex = 29;
-            this.label3.Text = "13000원";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("함초롬돋움", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label4.Location = new System.Drawing.Point(253, 165);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(72, 21);
-            this.label4.TabIndex = 28;
-            this.label4.Text = "1번 메뉴";
-            // 
-            // lb_food_amount1
-            // 
-            this.lb_food_amount1.AutoSize = true;
-            this.lb_food_amount1.Font = new System.Drawing.Font("함초롬돋움", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lb_food_amount1.Location = new System.Drawing.Point(37, 190);
-            this.lb_food_amount1.Name = "lb_food_amount1";
-            this.lb_food_amount1.Size = new System.Drawing.Size(92, 27);
-            this.lb_food_amount1.TabIndex = 27;
-            this.lb_food_amount1.Text = "13000원";
-            // 
-            // lb_food1
-            // 
-            this.lb_food1.AutoSize = true;
-            this.lb_food1.Font = new System.Drawing.Font("함초롬돋움", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lb_food1.Location = new System.Drawing.Point(48, 165);
-            this.lb_food1.Name = "lb_food1";
-            this.lb_food1.Size = new System.Drawing.Size(72, 21);
-            this.lb_food1.TabIndex = 26;
-            this.lb_food1.Text = "1번 메뉴";
             // 
             // lbl_side
             // 
@@ -772,6 +669,86 @@
             this.btn_left_menu3.UseVisualStyleBackColor = true;
             this.btn_left_menu3.Click += new System.EventHandler(this.btn_left_menu3_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("맑은 고딕", 16F);
+            this.label1.Location = new System.Drawing.Point(37, 186);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(95, 30);
+            this.label1.TabIndex = 47;
+            this.label1.Text = "13000원";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("맑은 고딕", 12F);
+            this.label2.Location = new System.Drawing.Point(48, 161);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(73, 21);
+            this.label2.TabIndex = 46;
+            this.label2.Text = "1번 메뉴";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("맑은 고딕", 16F);
+            this.label3.Location = new System.Drawing.Point(241, 186);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(95, 30);
+            this.label3.TabIndex = 49;
+            this.label3.Text = "13000원";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("맑은 고딕", 12F);
+            this.label4.Location = new System.Drawing.Point(252, 161);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(73, 21);
+            this.label4.TabIndex = 48;
+            this.label4.Text = "1번 메뉴";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("맑은 고딕", 16F);
+            this.label5.Location = new System.Drawing.Point(444, 186);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(95, 30);
+            this.label5.TabIndex = 51;
+            this.label5.Text = "13000원";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("맑은 고딕", 12F);
+            this.label6.Location = new System.Drawing.Point(455, 161);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(73, 21);
+            this.label6.TabIndex = 50;
+            this.label6.Text = "1번 메뉴";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("맑은 고딕", 16F);
+            this.label9.Location = new System.Drawing.Point(241, 374);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(95, 30);
+            this.label9.TabIndex = 53;
+            this.label9.Text = "13000원";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("맑은 고딕", 12F);
+            this.label10.Location = new System.Drawing.Point(252, 349);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(73, 21);
+            this.label10.TabIndex = 52;
+            this.label10.Text = "1번 메뉴";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -859,18 +836,16 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label lb_food_amount1;
-        private System.Windows.Forms.Label lb_food1;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
     }
 }
 

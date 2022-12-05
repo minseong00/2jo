@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.admin_btn_olist = new System.Windows.Forms.Button();
-            this.admin_btn_daily = new System.Windows.Forms.Button();
             this.btn_admin_table1 = new System.Windows.Forms.Button();
             this.btn_admin_table2 = new System.Windows.Forms.Button();
             this.btn_admin_table3 = new System.Windows.Forms.Button();
@@ -39,34 +37,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_close = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btn_daily_ = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // admin_btn_olist
-            // 
-            this.admin_btn_olist.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.admin_btn_olist.Font = new System.Drawing.Font("맑은 고딕", 9F);
-            this.admin_btn_olist.Location = new System.Drawing.Point(63, 8);
-            this.admin_btn_olist.Name = "admin_btn_olist";
-            this.admin_btn_olist.Size = new System.Drawing.Size(164, 46);
-            this.admin_btn_olist.TabIndex = 0;
-            this.admin_btn_olist.Text = "주문 내역보기";
-            this.admin_btn_olist.UseVisualStyleBackColor = false;
-            this.admin_btn_olist.Click += new System.EventHandler(this.admin_btn_olist_Click);
-            // 
-            // admin_btn_daily
-            // 
-            this.admin_btn_daily.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.admin_btn_daily.Font = new System.Drawing.Font("맑은 고딕", 9F);
-            this.admin_btn_daily.Location = new System.Drawing.Point(268, 6);
-            this.admin_btn_daily.Margin = new System.Windows.Forms.Padding(0);
-            this.admin_btn_daily.Name = "admin_btn_daily";
-            this.admin_btn_daily.Size = new System.Drawing.Size(164, 46);
-            this.admin_btn_daily.TabIndex = 1;
-            this.admin_btn_daily.Text = "일일 정산";
-            this.admin_btn_daily.UseVisualStyleBackColor = false;
-            this.admin_btn_daily.Click += new System.EventHandler(this.admin_btn_daily_Click);
             // 
             // btn_admin_table1
             // 
@@ -131,11 +106,11 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.panel1.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.checkBox1);
+            this.panel1.Controls.Add(this.btn_daily_);
             this.panel1.Controls.Add(this.btn_close);
-            this.panel1.Controls.Add(this.admin_btn_olist);
-            this.panel1.Controls.Add(this.admin_btn_daily);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -171,6 +146,30 @@
             this.panel2.Size = new System.Drawing.Size(700, 302);
             this.panel2.TabIndex = 9;
             // 
+            // btn_daily_
+            // 
+            this.btn_daily_.Appearance = System.Windows.Forms.Appearance.Button;
+            this.btn_daily_.BackColor = System.Drawing.Color.Gold;
+            this.btn_daily_.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btn_daily_.Location = new System.Drawing.Point(204, 11);
+            this.btn_daily_.Name = "btn_daily_";
+            this.btn_daily_.Size = new System.Drawing.Size(135, 40);
+            this.btn_daily_.TabIndex = 3;
+            this.btn_daily_.Text = "일일 정산";
+            this.btn_daily_.UseVisualStyleBackColor = false;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox1.BackColor = System.Drawing.Color.Orange;
+            this.checkBox1.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.checkBox1.Location = new System.Drawing.Point(63, 10);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(135, 40);
+            this.checkBox1.TabIndex = 4;
+            this.checkBox1.Text = "주문 내역";
+            this.checkBox1.UseVisualStyleBackColor = false;
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -192,9 +191,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button admin_btn_olist;
-        private System.Windows.Forms.Button admin_btn_daily;
         private System.Windows.Forms.Button btn_admin_table1;
         private System.Windows.Forms.Button btn_admin_table2;
         private System.Windows.Forms.Button btn_admin_table3;
@@ -204,5 +200,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btn_close;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.CheckBox btn_daily_;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }

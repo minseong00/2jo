@@ -34,16 +34,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lblTimer = new System.Windows.Forms.Label();
             this.lv_olist = new System.Windows.Forms.ListView();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.gb_amount = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.time_close = new System.Windows.Forms.Timer(this.components);
-            this.groupBox1.SuspendLayout();
+            this.gb_amount.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_close
             // 
-            this.btn_close.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btn_close.Font = new System.Drawing.Font("맑은 고딕", 10F);
             this.btn_close.Location = new System.Drawing.Point(601, 15);
             this.btn_close.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_close.Name = "btn_close";
@@ -93,17 +93,17 @@
             this.lv_olist.TabIndex = 4;
             this.lv_olist.UseCompatibleStateImageBehavior = false;
             // 
-            // groupBox1
+            // gb_amount
             // 
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Location = new System.Drawing.Point(13, 308);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(0);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBox1.Size = new System.Drawing.Size(676, 42);
-            this.groupBox1.TabIndex = 5;
-            this.groupBox1.TabStop = false;
+            this.gb_amount.Controls.Add(this.label3);
+            this.gb_amount.Controls.Add(this.label4);
+            this.gb_amount.Location = new System.Drawing.Point(13, 308);
+            this.gb_amount.Margin = new System.Windows.Forms.Padding(0);
+            this.gb_amount.Name = "gb_amount";
+            this.gb_amount.Padding = new System.Windows.Forms.Padding(0);
+            this.gb_amount.Size = new System.Drawing.Size(676, 42);
+            this.gb_amount.TabIndex = 5;
+            this.gb_amount.TabStop = false;
             // 
             // label3
             // 
@@ -136,7 +136,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 360);
             this.ControlBox = false;
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.gb_amount);
             this.Controls.Add(this.lv_olist);
             this.Controls.Add(this.lblTimer);
             this.Controls.Add(this.label2);
@@ -149,8 +149,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "주문내역";
             this.Load += new System.EventHandler(this.Form5_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.gb_amount.ResumeLayout(false);
+            this.gb_amount.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -163,7 +163,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblTimer;
         private System.Windows.Forms.ListView lv_olist;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gb_amount;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Timer time_close;
         private System.Windows.Forms.Label label3;

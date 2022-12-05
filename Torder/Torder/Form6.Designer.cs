@@ -31,27 +31,29 @@
             this.pn_olist = new System.Windows.Forms.Panel();
             this.admin_lb_olist = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.admin_gb_amount = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.admin_gb_amount.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // pn_olist
             // 
             this.pn_olist.BackColor = System.Drawing.Color.White;
             this.pn_olist.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pn_olist.Location = new System.Drawing.Point(-1, 103);
+            this.pn_olist.Location = new System.Drawing.Point(-1, 44);
             this.pn_olist.Name = "pn_olist";
-            this.pn_olist.Size = new System.Drawing.Size(702, 212);
+            this.pn_olist.Size = new System.Drawing.Size(684, 176);
             this.pn_olist.TabIndex = 32;
             // 
             // admin_lb_olist
             // 
             this.admin_lb_olist.AutoSize = true;
             this.admin_lb_olist.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.admin_lb_olist.Location = new System.Drawing.Point(33, 61);
+            this.admin_lb_olist.Location = new System.Drawing.Point(25, 2);
             this.admin_lb_olist.Name = "admin_lb_olist";
             this.admin_lb_olist.Size = new System.Drawing.Size(134, 37);
             this.admin_lb_olist.TabIndex = 35;
@@ -60,23 +62,23 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Location = new System.Drawing.Point(-1, 315);
+            this.panel1.Controls.Add(this.admin_gb_amount);
+            this.panel1.Location = new System.Drawing.Point(-1, 216);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(702, 46);
+            this.panel1.Size = new System.Drawing.Size(684, 46);
             this.panel1.TabIndex = 37;
             // 
-            // groupBox1
+            // admin_gb_amount
             // 
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Location = new System.Drawing.Point(13, -2);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(0);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBox1.Size = new System.Drawing.Size(676, 42);
-            this.groupBox1.TabIndex = 6;
-            this.groupBox1.TabStop = false;
+            this.admin_gb_amount.Controls.Add(this.label3);
+            this.admin_gb_amount.Controls.Add(this.label4);
+            this.admin_gb_amount.Location = new System.Drawing.Point(7, -1);
+            this.admin_gb_amount.Margin = new System.Windows.Forms.Padding(0);
+            this.admin_gb_amount.Name = "admin_gb_amount";
+            this.admin_gb_amount.Padding = new System.Windows.Forms.Padding(0);
+            this.admin_gb_amount.Size = new System.Drawing.Size(671, 42);
+            this.admin_gb_amount.TabIndex = 6;
+            this.admin_gb_amount.TabStop = false;
             // 
             // label3
             // 
@@ -98,15 +100,27 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "합계";
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.panel1);
+            this.panel2.Controls.Add(this.admin_lb_olist);
+            this.panel2.Controls.Add(this.pn_olist);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(684, 263);
+            this.panel2.TabIndex = 38;
+            // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(700, 360);
+            this.ClientSize = new System.Drawing.Size(684, 263);
             this.ControlBox = false;
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.admin_lb_olist);
-            this.Controls.Add(this.pn_olist);
+            this.Controls.Add(this.panel2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form6";
@@ -114,10 +128,11 @@
             this.Text = "관리자_주문내역";
             this.Load += new System.EventHandler(this.Form6_Load);
             this.panel1.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.admin_gb_amount.ResumeLayout(false);
+            this.admin_gb_amount.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -125,8 +140,9 @@
         private System.Windows.Forms.Panel pn_olist;
         private System.Windows.Forms.Label admin_lb_olist;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox admin_gb_amount;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel panel2;
     }
 }
