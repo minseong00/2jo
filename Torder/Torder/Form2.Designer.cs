@@ -95,13 +95,13 @@
             // 
             // btnBOpener
             // 
-            this.btnSoi.Font = new System.Drawing.Font("맑은 고딕", 9F);
+ /*           this.btnSoi.Font = new System.Drawing.Font("맑은 고딕", 9F);
             this.btnSoi.Location = new System.Drawing.Point(18, 71);
             this.btnSoi.Name = "btnSoi";
             this.btnSoi.Size = new System.Drawing.Size(75, 64);
             this.btnSoi.TabIndex = 4;
             this.btnSoi.Text = "간장";
-            this.btnSoi.UseVisualStyleBackColor = true;
+            this.btnSoi.UseVisualStyleBackColor = true;*/
             // 
             // btnWTissue
             // 
@@ -177,13 +177,13 @@
             // 
             // btnCup
             // 
-            this.btnAddBroth.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+ /*           this.btnAddBroth.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnAddBroth.Location = new System.Drawing.Point(336, 158);
             this.btnAddBroth.Name = "btnAddBroth";
             this.btnAddBroth.Size = new System.Drawing.Size(75, 64);
             this.btnAddBroth.TabIndex = 11;
             this.btnAddBroth.Text = "육수 추가";
-            this.btnAddBroth.UseVisualStyleBackColor = true;
+            this.btnAddBroth.UseVisualStyleBackColor = true;*/
             // 
             // panel_cart
             // 
