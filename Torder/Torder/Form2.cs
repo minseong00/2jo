@@ -193,7 +193,6 @@ namespace Torder
                 {
                     panel[panel_index].Name = con.Name;
                     panel[panel_index].Size = con.Size;
-                    panel[panel_index].BorderStyle = BorderStyle.FixedSingle;
                     panel[panel_index].Location = new Point(0, 73 * panel_index); // 0 73 146 219 
                     label1[panel_index].Text = panel[panel_index].Name.ToString();
                     panel_index++;
