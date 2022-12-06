@@ -18,9 +18,14 @@ namespace Torder
         }
         //리스트에 추가된 패널의 개수
         Panel[] panel = new Panel[8];
+        Panel[] panel1 = new Panel[8];
+        Label[] label1 = new Label[8];
         Label[] label2 = new Label[8];
+        Button[] button1 = new Button[8];
+        Button[] button2 = new Button[8];
+        Button[] button3 = new Button[8];
+
         int panelY = 0;
-        string[] panel_name = new string[8];
 
         private void btnClose_Click(object sender, EventArgs e)
         {
@@ -34,7 +39,13 @@ namespace Torder
             for(int i = 0; i < panel.Length; i++)
             {
                 panel[i] = new Panel();
+                panel[i].Name = "null";
+                label1[i] = new Label();
                 label2[i] = new Label();
+                panel1[i] = new Panel();
+                button1[i] = new Button();
+                button2[i] = new Button();
+                button3[i] = new Button();
             }
         }
 
@@ -88,85 +99,123 @@ namespace Torder
 
         private void add_list(string name)
         {
-            int panelLCount = 0;
             panel_cart.AutoScrollPosition = new Point(0, 0);
+            int p_index = 0;
             for (int i = 0; i < panel.Length; i++)
             {
-                if (panel[i].Name == "")
+                if (panel[i].Name == "null")
                 {
-                    panelLCount = i;
+                    p_index = i;
+                    panelY = i;
                     break;
                 }
             }
-            panel[panelLCount].Name = String.Format("{0}", name);
-            panel[panelLCount].Size = new Size(259, 73);
-            panel[panelLCount].Location = new Point(0, 73 * panelY); // 0 73 146 219 
-            panel_name[panelLCount] = panel[panelLCount].Name;
-            panelY++;
+            panel[p_index].Name = String.Format("{0}", name);
+            panel[p_index].Size = new Size(259, 73);
+            panel[p_index].Location = new Point(0, 73 * panelY); // 0 73 146 219
 
-            Panel panel1 = new Panel();
-            panel1.Name = String.Format("panel_line{0}", panelLCount);
-            panel1.Size = new Size(257, 1);
-            panel1.BorderStyle = BorderStyle.FixedSingle;
-            panel1.Location = new Point(0, 72);
+            panel1[p_index].Name = String.Format("panel_line{0}", p_index);
+            panel1[p_index].Size = new Size(257, 1);
+            panel1[p_index].BorderStyle = BorderStyle.FixedSingle;
+            panel1[p_index].Location = new Point(0, 72);
 
-            Label label1 = new Label();
-            label1.Text = name;
-            label1.Name = String.Format("label{0}", panelLCount);
-            label1.Font = new Font("맑은 고딕", 15);
-            label1.AutoSize = true;
-            label1.Location = new Point(11, 11);
+            label1[p_index].Text = name;
+            label1[p_index].Name = String.Format("label{0}", p_index);
+            label1[p_index].Font = new Font("맑은 고딕", 15);
+            label1[p_index].AutoSize = true;
+            label1[p_index].Location = new Point(11, 11);
 
-            label2[panelLCount].Text = "1";
-            label2[panelLCount].Name = String.Format("lblNum{0}", panelLCount);
-            label2[panelLCount].Font = new Font("맑은 고딕", 9);
-            label2[panelLCount].AutoSize = true;
-            label2[panelLCount].Location = new Point(200, 50);
+            label2[p_index].Text = "1";
+            label2[p_index].Name = String.Format("lblNum{0}", p_index);
+            label2[p_index].Font = new Font("맑은 고딕", 9);
+            label2[p_index].AutoSize = true;
+            label2[p_index].Location = new Point(200, 50);
 
-            Button button1 = new Button();
-            button1.Name = "panel{0}_btnDelete";
-            button1.Text = "삭제";
-            button1.Font = new Font("맑은 고딕", 9);
-            button1.Size = new Size(61, 28);
-            button1.Location = new Point(195, 3);
-            button1.Click += new System.EventHandler(btnDelete_Click);
+            button1[p_index].Name = "panel{0}_btnDelete";
+            button1[p_index].Text = "삭제";
+            button1[p_index].Font = new Font("맑은 고딕", 9);
+            button1[p_index].Size = new Size(61, 28);
+            button1[p_index].Location = new Point(195, 3);
+            button1[p_index].Click += new System.EventHandler(btnDelete_Click);
 
-            Button button2 = new Button();
-            button2.Name = "panel{0}_btnM";
-            button2.Text = "-";
-            button2.Font = new Font("맑은 고딕", 9);
-            button2.Size = new Size(27, 23);
-            button2.Location = new Point(158, 44);
-            button2.Click += new System.EventHandler(btnM_Click);
+            button2[p_index].Name = "panel{0}_btnM";
+            button2[p_index].Text = "-";
+            button2[p_index].Font = new Font("맑은 고딕", 9);
+            button2[p_index].Size = new Size(27, 23);
+            button2[p_index].Location = new Point(158, 44);
+            button2[p_index].Click += new System.EventHandler(btnM_Click);
 
-            Button button3 = new Button();
-            button3.Name = "panel{0}_btnP";
-            button3.Text = "+";
-            button3.Font = new Font("맑은 고딕", 9);
-            button3.Size = new Size(27, 23);
-            button3.Location = new Point(221, 44);
-            button3.Click += new System.EventHandler(btnP_Click);
+            button3[p_index].Name = "panel{0}_btnP";
+            button3[p_index].Text = "+";
+            button3[p_index].Font = new Font("맑은 고딕", 9);
+            button3[p_index].Size = new Size(27, 23);
+            button3[p_index].Location = new Point(221, 44);
+            button3[p_index].Click += new System.EventHandler(btnP_Click);
 
-            this.panel_cart.Controls.Add(panel[panelLCount]);
-            panel[panelLCount].Controls.Add(panel1);
-            panel[panelLCount].Controls.Add(label1);
-            panel[panelLCount].Controls.Add(label2[panelLCount]);
-            panel[panelLCount].Controls.Add(button1);
-            panel[panelLCount].Controls.Add(button2);
-            panel[panelLCount].Controls.Add(button3);
+            this.panel_cart.Controls.Add(panel[p_index]);
+            panel[p_index].Controls.Add(panel1[p_index]);
+            panel[p_index].Controls.Add(label1[p_index]);
+            panel[p_index].Controls.Add(label2[p_index]);
+            panel[p_index].Controls.Add(button1[p_index]);
+            panel[p_index].Controls.Add(button2[p_index]);
+            panel[p_index].Controls.Add(button3[p_index]);
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
             Button delete = sender as Button;
-            for(int i = 0; i < panel.Length; i++)
+            int panel_index = 0;
+
+            for (int i = 0; i < panel.Length; i++)
             {
-                if(delete.Parent.Name.ToString() == panel[i].Name.ToString())
+                if (delete.Parent.Name.ToString() == panel[i].Name.ToString())
                 {
+                    /*
+                     * 패널 배열 당기기
+                     * 컨트롤 패널 로케이션 당기기
+                     */
                     panel_cart.Controls.Remove(panel[i]);
+                    foreach(Control con in this.Controls)
+                    {
+                        if (con.Text == panel[i].Name.ToString())
+                        {
+                            con.Enabled = true;
+                        }
+                    }
                     break;
                 }
             }
+            
+            foreach (Control con in panel_cart.Controls)
+            {
+                if(panel_index < panel_cart.Controls.Count)
+                {
+                    panel[panel_index].Name = con.Name;
+                    panel[panel_index].Size = con.Size;
+                    panel[panel_index].BorderStyle = BorderStyle.FixedSingle;
+                    panel[panel_index].Location = new Point(0, 73 * panel_index); // 0 73 146 219 
+                    label1[panel_index].Text = panel[panel_index].Name.ToString();
+                    panel_index++;
+                }
+            }
+
+            for(; panel_index < panel.Length; panel_index++)
+            {
+                panel[panel_index] = new Panel();
+                panel[panel_index].Name = "null";
+                button1[panel_index].Click -= new System.EventHandler(btnDelete_Click);
+            }
+
+            panel_cart.Controls.Clear();
+
+            for (int i = 0; i < panel.Length; i++)
+            {
+                if(panel[i].Name != "null")
+                {
+                    panel_cart.Controls.Add(panel[i]);
+                }
+            }
+            
         }
 
         private void btnM_Click(object sender, EventArgs e)
