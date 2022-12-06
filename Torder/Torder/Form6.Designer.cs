@@ -36,15 +36,20 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.pn_olist.SuspendLayout();
             this.panel1.SuspendLayout();
             this.admin_gb_amount.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // pn_olist
             // 
             this.pn_olist.BackColor = System.Drawing.Color.White;
             this.pn_olist.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pn_olist.Controls.Add(this.panel3);
             this.pn_olist.Location = new System.Drawing.Point(-1, 44);
             this.pn_olist.Name = "pn_olist";
             this.pn_olist.Size = new System.Drawing.Size(684, 176);
@@ -93,6 +98,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Silver;
             this.label3.Font = new System.Drawing.Font("맑은 고딕", 15F);
             this.label3.Location = new System.Drawing.Point(631, 9);
             this.label3.Name = "label3";
@@ -103,6 +109,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Silver;
             this.label4.Font = new System.Drawing.Font("맑은 고딕", 15F);
             this.label4.Location = new System.Drawing.Point(6, 9);
             this.label4.Name = "label4";
@@ -125,6 +132,23 @@
             this.panel2.Size = new System.Drawing.Size(684, 263);
             this.panel2.TabIndex = 38;
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.DimGray;
+            this.panel3.Controls.Add(this.panel4);
+            this.panel3.Location = new System.Drawing.Point(32, -1);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(621, 177);
+            this.panel3.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel4.Location = new System.Drawing.Point(391, 2);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(200, 166);
+            this.panel4.TabIndex = 0;
+            // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -138,11 +162,13 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "관리자_주문내역";
             this.Load += new System.EventHandler(this.Form6_Load);
+            this.pn_olist.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.admin_gb_amount.ResumeLayout(false);
             this.admin_gb_amount.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -156,5 +182,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
     }
 }

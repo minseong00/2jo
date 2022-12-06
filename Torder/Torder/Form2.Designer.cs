@@ -46,12 +46,13 @@
             // 
             // gbTopbar
             // 
+            this.gbTopbar.BackColor = System.Drawing.Color.Black;
             this.gbTopbar.Controls.Add(this.btnClose);
             this.gbTopbar.Controls.Add(this.label1);
             this.gbTopbar.Dock = System.Windows.Forms.DockStyle.Top;
             this.gbTopbar.Location = new System.Drawing.Point(0, 0);
             this.gbTopbar.Name = "gbTopbar";
-            this.gbTopbar.Size = new System.Drawing.Size(700, 55);
+            this.gbTopbar.Size = new System.Drawing.Size(700, 56);
             this.gbTopbar.TabIndex = 0;
             this.gbTopbar.TabStop = false;
             // 
@@ -59,7 +60,8 @@
             // 
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Font = new System.Drawing.Font("맑은 고딕", 10F);
+            this.btnClose.Font = new System.Drawing.Font("맑은 고딕", 13F);
+            this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.Location = new System.Drawing.Point(613, 12);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 37);
@@ -72,6 +74,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("맑은 고딕", 13F);
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(13, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(279, 25);

@@ -72,7 +72,7 @@
             // 
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Font = new System.Drawing.Font("맑은 고딕", 10F);
+            this.btnClose.Font = new System.Drawing.Font("맑은 고딕", 13F);
             this.btnClose.Location = new System.Drawing.Point(613, 12);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 37);
