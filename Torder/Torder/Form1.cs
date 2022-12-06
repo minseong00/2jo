@@ -87,10 +87,6 @@ namespace Torder
         {
             panel_center.AutoScrollPosition = new Point(0, 2900);
         }
-
-        private void label19_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

@@ -114,13 +114,13 @@ namespace Torder
             panel[p_index].Size = new Size(259, 73);
             panel[p_index].Location = new Point(0, 73 * panelY); // 0 73 146 219
 
-            panel1[p_index].Name = String.Format("panel_line{0}", p_index);
+            panel1[p_index].Name = String.Format("pLine_{0}", p_index);
             panel1[p_index].Size = new Size(257, 1);
             panel1[p_index].BorderStyle = BorderStyle.FixedSingle;
             panel1[p_index].Location = new Point(0, 72);
 
             label1[p_index].Text = name;
-            label1[p_index].Name = String.Format("label{0}", p_index);
+            label1[p_index].Name = String.Format("lblName_{0}", p_index);
             label1[p_index].Font = new Font("맑은 고딕", 15);
             label1[p_index].AutoSize = true;
             label1[p_index].Location = new Point(11, 11);
@@ -131,21 +131,21 @@ namespace Torder
             label2[p_index].AutoSize = true;
             label2[p_index].Location = new Point(200, 50);
 
-            button1[p_index].Name = "panel{0}_btnDelete";
+            button1[p_index].Name = String.Format("btnD_{0}", p_index);
             button1[p_index].Text = "삭제";
             button1[p_index].Font = new Font("맑은 고딕", 9);
             button1[p_index].Size = new Size(61, 28);
             button1[p_index].Location = new Point(195, 3);
-            button1[p_index].Click += new System.EventHandler(btnDelete_Click);
+            button1[p_index].Click += new System.EventHandler(btnD_Click);
 
-            button2[p_index].Name = "panel{0}_btnM";
+            button2[p_index].Name = String.Format("btnM_{0}", p_index);
             button2[p_index].Text = "-";
             button2[p_index].Font = new Font("맑은 고딕", 9);
             button2[p_index].Size = new Size(27, 23);
             button2[p_index].Location = new Point(158, 44);
             button2[p_index].Click += new System.EventHandler(btnM_Click);
 
-            button3[p_index].Name = "panel{0}_btnP";
+            button3[p_index].Name = String.Format("btnP_{0}", p_index);
             button3[p_index].Text = "+";
             button3[p_index].Font = new Font("맑은 고딕", 9);
             button3[p_index].Size = new Size(27, 23);
@@ -161,7 +161,7 @@ namespace Torder
             panel[p_index].Controls.Add(button3[p_index]);
         }
 
-        private void btnDelete_Click(object sender, EventArgs e)
+        private void btnD_Click(object sender, EventArgs e)
         {
             Button delete = sender as Button;
             int panel_index = 0;
@@ -203,7 +203,9 @@ namespace Torder
             {
                 panel[panel_index] = new Panel();
                 panel[panel_index].Name = "null";
-                button1[panel_index].Click -= new System.EventHandler(btnDelete_Click);
+                button1[panel_index].Click -= new System.EventHandler(btnD_Click);
+                button2[panel_index].Click -= new System.EventHandler(btnM_Click);
+                button3[panel_index].Click -= new System.EventHandler(btnP_Click);
             }
 
             panel_cart.Controls.Clear();
