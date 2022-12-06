@@ -35,7 +35,7 @@ namespace Torder
             // DB 연결 및 주문내역 조회
             var Conn = new OleDbConnection(StrSQL);
             Conn.Open();
-            var Comm = new OleDbCommand("SELECT * FROM order", Conn);
+            var Comm = new OleDbCommand("SELECT [order_prod], [order_count], [order_date], [order_total_price] FROM [order] WHERE [order_table] = 1", Conn);
             var myRead = Comm.ExecuteReader();
             while(myRead.Read())
             {
