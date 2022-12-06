@@ -39,74 +39,80 @@
             this.btn_cart = new System.Windows.Forms.CheckBox();
             this.panel_cart = new System.Windows.Forms.Panel();
             this.panel_center = new System.Windows.Forms.Panel();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox30 = new System.Windows.Forms.PictureBox();
-            this.pictureBox31 = new System.Windows.Forms.PictureBox();
+            this.meals_5 = new System.Windows.Forms.PictureBox();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.meals_4 = new System.Windows.Forms.PictureBox();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.fries_5 = new System.Windows.Forms.PictureBox();
+            this.fries_6 = new System.Windows.Forms.PictureBox();
+            this.fries_4 = new System.Windows.Forms.PictureBox();
             this.label59 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
-            this.pictureBox29 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.fries_2 = new System.Windows.Forms.PictureBox();
+            this.snacks_9 = new System.Windows.Forms.PictureBox();
             this.label25 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
-            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.snacks_8 = new System.Windows.Forms.PictureBox();
+            this.snacks_7 = new System.Windows.Forms.PictureBox();
             this.label43 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.snacks_6 = new System.Windows.Forms.PictureBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.snacks_5 = new System.Windows.Forms.PictureBox();
+            this.snacks_4 = new System.Windows.Forms.PictureBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.snacks_2 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.snacks_3 = new System.Windows.Forms.PictureBox();
+            this.snacks_1 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.meals_1 = new System.Windows.Forms.PictureBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.optional_3 = new System.Windows.Forms.PictureBox();
+            this.optional_2 = new System.Windows.Forms.PictureBox();
+            this.optional_1 = new System.Windows.Forms.PictureBox();
             this.label44 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.drink_5 = new System.Windows.Forms.PictureBox();
             this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.drink_4 = new System.Windows.Forms.PictureBox();
             this.label48 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.label50 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.drink_3 = new System.Windows.Forms.PictureBox();
+            this.drink_2 = new System.Windows.Forms.PictureBox();
+            this.drink_1 = new System.Windows.Forms.PictureBox();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.beverage_4 = new System.Windows.Forms.PictureBox();
             this.label34 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.beverage_3 = new System.Windows.Forms.PictureBox();
+            this.beverage_2 = new System.Windows.Forms.PictureBox();
+            this.beverage_1 = new System.Windows.Forms.PictureBox();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
@@ -115,16 +121,16 @@
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.fries_3 = new System.Windows.Forms.PictureBox();
+            this.fries_1 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.meals_3 = new System.Windows.Forms.PictureBox();
+            this.meals_2 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -149,49 +155,43 @@
             this.btn_left_menu4 = new System.Windows.Forms.Button();
             this.btn_left_menu2 = new System.Windows.Forms.Button();
             this.btn_left_menu3 = new System.Windows.Forms.Button();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.label61 = new System.Windows.Forms.Label();
-            this.label62 = new System.Windows.Forms.Label();
-            this.pictureBox32 = new System.Windows.Forms.PictureBox();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
             this.panel_center.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meals_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meals_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fries_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fries_6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fries_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fries_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meals_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optional_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optional_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optional_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.drink_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.drink_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.drink_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.drink_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.drink_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beverage_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beverage_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beverage_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beverage_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fries_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fries_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meals_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meals_2)).BeginInit();
             this.panel_top.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).BeginInit();
             this.panel_bottom.SuspendLayout();
             this.panel_left.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_oList
@@ -328,80 +328,80 @@
             this.panel_center.AutoScrollMinSize = new System.Drawing.Size(0, 4500);
             this.panel_center.BackColor = System.Drawing.Color.White;
             this.panel_center.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_center.Controls.Add(this.pictureBox32);
+            this.panel_center.Controls.Add(this.meals_5);
             this.panel_center.Controls.Add(this.label63);
             this.panel_center.Controls.Add(this.label64);
-            this.panel_center.Controls.Add(this.pictureBox14);
+            this.panel_center.Controls.Add(this.meals_4);
             this.panel_center.Controls.Add(this.label61);
             this.panel_center.Controls.Add(this.label62);
-            this.panel_center.Controls.Add(this.pictureBox16);
-            this.panel_center.Controls.Add(this.pictureBox30);
-            this.panel_center.Controls.Add(this.pictureBox31);
+            this.panel_center.Controls.Add(this.fries_5);
+            this.panel_center.Controls.Add(this.fries_6);
+            this.panel_center.Controls.Add(this.fries_4);
             this.panel_center.Controls.Add(this.label59);
             this.panel_center.Controls.Add(this.label60);
             this.panel_center.Controls.Add(this.label57);
             this.panel_center.Controls.Add(this.label58);
-            this.panel_center.Controls.Add(this.pictureBox29);
-            this.panel_center.Controls.Add(this.pictureBox21);
+            this.panel_center.Controls.Add(this.fries_2);
+            this.panel_center.Controls.Add(this.snacks_9);
             this.panel_center.Controls.Add(this.label25);
             this.panel_center.Controls.Add(this.label42);
-            this.panel_center.Controls.Add(this.pictureBox27);
-            this.panel_center.Controls.Add(this.pictureBox28);
+            this.panel_center.Controls.Add(this.snacks_8);
+            this.panel_center.Controls.Add(this.snacks_7);
             this.panel_center.Controls.Add(this.label43);
             this.panel_center.Controls.Add(this.label54);
             this.panel_center.Controls.Add(this.label55);
             this.panel_center.Controls.Add(this.label56);
-            this.panel_center.Controls.Add(this.pictureBox7);
+            this.panel_center.Controls.Add(this.snacks_6);
             this.panel_center.Controls.Add(this.label19);
             this.panel_center.Controls.Add(this.label20);
-            this.panel_center.Controls.Add(this.pictureBox8);
-            this.panel_center.Controls.Add(this.pictureBox9);
+            this.panel_center.Controls.Add(this.snacks_5);
+            this.panel_center.Controls.Add(this.snacks_4);
             this.panel_center.Controls.Add(this.label21);
             this.panel_center.Controls.Add(this.label22);
             this.panel_center.Controls.Add(this.label23);
             this.panel_center.Controls.Add(this.label24);
-            this.panel_center.Controls.Add(this.pictureBox3);
+            this.panel_center.Controls.Add(this.snacks_2);
             this.panel_center.Controls.Add(this.label5);
             this.panel_center.Controls.Add(this.label6);
-            this.panel_center.Controls.Add(this.pictureBox2);
-            this.panel_center.Controls.Add(this.pictureBox1);
+            this.panel_center.Controls.Add(this.snacks_3);
+            this.panel_center.Controls.Add(this.snacks_1);
             this.panel_center.Controls.Add(this.label13);
             this.panel_center.Controls.Add(this.label14);
             this.panel_center.Controls.Add(this.label15);
             this.panel_center.Controls.Add(this.label16);
-            this.panel_center.Controls.Add(this.pictureBox12);
+            this.panel_center.Controls.Add(this.meals_1);
             this.panel_center.Controls.Add(this.label17);
             this.panel_center.Controls.Add(this.label18);
-            this.panel_center.Controls.Add(this.pictureBox4);
-            this.panel_center.Controls.Add(this.pictureBox5);
-            this.panel_center.Controls.Add(this.pictureBox6);
+            this.panel_center.Controls.Add(this.optional_3);
+            this.panel_center.Controls.Add(this.optional_2);
+            this.panel_center.Controls.Add(this.optional_1);
             this.panel_center.Controls.Add(this.label44);
             this.panel_center.Controls.Add(this.label45);
-            this.panel_center.Controls.Add(this.pictureBox22);
+            this.panel_center.Controls.Add(this.drink_5);
             this.panel_center.Controls.Add(this.label46);
             this.panel_center.Controls.Add(this.label47);
-            this.panel_center.Controls.Add(this.pictureBox23);
+            this.panel_center.Controls.Add(this.drink_4);
             this.panel_center.Controls.Add(this.label48);
             this.panel_center.Controls.Add(this.label49);
             this.panel_center.Controls.Add(this.label50);
             this.panel_center.Controls.Add(this.label51);
             this.panel_center.Controls.Add(this.label52);
             this.panel_center.Controls.Add(this.label53);
-            this.panel_center.Controls.Add(this.pictureBox24);
-            this.panel_center.Controls.Add(this.pictureBox25);
-            this.panel_center.Controls.Add(this.pictureBox26);
+            this.panel_center.Controls.Add(this.drink_3);
+            this.panel_center.Controls.Add(this.drink_2);
+            this.panel_center.Controls.Add(this.drink_1);
             this.panel_center.Controls.Add(this.label40);
             this.panel_center.Controls.Add(this.label41);
-            this.panel_center.Controls.Add(this.pictureBox20);
+            this.panel_center.Controls.Add(this.beverage_4);
             this.panel_center.Controls.Add(this.label34);
             this.panel_center.Controls.Add(this.label35);
             this.panel_center.Controls.Add(this.label36);
             this.panel_center.Controls.Add(this.label37);
             this.panel_center.Controls.Add(this.label38);
             this.panel_center.Controls.Add(this.label39);
-            this.panel_center.Controls.Add(this.pictureBox17);
-            this.panel_center.Controls.Add(this.pictureBox18);
-            this.panel_center.Controls.Add(this.pictureBox19);
+            this.panel_center.Controls.Add(this.beverage_3);
+            this.panel_center.Controls.Add(this.beverage_2);
+            this.panel_center.Controls.Add(this.beverage_1);
             this.panel_center.Controls.Add(this.label32);
             this.panel_center.Controls.Add(this.label33);
             this.panel_center.Controls.Add(this.label26);
@@ -410,16 +410,16 @@
             this.panel_center.Controls.Add(this.label29);
             this.panel_center.Controls.Add(this.label30);
             this.panel_center.Controls.Add(this.label31);
-            this.panel_center.Controls.Add(this.pictureBox13);
-            this.panel_center.Controls.Add(this.pictureBox15);
+            this.panel_center.Controls.Add(this.fries_3);
+            this.panel_center.Controls.Add(this.fries_1);
             this.panel_center.Controls.Add(this.label7);
             this.panel_center.Controls.Add(this.label8);
             this.panel_center.Controls.Add(this.label9);
             this.panel_center.Controls.Add(this.label10);
             this.panel_center.Controls.Add(this.label11);
             this.panel_center.Controls.Add(this.label12);
-            this.panel_center.Controls.Add(this.pictureBox10);
-            this.panel_center.Controls.Add(this.pictureBox11);
+            this.panel_center.Controls.Add(this.meals_3);
+            this.panel_center.Controls.Add(this.meals_2);
             this.panel_center.Controls.Add(this.label3);
             this.panel_center.Controls.Add(this.label4);
             this.panel_center.Controls.Add(this.label1);
@@ -442,38 +442,100 @@
             this.panel_center.Size = new System.Drawing.Size(585, 265);
             this.panel_center.TabIndex = 3;
             // 
-            // pictureBox16
+            // meals_5
             // 
-            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(223, 1394);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 153;
-            this.pictureBox16.TabStop = false;
+            this.meals_5.Image = ((System.Drawing.Image)(resources.GetObject("meals_5.Image")));
+            this.meals_5.Location = new System.Drawing.Point(223, 816);
+            this.meals_5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.meals_5.Name = "meals_5";
+            this.meals_5.Size = new System.Drawing.Size(116, 106);
+            this.meals_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.meals_5.TabIndex = 157;
+            this.meals_5.TabStop = false;
             // 
-            // pictureBox30
+            // label63
             // 
-            this.pictureBox30.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox30.Image")));
-            this.pictureBox30.Location = new System.Drawing.Point(414, 1394);
-            this.pictureBox30.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(117, 106);
-            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox30.TabIndex = 152;
-            this.pictureBox30.TabStop = false;
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("맑은 고딕", 16F);
+            this.label63.Location = new System.Drawing.Point(237, 952);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(95, 30);
+            this.label63.TabIndex = 159;
+            this.label63.Text = "12000원";
             // 
-            // pictureBox31
+            // label64
             // 
-            this.pictureBox31.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox31.Image")));
-            this.pictureBox31.Location = new System.Drawing.Point(33, 1394);
-            this.pictureBox31.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox31.TabIndex = 151;
-            this.pictureBox31.TabStop = false;
+            this.label64.AutoSize = true;
+            this.label64.Font = new System.Drawing.Font("맑은 고딕", 12F);
+            this.label64.Location = new System.Drawing.Point(240, 927);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(90, 21);
+            this.label64.TabIndex = 158;
+            this.label64.Text = "소고기콩불";
+            // 
+            // meals_4
+            // 
+            this.meals_4.Image = ((System.Drawing.Image)(resources.GetObject("meals_4.Image")));
+            this.meals_4.Location = new System.Drawing.Point(33, 816);
+            this.meals_4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.meals_4.Name = "meals_4";
+            this.meals_4.Size = new System.Drawing.Size(116, 106);
+            this.meals_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.meals_4.TabIndex = 154;
+            this.meals_4.TabStop = false;
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("맑은 고딕", 16F);
+            this.label61.Location = new System.Drawing.Point(46, 952);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(95, 30);
+            this.label61.TabIndex = 156;
+            this.label61.Text = "12000원";
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Font = new System.Drawing.Font("맑은 고딕", 12F);
+            this.label62.Location = new System.Drawing.Point(30, 927);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(128, 21);
+            this.label62.TabIndex = 155;
+            this.label62.Text = "소고기 숙주볶음";
+            // 
+            // fries_5
+            // 
+            this.fries_5.Image = ((System.Drawing.Image)(resources.GetObject("fries_5.Image")));
+            this.fries_5.Location = new System.Drawing.Point(223, 1394);
+            this.fries_5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fries_5.Name = "fries_5";
+            this.fries_5.Size = new System.Drawing.Size(116, 106);
+            this.fries_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.fries_5.TabIndex = 153;
+            this.fries_5.TabStop = false;
+            // 
+            // fries_6
+            // 
+            this.fries_6.Image = ((System.Drawing.Image)(resources.GetObject("fries_6.Image")));
+            this.fries_6.Location = new System.Drawing.Point(414, 1394);
+            this.fries_6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fries_6.Name = "fries_6";
+            this.fries_6.Size = new System.Drawing.Size(117, 106);
+            this.fries_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.fries_6.TabIndex = 152;
+            this.fries_6.TabStop = false;
+            // 
+            // fries_4
+            // 
+            this.fries_4.Image = ((System.Drawing.Image)(resources.GetObject("fries_4.Image")));
+            this.fries_4.Location = new System.Drawing.Point(33, 1394);
+            this.fries_4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fries_4.Name = "fries_4";
+            this.fries_4.Size = new System.Drawing.Size(116, 106);
+            this.fries_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.fries_4.TabIndex = 151;
+            this.fries_4.TabStop = false;
             // 
             // label59
             // 
@@ -515,27 +577,27 @@
             this.label58.TabIndex = 147;
             this.label58.Text = "멘보샤";
             // 
-            // pictureBox29
+            // fries_2
             // 
-            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
-            this.pictureBox29.Location = new System.Drawing.Point(223, 1214);
-            this.pictureBox29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox29.TabIndex = 146;
-            this.pictureBox29.TabStop = false;
+            this.fries_2.Image = ((System.Drawing.Image)(resources.GetObject("fries_2.Image")));
+            this.fries_2.Location = new System.Drawing.Point(223, 1214);
+            this.fries_2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fries_2.Name = "fries_2";
+            this.fries_2.Size = new System.Drawing.Size(116, 106);
+            this.fries_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.fries_2.TabIndex = 146;
+            this.fries_2.TabStop = false;
             // 
-            // pictureBox21
+            // snacks_9
             // 
-            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
-            this.pictureBox21.Location = new System.Drawing.Point(416, 425);
-            this.pictureBox21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(117, 106);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox21.TabIndex = 145;
-            this.pictureBox21.TabStop = false;
+            this.snacks_9.Image = ((System.Drawing.Image)(resources.GetObject("snacks_9.Image")));
+            this.snacks_9.Location = new System.Drawing.Point(416, 425);
+            this.snacks_9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.snacks_9.Name = "snacks_9";
+            this.snacks_9.Size = new System.Drawing.Size(117, 106);
+            this.snacks_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.snacks_9.TabIndex = 145;
+            this.snacks_9.TabStop = false;
             // 
             // label25
             // 
@@ -557,33 +619,33 @@
             this.label42.TabIndex = 143;
             this.label42.Text = "염통꼬치";
             // 
-            // pictureBox27
+            // snacks_8
             // 
-            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
-            this.pictureBox27.Location = new System.Drawing.Point(223, 425);
-            this.pictureBox27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(115, 106);
-            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox27.TabIndex = 142;
-            this.pictureBox27.TabStop = false;
+            this.snacks_8.Image = ((System.Drawing.Image)(resources.GetObject("snacks_8.Image")));
+            this.snacks_8.Location = new System.Drawing.Point(223, 425);
+            this.snacks_8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.snacks_8.Name = "snacks_8";
+            this.snacks_8.Size = new System.Drawing.Size(115, 106);
+            this.snacks_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.snacks_8.TabIndex = 142;
+            this.snacks_8.TabStop = false;
             // 
-            // pictureBox28
+            // snacks_7
             // 
-            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
-            this.pictureBox28.Location = new System.Drawing.Point(33, 425);
-            this.pictureBox28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(115, 106);
-            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox28.TabIndex = 141;
-            this.pictureBox28.TabStop = false;
+            this.snacks_7.Image = ((System.Drawing.Image)(resources.GetObject("snacks_7.Image")));
+            this.snacks_7.Location = new System.Drawing.Point(33, 425);
+            this.snacks_7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.snacks_7.Name = "snacks_7";
+            this.snacks_7.Size = new System.Drawing.Size(115, 106);
+            this.snacks_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.snacks_7.TabIndex = 141;
+            this.snacks_7.TabStop = false;
             // 
             // label43
             // 
             this.label43.AutoSize = true;
             this.label43.Font = new System.Drawing.Font("맑은 고딕", 16F);
-            this.label43.Location = new System.Drawing.Point(241, 561);
+            this.label43.Location = new System.Drawing.Point(244, 561);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(83, 30);
             this.label43.TabIndex = 140;
@@ -593,7 +655,7 @@
             // 
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("맑은 고딕", 12F);
-            this.label54.Location = new System.Drawing.Point(249, 536);
+            this.label54.Location = new System.Drawing.Point(248, 536);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(74, 21);
             this.label54.TabIndex = 139;
@@ -619,16 +681,16 @@
             this.label56.TabIndex = 137;
             this.label56.Text = "고르곤졸라피자";
             // 
-            // pictureBox7
+            // snacks_6
             // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(414, 237);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(117, 106);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 136;
-            this.pictureBox7.TabStop = false;
+            this.snacks_6.Image = ((System.Drawing.Image)(resources.GetObject("snacks_6.Image")));
+            this.snacks_6.Location = new System.Drawing.Point(414, 237);
+            this.snacks_6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.snacks_6.Name = "snacks_6";
+            this.snacks_6.Size = new System.Drawing.Size(117, 106);
+            this.snacks_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.snacks_6.TabIndex = 136;
+            this.snacks_6.TabStop = false;
             // 
             // label19
             // 
@@ -650,27 +712,27 @@
             this.label20.TabIndex = 134;
             this.label20.Text = "김피탕";
             // 
-            // pictureBox8
+            // snacks_5
             // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(223, 237);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(115, 106);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 133;
-            this.pictureBox8.TabStop = false;
+            this.snacks_5.Image = ((System.Drawing.Image)(resources.GetObject("snacks_5.Image")));
+            this.snacks_5.Location = new System.Drawing.Point(223, 237);
+            this.snacks_5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.snacks_5.Name = "snacks_5";
+            this.snacks_5.Size = new System.Drawing.Size(115, 106);
+            this.snacks_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.snacks_5.TabIndex = 133;
+            this.snacks_5.TabStop = false;
             // 
-            // pictureBox9
+            // snacks_4
             // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(33, 237);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(115, 106);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 132;
-            this.pictureBox9.TabStop = false;
+            this.snacks_4.Image = ((System.Drawing.Image)(resources.GetObject("snacks_4.Image")));
+            this.snacks_4.Location = new System.Drawing.Point(33, 237);
+            this.snacks_4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.snacks_4.Name = "snacks_4";
+            this.snacks_4.Size = new System.Drawing.Size(115, 106);
+            this.snacks_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.snacks_4.TabIndex = 132;
+            this.snacks_4.TabStop = false;
             // 
             // label21
             // 
@@ -712,22 +774,22 @@
             this.label24.TabIndex = 128;
             this.label24.Text = "콘치즈그라탕";
             // 
-            // pictureBox3
+            // snacks_2
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(414, 50);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(117, 106);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 127;
-            this.pictureBox3.TabStop = false;
+            this.snacks_2.Image = ((System.Drawing.Image)(resources.GetObject("snacks_2.Image")));
+            this.snacks_2.Location = new System.Drawing.Point(223, 50);
+            this.snacks_2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.snacks_2.Name = "snacks_2";
+            this.snacks_2.Size = new System.Drawing.Size(117, 106);
+            this.snacks_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.snacks_2.TabIndex = 127;
+            this.snacks_2.TabStop = false;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("맑은 고딕", 16F);
-            this.label5.Location = new System.Drawing.Point(434, 186);
+            this.label5.Location = new System.Drawing.Point(241, 186);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(83, 30);
             this.label5.TabIndex = 126;
@@ -737,33 +799,33 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("맑은 고딕", 12F);
-            this.label6.Location = new System.Drawing.Point(438, 161);
+            this.label6.Location = new System.Drawing.Point(245, 161);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(74, 21);
             this.label6.TabIndex = 125;
             this.label6.Text = "짜빠구리";
             // 
-            // pictureBox2
+            // snacks_3
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(223, 50);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(115, 106);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 124;
-            this.pictureBox2.TabStop = false;
+            this.snacks_3.Image = ((System.Drawing.Image)(resources.GetObject("snacks_3.Image")));
+            this.snacks_3.Location = new System.Drawing.Point(414, 50);
+            this.snacks_3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.snacks_3.Name = "snacks_3";
+            this.snacks_3.Size = new System.Drawing.Size(115, 106);
+            this.snacks_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.snacks_3.TabIndex = 124;
+            this.snacks_3.TabStop = false;
             // 
-            // pictureBox1
+            // snacks_1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(33, 50);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(115, 106);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 123;
-            this.pictureBox1.TabStop = false;
+            this.snacks_1.Image = ((System.Drawing.Image)(resources.GetObject("snacks_1.Image")));
+            this.snacks_1.Location = new System.Drawing.Point(33, 50);
+            this.snacks_1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.snacks_1.Name = "snacks_1";
+            this.snacks_1.Size = new System.Drawing.Size(115, 106);
+            this.snacks_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.snacks_1.TabIndex = 123;
+            this.snacks_1.TabStop = false;
             // 
             // label13
             // 
@@ -805,16 +867,16 @@
             this.label16.TabIndex = 119;
             this.label16.Text = "주먹밥";
             // 
-            // pictureBox12
+            // meals_1
             // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(33, 635);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 63;
-            this.pictureBox12.TabStop = false;
+            this.meals_1.Image = ((System.Drawing.Image)(resources.GetObject("meals_1.Image")));
+            this.meals_1.Location = new System.Drawing.Point(33, 635);
+            this.meals_1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.meals_1.Name = "meals_1";
+            this.meals_1.Size = new System.Drawing.Size(116, 106);
+            this.meals_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.meals_1.TabIndex = 63;
+            this.meals_1.TabStop = false;
             // 
             // label17
             // 
@@ -836,38 +898,38 @@
             this.label18.TabIndex = 117;
             this.label18.Text = "공기밥";
             // 
-            // pictureBox4
+            // optional_3
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(414, 2955);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(117, 106);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 116;
-            this.pictureBox4.TabStop = false;
+            this.optional_3.Image = ((System.Drawing.Image)(resources.GetObject("optional_3.Image")));
+            this.optional_3.Location = new System.Drawing.Point(414, 2955);
+            this.optional_3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.optional_3.Name = "optional_3";
+            this.optional_3.Size = new System.Drawing.Size(117, 106);
+            this.optional_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.optional_3.TabIndex = 116;
+            this.optional_3.TabStop = false;
             // 
-            // pictureBox5
+            // optional_2
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(223, 2955);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(115, 106);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 115;
-            this.pictureBox5.TabStop = false;
+            this.optional_2.Image = ((System.Drawing.Image)(resources.GetObject("optional_2.Image")));
+            this.optional_2.Location = new System.Drawing.Point(223, 2955);
+            this.optional_2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.optional_2.Name = "optional_2";
+            this.optional_2.Size = new System.Drawing.Size(115, 106);
+            this.optional_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.optional_2.TabIndex = 115;
+            this.optional_2.TabStop = false;
             // 
-            // pictureBox6
+            // optional_1
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(33, 2955);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 114;
-            this.pictureBox6.TabStop = false;
+            this.optional_1.Image = ((System.Drawing.Image)(resources.GetObject("optional_1.Image")));
+            this.optional_1.Location = new System.Drawing.Point(33, 2955);
+            this.optional_1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.optional_1.Name = "optional_1";
+            this.optional_1.Size = new System.Drawing.Size(116, 106);
+            this.optional_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.optional_1.TabIndex = 114;
+            this.optional_1.TabStop = false;
             // 
             // label44
             // 
@@ -889,16 +951,16 @@
             this.label45.TabIndex = 112;
             this.label45.Text = "클라우드";
             // 
-            // pictureBox22
+            // drink_5
             // 
-            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
-            this.pictureBox22.Location = new System.Drawing.Point(223, 2552);
-            this.pictureBox22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(115, 106);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox22.TabIndex = 111;
-            this.pictureBox22.TabStop = false;
+            this.drink_5.Image = ((System.Drawing.Image)(resources.GetObject("drink_5.Image")));
+            this.drink_5.Location = new System.Drawing.Point(223, 2552);
+            this.drink_5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.drink_5.Name = "drink_5";
+            this.drink_5.Size = new System.Drawing.Size(115, 106);
+            this.drink_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.drink_5.TabIndex = 111;
+            this.drink_5.TabStop = false;
             // 
             // label46
             // 
@@ -920,16 +982,16 @@
             this.label47.TabIndex = 109;
             this.label47.Text = "카스";
             // 
-            // pictureBox23
+            // drink_4
             // 
-            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
-            this.pictureBox23.Location = new System.Drawing.Point(33, 2552);
-            this.pictureBox23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox23.TabIndex = 108;
-            this.pictureBox23.TabStop = false;
+            this.drink_4.Image = ((System.Drawing.Image)(resources.GetObject("drink_4.Image")));
+            this.drink_4.Location = new System.Drawing.Point(33, 2552);
+            this.drink_4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.drink_4.Name = "drink_4";
+            this.drink_4.Size = new System.Drawing.Size(116, 106);
+            this.drink_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.drink_4.TabIndex = 108;
+            this.drink_4.TabStop = false;
             // 
             // label48
             // 
@@ -991,38 +1053,38 @@
             this.label53.TabIndex = 102;
             this.label53.Text = "참이슬";
             // 
-            // pictureBox24
+            // drink_3
             // 
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(414, 2372);
-            this.pictureBox24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(117, 106);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox24.TabIndex = 101;
-            this.pictureBox24.TabStop = false;
+            this.drink_3.Image = ((System.Drawing.Image)(resources.GetObject("drink_3.Image")));
+            this.drink_3.Location = new System.Drawing.Point(414, 2372);
+            this.drink_3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.drink_3.Name = "drink_3";
+            this.drink_3.Size = new System.Drawing.Size(117, 106);
+            this.drink_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.drink_3.TabIndex = 101;
+            this.drink_3.TabStop = false;
             // 
-            // pictureBox25
+            // drink_2
             // 
-            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
-            this.pictureBox25.Location = new System.Drawing.Point(223, 2372);
-            this.pictureBox25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(115, 106);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox25.TabIndex = 100;
-            this.pictureBox25.TabStop = false;
+            this.drink_2.Image = ((System.Drawing.Image)(resources.GetObject("drink_2.Image")));
+            this.drink_2.Location = new System.Drawing.Point(223, 2372);
+            this.drink_2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.drink_2.Name = "drink_2";
+            this.drink_2.Size = new System.Drawing.Size(115, 106);
+            this.drink_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.drink_2.TabIndex = 100;
+            this.drink_2.TabStop = false;
             // 
-            // pictureBox26
+            // drink_1
             // 
-            this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
-            this.pictureBox26.Location = new System.Drawing.Point(33, 2372);
-            this.pictureBox26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox26.TabIndex = 99;
-            this.pictureBox26.TabStop = false;
+            this.drink_1.Image = ((System.Drawing.Image)(resources.GetObject("drink_1.Image")));
+            this.drink_1.Location = new System.Drawing.Point(33, 2372);
+            this.drink_1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.drink_1.Name = "drink_1";
+            this.drink_1.Size = new System.Drawing.Size(116, 106);
+            this.drink_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.drink_1.TabIndex = 99;
+            this.drink_1.TabStop = false;
             // 
             // label40
             // 
@@ -1044,16 +1106,16 @@
             this.label41.TabIndex = 94;
             this.label41.Text = "환타";
             // 
-            // pictureBox20
+            // beverage_4
             // 
-            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.Location = new System.Drawing.Point(33, 1967);
-            this.pictureBox20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 93;
-            this.pictureBox20.TabStop = false;
+            this.beverage_4.Image = ((System.Drawing.Image)(resources.GetObject("beverage_4.Image")));
+            this.beverage_4.Location = new System.Drawing.Point(33, 1967);
+            this.beverage_4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.beverage_4.Name = "beverage_4";
+            this.beverage_4.Size = new System.Drawing.Size(116, 106);
+            this.beverage_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.beverage_4.TabIndex = 93;
+            this.beverage_4.TabStop = false;
             // 
             // label34
             // 
@@ -1115,38 +1177,38 @@
             this.label39.TabIndex = 87;
             this.label39.Text = "콜라";
             // 
-            // pictureBox17
+            // beverage_3
             // 
-            this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
-            this.pictureBox17.Location = new System.Drawing.Point(414, 1787);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(117, 106);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox17.TabIndex = 86;
-            this.pictureBox17.TabStop = false;
+            this.beverage_3.Image = ((System.Drawing.Image)(resources.GetObject("beverage_3.Image")));
+            this.beverage_3.Location = new System.Drawing.Point(414, 1787);
+            this.beverage_3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.beverage_3.Name = "beverage_3";
+            this.beverage_3.Size = new System.Drawing.Size(117, 106);
+            this.beverage_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.beverage_3.TabIndex = 86;
+            this.beverage_3.TabStop = false;
             // 
-            // pictureBox18
+            // beverage_2
             // 
-            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
-            this.pictureBox18.Location = new System.Drawing.Point(223, 1787);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(115, 106);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox18.TabIndex = 85;
-            this.pictureBox18.TabStop = false;
+            this.beverage_2.Image = ((System.Drawing.Image)(resources.GetObject("beverage_2.Image")));
+            this.beverage_2.Location = new System.Drawing.Point(223, 1787);
+            this.beverage_2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.beverage_2.Name = "beverage_2";
+            this.beverage_2.Size = new System.Drawing.Size(115, 106);
+            this.beverage_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.beverage_2.TabIndex = 85;
+            this.beverage_2.TabStop = false;
             // 
-            // pictureBox19
+            // beverage_1
             // 
-            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(33, 1787);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox19.TabIndex = 84;
-            this.pictureBox19.TabStop = false;
+            this.beverage_1.Image = ((System.Drawing.Image)(resources.GetObject("beverage_1.Image")));
+            this.beverage_1.Location = new System.Drawing.Point(33, 1787);
+            this.beverage_1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.beverage_1.Name = "beverage_1";
+            this.beverage_1.Size = new System.Drawing.Size(116, 106);
+            this.beverage_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.beverage_1.TabIndex = 84;
+            this.beverage_1.TabStop = false;
             // 
             // label32
             // 
@@ -1228,27 +1290,27 @@
             this.label31.TabIndex = 75;
             this.label31.Text = "가라아게";
             // 
-            // pictureBox13
+            // fries_3
             // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(414, 1214);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(117, 106);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 74;
-            this.pictureBox13.TabStop = false;
+            this.fries_3.Image = ((System.Drawing.Image)(resources.GetObject("fries_3.Image")));
+            this.fries_3.Location = new System.Drawing.Point(414, 1214);
+            this.fries_3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fries_3.Name = "fries_3";
+            this.fries_3.Size = new System.Drawing.Size(117, 106);
+            this.fries_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.fries_3.TabIndex = 74;
+            this.fries_3.TabStop = false;
             // 
-            // pictureBox15
+            // fries_1
             // 
-            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(33, 1214);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 72;
-            this.pictureBox15.TabStop = false;
+            this.fries_1.Image = ((System.Drawing.Image)(resources.GetObject("fries_1.Image")));
+            this.fries_1.Location = new System.Drawing.Point(33, 1214);
+            this.fries_1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fries_1.Name = "fries_1";
+            this.fries_1.Size = new System.Drawing.Size(116, 106);
+            this.fries_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.fries_1.TabIndex = 72;
+            this.fries_1.TabStop = false;
             // 
             // label7
             // 
@@ -1286,9 +1348,9 @@
             this.label10.Font = new System.Drawing.Font("맑은 고딕", 12F);
             this.label10.Location = new System.Drawing.Point(238, 746);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(96, 21);
+            this.label10.Size = new System.Drawing.Size(90, 21);
             this.label10.TabIndex = 68;
-            this.label10.Text = "국물 떡볶이";
+            this.label10.Text = "국물떡볶이";
             // 
             // label11
             // 
@@ -1310,33 +1372,33 @@
             this.label12.TabIndex = 66;
             this.label12.Text = "치즈김치볶음밥";
             // 
-            // pictureBox10
+            // meals_3
             // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(414, 635);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(117, 106);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 65;
-            this.pictureBox10.TabStop = false;
+            this.meals_3.Image = ((System.Drawing.Image)(resources.GetObject("meals_3.Image")));
+            this.meals_3.Location = new System.Drawing.Point(414, 635);
+            this.meals_3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.meals_3.Name = "meals_3";
+            this.meals_3.Size = new System.Drawing.Size(117, 106);
+            this.meals_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.meals_3.TabIndex = 65;
+            this.meals_3.TabStop = false;
             // 
-            // pictureBox11
+            // meals_2
             // 
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(223, 635);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(115, 106);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 64;
-            this.pictureBox11.TabStop = false;
+            this.meals_2.Image = ((System.Drawing.Image)(resources.GetObject("meals_2.Image")));
+            this.meals_2.Location = new System.Drawing.Point(223, 635);
+            this.meals_2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.meals_2.Name = "meals_2";
+            this.meals_2.Size = new System.Drawing.Size(115, 106);
+            this.meals_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.meals_2.TabIndex = 64;
+            this.meals_2.TabStop = false;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("맑은 고딕", 16F);
-            this.label3.Location = new System.Drawing.Point(244, 186);
+            this.label3.Location = new System.Drawing.Point(435, 186);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 30);
             this.label3.TabIndex = 49;
@@ -1346,7 +1408,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("맑은 고딕", 12F);
-            this.label4.Location = new System.Drawing.Point(247, 161);
+            this.label4.Location = new System.Drawing.Point(438, 161);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(74, 21);
             this.label4.TabIndex = 48;
@@ -1603,68 +1665,6 @@
             this.btn_left_menu3.UseVisualStyleBackColor = false;
             this.btn_left_menu3.Click += new System.EventHandler(this.btn_left_menu3_Click);
             // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(33, 816);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 154;
-            this.pictureBox14.TabStop = false;
-            // 
-            // label61
-            // 
-            this.label61.AutoSize = true;
-            this.label61.Font = new System.Drawing.Font("맑은 고딕", 16F);
-            this.label61.Location = new System.Drawing.Point(46, 952);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(95, 30);
-            this.label61.TabIndex = 156;
-            this.label61.Text = "12000원";
-            // 
-            // label62
-            // 
-            this.label62.AutoSize = true;
-            this.label62.Font = new System.Drawing.Font("맑은 고딕", 12F);
-            this.label62.Location = new System.Drawing.Point(30, 927);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(128, 21);
-            this.label62.TabIndex = 155;
-            this.label62.Text = "소고기 숙주볶음";
-            // 
-            // pictureBox32
-            // 
-            this.pictureBox32.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox32.Image")));
-            this.pictureBox32.Location = new System.Drawing.Point(223, 816);
-            this.pictureBox32.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(116, 106);
-            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox32.TabIndex = 157;
-            this.pictureBox32.TabStop = false;
-            // 
-            // label63
-            // 
-            this.label63.AutoSize = true;
-            this.label63.Font = new System.Drawing.Font("맑은 고딕", 16F);
-            this.label63.Location = new System.Drawing.Point(237, 952);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(95, 30);
-            this.label63.TabIndex = 159;
-            this.label63.Text = "12000원";
-            // 
-            // label64
-            // 
-            this.label64.AutoSize = true;
-            this.label64.Font = new System.Drawing.Font("맑은 고딕", 12F);
-            this.label64.Location = new System.Drawing.Point(240, 927);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(90, 21);
-            this.label64.TabIndex = 158;
-            this.label64.Text = "소고기콩불";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -1685,43 +1685,43 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel_center.ResumeLayout(false);
             this.panel_center.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meals_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meals_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fries_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fries_6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fries_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fries_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meals_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optional_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optional_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optional_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.drink_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.drink_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.drink_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.drink_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.drink_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beverage_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beverage_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beverage_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beverage_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fries_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fries_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meals_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meals_2)).EndInit();
             this.panel_top.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).EndInit();
             this.panel_bottom.ResumeLayout(false);
             this.panel_bottom.PerformLayout();
             this.panel_left.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1764,31 +1764,31 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.PictureBox drink_5;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.PictureBox pictureBox23;
+        private System.Windows.Forms.PictureBox drink_4;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Label label50;
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.PictureBox pictureBox24;
-        private System.Windows.Forms.PictureBox pictureBox25;
-        private System.Windows.Forms.PictureBox pictureBox26;
+        private System.Windows.Forms.PictureBox drink_3;
+        private System.Windows.Forms.PictureBox drink_2;
+        private System.Windows.Forms.PictureBox drink_1;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox beverage_4;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.PictureBox beverage_3;
+        private System.Windows.Forms.PictureBox beverage_2;
+        private System.Windows.Forms.PictureBox beverage_1;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label26;
@@ -1797,7 +1797,7 @@
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox fries_3;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
@@ -1810,48 +1810,48 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.PictureBox optional_3;
+        private System.Windows.Forms.PictureBox optional_2;
+        private System.Windows.Forms.PictureBox optional_1;
+        private System.Windows.Forms.PictureBox snacks_9;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.PictureBox pictureBox27;
-        private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.PictureBox snacks_8;
+        private System.Windows.Forms.PictureBox snacks_7;
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Label label55;
         private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox snacks_6;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox snacks_5;
+        private System.Windows.Forms.PictureBox snacks_4;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox snacks_2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox snacks_3;
+        private System.Windows.Forms.PictureBox snacks_1;
+        private System.Windows.Forms.PictureBox meals_1;
+        private System.Windows.Forms.PictureBox fries_1;
+        private System.Windows.Forms.PictureBox meals_3;
+        private System.Windows.Forms.PictureBox meals_2;
         private System.Windows.Forms.Label label59;
         private System.Windows.Forms.Label label60;
         private System.Windows.Forms.Label label57;
         private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.PictureBox pictureBox29;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox30;
-        private System.Windows.Forms.PictureBox pictureBox31;
-        private System.Windows.Forms.PictureBox pictureBox32;
+        private System.Windows.Forms.PictureBox fries_2;
+        private System.Windows.Forms.PictureBox fries_5;
+        private System.Windows.Forms.PictureBox fries_6;
+        private System.Windows.Forms.PictureBox fries_4;
+        private System.Windows.Forms.PictureBox meals_5;
         private System.Windows.Forms.Label label63;
         private System.Windows.Forms.Label label64;
-        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox meals_4;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Label label62;
     }
