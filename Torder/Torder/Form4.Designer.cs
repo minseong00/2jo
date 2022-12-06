@@ -46,7 +46,7 @@
             // btn_admin_table1
             // 
             this.btn_admin_table1.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_admin_table1.Location = new System.Drawing.Point(64, 49);
+            this.btn_admin_table1.Location = new System.Drawing.Point(64, 33);
             this.btn_admin_table1.Name = "btn_admin_table1";
             this.btn_admin_table1.Size = new System.Drawing.Size(164, 109);
             this.btn_admin_table1.TabIndex = 2;
@@ -56,7 +56,7 @@
             // btn_admin_table2
             // 
             this.btn_admin_table2.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_admin_table2.Location = new System.Drawing.Point(269, 49);
+            this.btn_admin_table2.Location = new System.Drawing.Point(269, 33);
             this.btn_admin_table2.Name = "btn_admin_table2";
             this.btn_admin_table2.Size = new System.Drawing.Size(164, 109);
             this.btn_admin_table2.TabIndex = 3;
@@ -66,7 +66,7 @@
             // btn_admin_table3
             // 
             this.btn_admin_table3.Font = new System.Drawing.Font("맑은 고딕", 18F);
-            this.btn_admin_table3.Location = new System.Drawing.Point(478, 49);
+            this.btn_admin_table3.Location = new System.Drawing.Point(478, 33);
             this.btn_admin_table3.Name = "btn_admin_table3";
             this.btn_admin_table3.Size = new System.Drawing.Size(164, 109);
             this.btn_admin_table3.TabIndex = 4;

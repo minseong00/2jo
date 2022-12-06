@@ -95,20 +95,15 @@
             // 
             // btnBOpener
             // 
-            /*           this.btnSoi.Font = new System.Drawing.Font("맑은 고딕", 9F);
-                       this.btnSoi.Location = new System.Drawing.Point(18, 71);
-                       this.btnSoi.Name = "btnSoi";
-                       this.btnSoi.Size = new System.Drawing.Size(75, 64);
-                       this.btnSoi.TabIndex = 4;
-                       this.btnSoi.Text = "간장";
-                       this.btnSoi.UseVisualStyleBackColor = true;*/
+            this.btnBOpener.BackColor = System.Drawing.Color.White;
+            this.btnBOpener.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBOpener.Font = new System.Drawing.Font("맑은 고딕", 9F);
             this.btnBOpener.Location = new System.Drawing.Point(18, 71);
             this.btnBOpener.Name = "btnBOpener";
             this.btnBOpener.Size = new System.Drawing.Size(75, 64);
             this.btnBOpener.TabIndex = 4;
             this.btnBOpener.Text = "병따개";
-            this.btnBOpener.UseVisualStyleBackColor = true;
+            this.btnBOpener.UseVisualStyleBackColor = false;
             this.btnBOpener.Click += new System.EventHandler(this.btnBOpener_Click);
             // 
             // btnWTissue
@@ -185,20 +180,15 @@
             // 
             // btnCup
             // 
-            /*           this.btnAddBroth.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-                       this.btnAddBroth.Location = new System.Drawing.Point(336, 158);
-                       this.btnAddBroth.Name = "btnAddBroth";
-                       this.btnAddBroth.Size = new System.Drawing.Size(75, 64);
-                       this.btnAddBroth.TabIndex = 11;
-                       this.btnAddBroth.Text = "육수 추가";
-                       this.btnAddBroth.UseVisualStyleBackColor = true;*/
+            this.btnCup.BackColor = System.Drawing.Color.White;
+            this.btnCup.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCup.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnCup.Location = new System.Drawing.Point(336, 158);
             this.btnCup.Name = "btnCup";
             this.btnCup.Size = new System.Drawing.Size(75, 64);
             this.btnCup.TabIndex = 11;
             this.btnCup.Text = "물컵";
-            this.btnCup.UseVisualStyleBackColor = true;
+            this.btnCup.UseVisualStyleBackColor = false;
             this.btnCup.Click += new System.EventHandler(this.btnCup_Click);
             // 
             // panel_cart

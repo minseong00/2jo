@@ -61,10 +61,10 @@
             // lblTimer
             // 
             this.lblTimer.AutoSize = true;
-            this.lblTimer.Font = new System.Drawing.Font("맑은 고딕", 9F);
-            this.lblTimer.Location = new System.Drawing.Point(476, 20);
+            this.lblTimer.Font = new System.Drawing.Font("맑은 고딕", 10F);
+            this.lblTimer.Location = new System.Drawing.Point(471, 32);
             this.lblTimer.Name = "lblTimer";
-            this.lblTimer.Size = new System.Drawing.Size(116, 15);
+            this.lblTimer.Size = new System.Drawing.Size(136, 19);
             this.lblTimer.TabIndex = 1;
             this.lblTimer.Text = "30초 후에 닫힙니다.";
             // 

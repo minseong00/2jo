@@ -79,7 +79,7 @@
             // 
             this.lblTimer.AutoSize = true;
             this.lblTimer.Font = new System.Drawing.Font("맑은 고딕", 10F);
-            this.lblTimer.Location = new System.Drawing.Point(458, 29);
+            this.lblTimer.Location = new System.Drawing.Point(471, 32);
             this.lblTimer.Name = "lblTimer";
             this.lblTimer.Size = new System.Drawing.Size(136, 19);
             this.lblTimer.TabIndex = 3;
