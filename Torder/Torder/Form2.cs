@@ -129,7 +129,7 @@ namespace Torder
             label2[p_index].Name = String.Format("lblNum{0}", p_index);
             label2[p_index].Font = new Font("맑은 고딕", 9);
             label2[p_index].AutoSize = true;
-            label2[p_index].Location = new Point(200, 50);
+            label2[p_index].Location = new Point(206, 50);
 
             button1[p_index].Name = String.Format("btnD_{0}", p_index);
             button1[p_index].Text = "삭제";
@@ -142,14 +142,14 @@ namespace Torder
             button2[p_index].Text = "-";
             button2[p_index].Font = new Font("맑은 고딕", 9);
             button2[p_index].Size = new Size(27, 23);
-            button2[p_index].Location = new Point(158, 44);
+            button2[p_index].Location = new Point(167, 44);
             button2[p_index].Click += new System.EventHandler(btnM_Click);
 
             button3[p_index].Name = String.Format("btnP_{0}", p_index);
             button3[p_index].Text = "+";
             button3[p_index].Font = new Font("맑은 고딕", 9);
             button3[p_index].Size = new Size(27, 23);
-            button3[p_index].Location = new Point(221, 44);
+            button3[p_index].Location = new Point(230, 44);
             button3[p_index].Click += new System.EventHandler(btnP_Click);
 
             this.panel_cart.Controls.Add(panel[p_index]);
@@ -227,7 +227,7 @@ namespace Torder
             {
                 if (minus.Parent.Name.ToString() == panel[i].Name.ToString())
                 {
-                    panel_cart.Controls.Remove(panel[i]);
+
                 }
             }
         }
