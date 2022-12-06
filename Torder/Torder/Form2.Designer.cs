@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.gbTopbar = new System.Windows.Forms.GroupBox();
             this.btnClose = new System.Windows.Forms.Button();
             this.lblTop = new System.Windows.Forms.Label();
             this.btnCall = new System.Windows.Forms.Button();
@@ -41,20 +40,9 @@
             this.btnDish = new System.Windows.Forms.Button();
             this.btnCup = new System.Windows.Forms.Button();
             this.panel_cart = new System.Windows.Forms.Panel();
-            this.gbTopbar.SuspendLayout();
+            this.pnTopbar = new System.Windows.Forms.Panel();
+            this.pnTopbar.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // gbTopbar
-            // 
-            this.gbTopbar.BackColor = System.Drawing.Color.Black;
-            this.gbTopbar.Controls.Add(this.btnClose);
-            this.gbTopbar.Controls.Add(this.lblTop);
-            this.gbTopbar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gbTopbar.Location = new System.Drawing.Point(0, 0);
-            this.gbTopbar.Name = "gbTopbar";
-            this.gbTopbar.Size = new System.Drawing.Size(700, 56);
-            this.gbTopbar.TabIndex = 0;
-            this.gbTopbar.TabStop = false;
             // 
             // btnClose
             // 
@@ -95,6 +83,7 @@
             // 
             // btnBOpener
             // 
+            this.btnBOpener.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBOpener.Font = new System.Drawing.Font("맑은 고딕", 9F);
             this.btnBOpener.Location = new System.Drawing.Point(18, 71);
             this.btnBOpener.Name = "btnBOpener";
@@ -184,13 +173,15 @@
             // 
             // btnCup
             // 
+            this.btnCup.BackColor = System.Drawing.Color.White;
+            this.btnCup.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCup.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnCup.Location = new System.Drawing.Point(336, 158);
             this.btnCup.Name = "btnCup";
             this.btnCup.Size = new System.Drawing.Size(75, 64);
             this.btnCup.TabIndex = 11;
             this.btnCup.Text = "물컵";
-            this.btnCup.UseVisualStyleBackColor = true;
+            this.btnCup.UseVisualStyleBackColor = false;
             this.btnCup.Click += new System.EventHandler(this.btnCup_Click);
             // 
             // panel_cart
@@ -203,6 +194,17 @@
             this.panel_cart.Size = new System.Drawing.Size(278, 277);
             this.panel_cart.TabIndex = 12;
             // 
+            // pnTopbar
+            // 
+            this.pnTopbar.BackColor = System.Drawing.Color.Black;
+            this.pnTopbar.Controls.Add(this.btnClose);
+            this.pnTopbar.Controls.Add(this.lblTop);
+            this.pnTopbar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnTopbar.Location = new System.Drawing.Point(0, 0);
+            this.pnTopbar.Name = "pnTopbar";
+            this.pnTopbar.Size = new System.Drawing.Size(700, 56);
+            this.pnTopbar.TabIndex = 13;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -210,6 +212,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(700, 360);
             this.ControlBox = false;
+            this.Controls.Add(this.pnTopbar);
             this.Controls.Add(this.panel_cart);
             this.Controls.Add(this.btnCup);
             this.Controls.Add(this.btnDish);
@@ -220,7 +223,6 @@
             this.Controls.Add(this.btnWTissue);
             this.Controls.Add(this.btnBOpener);
             this.Controls.Add(this.btnCall);
-            this.Controls.Add(this.gbTopbar);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -228,15 +230,13 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "직원 호출";
             this.Load += new System.EventHandler(this.Form2_Load);
-            this.gbTopbar.ResumeLayout(false);
-            this.gbTopbar.PerformLayout();
+            this.pnTopbar.ResumeLayout(false);
+            this.pnTopbar.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox gbTopbar;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Label lblTop;
         private System.Windows.Forms.Button btnCall;
@@ -249,5 +249,6 @@
         private System.Windows.Forms.Button btnDish;
         private System.Windows.Forms.Button btnCup;
         private System.Windows.Forms.Panel panel_cart;
+        private System.Windows.Forms.Panel pnTopbar;
     }
 }
