@@ -143,6 +143,7 @@ namespace Torder
             button2[p_index].Font = new Font("맑은 고딕", 9);
             button2[p_index].Size = new Size(27, 23);
             button2[p_index].Location = new Point(167, 44);
+            button2[p_index].Enabled = false;
             button2[p_index].Click += new System.EventHandler(btnM_Click);
 
             button3[p_index].Name = String.Format("btnP_{0}", p_index);
