@@ -229,7 +229,7 @@
             this.btn_admin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_admin.FlatAppearance.BorderSize = 0;
             this.btn_admin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_admin.Font = new System.Drawing.Font("맑은 고딕", 13F);
+            this.btn_admin.Font = new System.Drawing.Font("맑은 고딕", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_admin.ForeColor = System.Drawing.Color.White;
             this.btn_admin.Location = new System.Drawing.Point(595, -2);
             this.btn_admin.Name = "btn_admin";
@@ -244,7 +244,7 @@
             this.btn_top_menu3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_top_menu3.FlatAppearance.BorderSize = 0;
             this.btn_top_menu3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_top_menu3.Font = new System.Drawing.Font("맑은 고딕", 13F);
+            this.btn_top_menu3.Font = new System.Drawing.Font("맑은 고딕", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_top_menu3.ForeColor = System.Drawing.Color.White;
             this.btn_top_menu3.Location = new System.Drawing.Point(289, -2);
             this.btn_top_menu3.Name = "btn_top_menu3";
@@ -259,11 +259,11 @@
             this.btn_top_menu1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_top_menu1.FlatAppearance.BorderSize = 0;
             this.btn_top_menu1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_top_menu1.Font = new System.Drawing.Font("맑은 고딕", 13F);
+            this.btn_top_menu1.Font = new System.Drawing.Font("맑은 고딕", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_top_menu1.ForeColor = System.Drawing.Color.White;
             this.btn_top_menu1.Location = new System.Drawing.Point(119, -2);
             this.btn_top_menu1.Name = "btn_top_menu1";
-            this.btn_top_menu1.Size = new System.Drawing.Size(76, 54);
+            this.btn_top_menu1.Size = new System.Drawing.Size(75, 57);
             this.btn_top_menu1.TabIndex = 10;
             this.btn_top_menu1.Text = "안주류";
             this.btn_top_menu1.UseVisualStyleBackColor = false;
@@ -274,11 +274,11 @@
             this.btn_top_menu2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_top_menu2.FlatAppearance.BorderSize = 0;
             this.btn_top_menu2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_top_menu2.Font = new System.Drawing.Font("맑은 고딕", 13F);
+            this.btn_top_menu2.Font = new System.Drawing.Font("맑은 고딕", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_top_menu2.ForeColor = System.Drawing.Color.White;
             this.btn_top_menu2.Location = new System.Drawing.Point(202, -1);
             this.btn_top_menu2.Name = "btn_top_menu2";
-            this.btn_top_menu2.Size = new System.Drawing.Size(76, 56);
+            this.btn_top_menu2.Size = new System.Drawing.Size(75, 57);
             this.btn_top_menu2.TabIndex = 11;
             this.btn_top_menu2.Text = "식사류";
             this.btn_top_menu2.UseVisualStyleBackColor = false;

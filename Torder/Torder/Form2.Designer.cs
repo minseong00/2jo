@@ -221,7 +221,7 @@
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.Size = new System.Drawing.Size(75, 37);
             this.btnOrder.TabIndex = 2;
-            this.btnOrder.Text = "주문";
+            this.btnOrder.Text = "요청";
             this.btnOrder.UseVisualStyleBackColor = true;
             this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
             // 
