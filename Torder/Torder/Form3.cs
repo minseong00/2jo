@@ -35,13 +35,13 @@ namespace Torder
             // DB 연결 및 주문내역 조회
             var Conn = new OleDbConnection(StrSQL);
             Conn.Open();
-            var Comm = new OleDbCommand("SELECT [order_prod], [order_count], [order_date], [order_total_price] FROM [order] WHERE [order_table] = 1", Conn);
+            var Comm = new OleDbCommand("SELECT [prod_name], sum([order_count]), sum([order_total_price]) FROM [order], [product] WHERE [order_table] = 1 and [order_prod] = [prod_id] GROUP BY [prod_name]", Conn);
             var myRead = Comm.ExecuteReader();
             while(myRead.Read())
             {
                 // 상품명, 수량, 주문일자, 총 가격
-                this.lv_bill.Items.Add(new ListViewItem(new string[] { myRead[0].ToString(), myRead[1].ToString(), myRead[2].ToString(), myRead[3].ToString() }));
-                price += Convert.ToInt32(myRead[3].ToString());
+                //this.lv_bill.Items.Add(new ListViewItem(new string[] { myRead[0].ToString(), myRead[1].ToString(), myRead[2].ToString()}));
+                price += Convert.ToInt32(myRead[2].ToString());
             }
             this.lb_amount.Text = price + "원";
             this.lblDutCost.Text = price + "원";
