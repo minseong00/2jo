@@ -194,6 +194,7 @@
             this.btn_left_menu4 = new System.Windows.Forms.Button();
             this.btn_left_menu2 = new System.Windows.Forms.Button();
             this.btn_left_menu3 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panel_cart.SuspendLayout();
             this.panel_center.SuspendLayout();
             this.optional_3.SuspendLayout();
@@ -264,6 +265,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).BeginInit();
             this.panel_bottom.SuspendLayout();
             this.panel_left.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_oList
@@ -392,11 +394,7 @@
             // 
             this.panel_cart.AutoScroll = true;
             this.panel_cart.BackColor = System.Drawing.Color.White;
-            this.panel_cart.Controls.Add(this.label66);
-            this.panel_cart.Controls.Add(this.button3);
-            this.panel_cart.Controls.Add(this.button2);
-            this.panel_cart.Controls.Add(this.button1);
-            this.panel_cart.Controls.Add(this.label65);
+            this.panel_cart.Controls.Add(this.panel1);
             this.panel_cart.Controls.Add(this.PcartLine);
             this.panel_cart.Controls.Add(this.PcartLabel);
             this.panel_cart.Location = new System.Drawing.Point(460, -1);
@@ -408,7 +406,7 @@
             // label66
             // 
             this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(183, 84);
+            this.label66.Location = new System.Drawing.Point(183, 40);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(11, 12);
             this.label66.TabIndex = 6;
@@ -416,7 +414,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(201, 78);
+            this.button3.Location = new System.Drawing.Point(201, 34);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(21, 23);
             this.button3.TabIndex = 5;
@@ -425,7 +423,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(150, 78);
+            this.button2.Location = new System.Drawing.Point(150, 34);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(25, 23);
             this.button2.TabIndex = 4;
@@ -434,7 +432,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(173, 44);
+            this.button1.Location = new System.Drawing.Point(173, 0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(49, 23);
             this.button1.TabIndex = 3;
@@ -445,7 +443,7 @@
             // 
             this.label65.AutoSize = true;
             this.label65.Font = new System.Drawing.Font("맑은 고딕", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label65.Location = new System.Drawing.Point(-1, 45);
+            this.label65.Location = new System.Drawing.Point(-1, 1);
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(146, 23);
             this.label65.TabIndex = 2;
@@ -1827,6 +1825,7 @@
             this.snacks_2.Name = "snacks_2";
             this.snacks_2.Size = new System.Drawing.Size(139, 174);
             this.snacks_2.TabIndex = 161;
+            this.snacks_2.Click += new System.EventHandler(this.btn_food_click);
             // 
             // snacks_img_2
             // 
@@ -1870,6 +1869,7 @@
             this.snacks_1.Name = "snacks_1";
             this.snacks_1.Size = new System.Drawing.Size(139, 174);
             this.snacks_1.TabIndex = 160;
+            this.snacks_1.Click += new System.EventHandler(this.btn_food_click);
             // 
             // snacks_img_1
             // 
@@ -2141,16 +2141,29 @@
             this.btn_left_menu3.UseVisualStyleBackColor = false;
             this.btn_left_menu3.Click += new System.EventHandler(this.btn_left_menu3_Click);
             // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label66);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.label65);
+            this.panel1.Location = new System.Drawing.Point(0, 42);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(223, 60);
+            this.panel1.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 360);
+            this.Controls.Add(this.panel_cart);
             this.Controls.Add(this.panel_left);
             this.Controls.Add(this.panel_bottom);
             this.Controls.Add(this.panel_top);
             this.Controls.Add(this.panel_center);
-            this.Controls.Add(this.panel_cart);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
@@ -2264,6 +2277,8 @@
             this.panel_bottom.ResumeLayout(false);
             this.panel_bottom.PerformLayout();
             this.panel_left.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2435,6 +2450,7 @@
         private System.Windows.Forms.Panel optional_3;
         private System.Windows.Forms.Panel optional_2;
         private System.Windows.Forms.Panel optional_1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
