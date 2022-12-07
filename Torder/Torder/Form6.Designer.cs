@@ -63,9 +63,9 @@
             this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Location = new System.Drawing.Point(-1, 216);
+            this.panel1.Location = new System.Drawing.Point(0, 217);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(684, 46);
+            this.panel1.Size = new System.Drawing.Size(683, 45);
             this.panel1.TabIndex = 37;
             // 
             // label3
@@ -74,7 +74,7 @@
             this.label3.BackColor = System.Drawing.Color.Black;
             this.label3.Font = new System.Drawing.Font("맑은 고딕", 15F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(648, 9);
+            this.label3.Location = new System.Drawing.Point(639, 8);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(32, 28);
             this.label3.TabIndex = 6;
@@ -86,7 +86,7 @@
             this.label4.BackColor = System.Drawing.Color.Black;
             this.label4.Font = new System.Drawing.Font("맑은 고딕", 15F);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(12, 9);
+            this.label4.Location = new System.Drawing.Point(18, 8);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 28);
             this.label4.TabIndex = 0;
