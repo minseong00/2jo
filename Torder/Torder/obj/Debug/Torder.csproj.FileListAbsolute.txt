@@ -45,4 +45,4 @@ C:\Users\Administrator\Documents\GitHub\2_C-_project\Torder\Torder\obj\Debug\Tor
 C:\Users\Administrator\Documents\GitHub\2_C-_project\Torder\Torder\obj\Debug\Torder.Form7.resources
 D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.Form6.resources
 D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.Form7.resources
-D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.csproj.AssemblyReference.cache
+D:\Yuhan\Portfolio\2jo\Torder\Torder\obj\Debug\Torder.csprojAssemblyReference.cache
