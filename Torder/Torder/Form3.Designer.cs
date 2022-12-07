@@ -44,6 +44,9 @@
             this.lblNum = new System.Windows.Forms.Label();
             this.lblTextDut = new System.Windows.Forms.Label();
             this.time_close = new System.Windows.Forms.Timer(this.components);
+            this.name = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.count = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tprice = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.gbSum.SuspendLayout();
             this.gbDut.SuspendLayout();
             this.SuspendLayout();
@@ -83,6 +86,11 @@
             // 
             // lv_bill
             // 
+            this.lv_bill.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.name,
+            this.count,
+            this.tprice});
+            this.lv_bill.GridLines = true;
             this.lv_bill.HideSelection = false;
             this.lv_bill.Location = new System.Drawing.Point(23, 60);
             this.lv_bill.Name = "lv_bill";
@@ -204,6 +212,21 @@
             this.time_close.Interval = 1000;
             this.time_close.Tick += new System.EventHandler(this.time_close_Tick);
             // 
+            // name
+            // 
+            this.name.Text = "상품명";
+            this.name.Width = 150;
+            // 
+            // count
+            // 
+            this.count.Text = "수량";
+            this.count.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // tprice
+            // 
+            this.tprice.Text = "가격";
+            this.tprice.Width = 100;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -250,5 +273,8 @@
         private System.Windows.Forms.Label lblTextSum;
         private System.Windows.Forms.Timer time_close;
         private System.Windows.Forms.Label lb_amount;
+        private System.Windows.Forms.ColumnHeader name;
+        private System.Windows.Forms.ColumnHeader count;
+        private System.Windows.Forms.ColumnHeader tprice;
     }
 }

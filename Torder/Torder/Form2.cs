@@ -228,7 +228,7 @@ namespace Torder
             {
                 if (minus.Parent.Name.ToString() == panel[i].Name.ToString())
                 {
-
+                    MessageBox.Show(i+"");
                 }
             }
         }
