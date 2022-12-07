@@ -37,41 +37,24 @@ namespace Torder
             // 창꺼짐 타이머 시작
             time_close.Start();
             dutNum = int.Parse(this.lblNum.Text);
-            // access에서 테이블의 주문목록 가져와서 lvView에 넣기
             // DB 연결 및 주문내역 조회
-            /* var Conn = new OleDbConnection(StrSQL);
+            List<string> foodName = new List<string>(); // db에서 주문내역에 음식 이름 가져오기
+            List<int> fNum = new List<int>(); //db에서 주문내역에 주문 개수 가져오기
+            List<int> fSum = new List<int>(); //db에서 주문 내역에 총 가격 가져오기
+            int i = 0;
+  
+            var Conn = new OleDbConnection(StrSQL);
             Conn.Open();
             var Comm = new OleDbCommand("SELECT [prod_name], sum([order_count]), sum([order_total_price]) FROM [order], [product] WHERE [order_table] = 1 and [order_prod] = [prod_id] GROUP BY [prod_name]", Conn);
             var myRead = Comm.ExecuteReader();
             while(myRead.Read())
             {
                 // 상품명, 수량, 주문일자, 총 가격
-                //this.lv_bill.Items.Add(new ListViewItem(new string[] { myRead[0].ToString(), myRead[1].ToString(), myRead[2].ToString()}));
+                foodName.Add(myRead[0].ToString());
+                fNum.Add(Convert.ToInt32(myRead[1].ToString()));
+                fSum.Add(Convert.ToInt32(myRead[2].ToString()));
                 price += Convert.ToInt32(myRead[2].ToString());
-            }
-            */
-            this.lb_amount.Text = price + "원";
-            this.lblDutCost.Text = price + "원";
-            
-            // 사이즈 조정
-            this.MinimumSize = new Size(716, 399);
-            this.MaximumSize = new Size(716, 399);
 
-            //DB에서 해당 테이블 주문 내역 COUNT를 가져오기 = orderCount
-            int orderCount = 15;
-            List<string> foodName = new List<string>(); // db에서 주문내역에 음식 이름 가져오기
-            List<int> fNum = new List<int>(); //db에서 주문내역에 주문 개수 가져오기
-            List<int> fSum = new List<int>(); //db에서 주문 내역에 총 가격 가져오기
-            
-            for(int i = 0; i < orderCount; i++)
-            {
-                foodName.Add(String.Format("테스트용{0}", i));
-                fNum.Add(123);
-                fSum.Add(123);
-            }
-
-            for(int i = 0; i < orderCount; i++)
-            {
                 panel.Add(new Panel());
                 pLine.Add(new Panel());
                 lblFName.Add(new Label());
@@ -107,8 +90,16 @@ namespace Torder
                 panel[i].Controls.Add(lblFNum[i]);
                 panel[i].Controls.Add(lblFSum[i]);
                 pBill.Controls.Add(panel[i]);
+
+                i++;
             }
             
+            this.lb_amount.Text = price + "원";
+            this.lblDutCost.Text = price + "원";
+            
+            // 사이즈 조정
+            this.MinimumSize = new Size(716, 399);
+            this.MaximumSize = new Size(716, 399);
         }
 
         private void time_close_Tick(object sender, EventArgs e)
@@ -125,6 +116,7 @@ namespace Torder
                 this.lblNum.Text = dutNum.ToString();
                 this.lblDutNum.Text = dutNum.ToString() + " 인당";
                 this.lblDutCost.Text = price / dutNum + "원";
+                if (dutNum == 1) this.btnMinus.Enabled = false;
             }
 
         }
@@ -137,7 +129,9 @@ namespace Torder
                 this.lblNum.Text = dutNum.ToString();
                 this.lblDutNum.Text = dutNum.ToString() + " 인당";
                 this.lblDutCost.Text = price / dutNum + "원";
+                if (dutNum >= 1) this.btnMinus.Enabled = true;
             }
+            
         }
     }
 }

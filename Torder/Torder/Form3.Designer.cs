@@ -88,15 +88,17 @@
             // 
             // lb_amount
             // 
-            this.lb_amount.AutoSize = true;
             this.lb_amount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lb_amount.Dock = System.Windows.Forms.DockStyle.Right;
             this.lb_amount.Font = new System.Drawing.Font("맑은 고딕", 15F);
             this.lb_amount.ForeColor = System.Drawing.Color.White;
-            this.lb_amount.Location = new System.Drawing.Point(389, 15);
+            this.lb_amount.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lb_amount.Location = new System.Drawing.Point(96, 0);
             this.lb_amount.Name = "lb_amount";
-            this.lb_amount.Size = new System.Drawing.Size(32, 28);
+            this.lb_amount.Size = new System.Drawing.Size(346, 56);
             this.lb_amount.TabIndex = 1;
             this.lb_amount.Text = "원";
+            this.lb_amount.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblTextSum
             // 
@@ -112,15 +114,14 @@
             // 
             // lblDutCost
             // 
-            this.lblDutCost.AutoSize = true;
             this.lblDutCost.Font = new System.Drawing.Font("맑은 고딕", 25F);
             this.lblDutCost.ForeColor = System.Drawing.Color.White;
-            this.lblDutCost.Location = new System.Drawing.Point(78, 211);
+            this.lblDutCost.Location = new System.Drawing.Point(4, 204);
             this.lblDutCost.Name = "lblDutCost";
-            this.lblDutCost.Size = new System.Drawing.Size(54, 46);
+            this.lblDutCost.Size = new System.Drawing.Size(196, 46);
             this.lblDutCost.TabIndex = 11;
             this.lblDutCost.Text = "원";
-            this.lblDutCost.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblDutCost.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblDutNum
             // 
@@ -147,6 +148,7 @@
             // btnMinus
             // 
             this.btnMinus.BackColor = System.Drawing.Color.White;
+            this.btnMinus.Enabled = false;
             this.btnMinus.Location = new System.Drawing.Point(25, 101);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.Size = new System.Drawing.Size(30, 23);
