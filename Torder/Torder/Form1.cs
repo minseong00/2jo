@@ -17,6 +17,17 @@ namespace Torder
         {
             InitializeComponent();
         }
+
+        List<Panel> cPanel = new List<Panel>();
+        List<Label> clblName = new List<Label>();
+        List<Label> clblNum = new List<Label>();
+        List<Label> clblSum = new List<Label>();
+        List<Button> cBDelete = new List<Button>();
+        List<Button> cBMinus = new List<Button>();
+        List<Button> cBPlus = new List<Button>();
+        int foodSelect = 0;
+
+
         private void btn_call_Click(object sender, EventArgs e)
         {
             Form2 form2 = new Form2();
@@ -42,7 +53,18 @@ namespace Torder
         private void btn_cart_CheckedChanged(object sender, EventArgs e)
         {
             if (btn_cart.Checked == true)
+            {
+
+                cPanel.Add(new Panel());
+                clblName.Add(new Label());
+                clblNum.Add(new Label());
+                clblSum.Add(new Label());
+                cBDelete.Add(new Button());
+                cBMinus.Add(new Button());
+                cBPlus.Add(new Button());
+                
                 panel_cart.Visible = true;
+            }
             else
                 panel_cart.Visible = false;
         }
