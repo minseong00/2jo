@@ -68,7 +68,7 @@
             // btn_admin_table3
             // 
             this.btn_admin_table3.BackColor = System.Drawing.Color.White;
-            this.btn_admin_table3.Font = new System.Drawing.Font("한컴 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btn_admin_table3.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold);
             this.btn_admin_table3.ForeColor = System.Drawing.Color.Black;
             this.btn_admin_table3.Location = new System.Drawing.Point(478, 33);
             this.btn_admin_table3.Name = "btn_admin_table3";
