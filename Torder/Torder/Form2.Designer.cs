@@ -82,6 +82,7 @@
             this.btnCall.TabIndex = 2;
             this.btnCall.Text = "직원만 호출하기";
             this.btnCall.UseVisualStyleBackColor = false;
+            this.btnCall.Click += new System.EventHandler(this.btnCall_Click);
             // 
             // btnBOpener
             // 
@@ -220,8 +221,9 @@
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.Size = new System.Drawing.Size(75, 37);
             this.btnOrder.TabIndex = 2;
-            this.btnOrder.Text = "주문";
+            this.btnOrder.Text = "요청";
             this.btnOrder.UseVisualStyleBackColor = true;
+            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
             // 
             // Form2
             // 

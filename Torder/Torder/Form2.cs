@@ -271,6 +271,26 @@ namespace Torder
                 }
             }
         }
-        
+
+        private void btnOrder_Click(object sender, EventArgs e)
+        {
+            if(panel_cart.Controls.Count > 0)
+            {
+                DialogResult ok = MessageBox.Show("선택하신 항목을 요청하셨습니다.", "요청완료", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                if (ok == DialogResult.OK)
+                    this.Close();
+            } else
+            {
+                MessageBox.Show("항목을 선택해주세요.","요청오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnCall_Click(object sender, EventArgs e)
+        {
+            DialogResult ok = MessageBox.Show("직원을 호출하셨습니다.", "요청완료", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            if (ok == DialogResult.OK)
+                this.Close();
+
+        }
     }
 }
