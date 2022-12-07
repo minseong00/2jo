@@ -16,12 +16,8 @@ namespace Torder
         {
             InitializeComponent();
         }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        Form6 form6 = new Form6();
+        Form7 form7 = new Form7();
         private void Form4_Load(object sender, EventArgs e)
         {
             this.MinimumSize = new Size(716, 399);
@@ -35,14 +31,43 @@ namespace Torder
 
         private void admin_btn_olist_Click(object sender, EventArgs e)
         {
-            Form6 form6 = new Form6();
-            form6.ShowDialog();
+            this.panel2.Visible = true;
+            this.pn_olist.Visible = false;
+            this.pn_daily.Visible = false;
+            this.admin_btn_daily.Checked = false;
+            if (this.admin_btn_olist.Checked == true) this.admin_btn_olist.Checked = true;
+
         }
 
         private void admin_btn_daily_Click(object sender, EventArgs e)
         {
-            Form7 form7 = new Form7();
-            form7.ShowDialog();
+            
+            form7.TopLevel = false;
+            //form7.Dock = System.Windows.Forms.DockStyle.Fill;
+            //form7.Parent = this.pn_daily;
+            //form7.Activate();
+            this.pn_daily.Controls.Add(form7);
+            this.panel2.Visible = false;
+            this.pn_olist.Visible = false;
+            this.pn_daily.Visible = true;
+            form7.Show();
+            this.admin_btn_olist.Checked = false;
+            if (this.admin_btn_daily.Checked == true) this.admin_btn_daily.Checked = true;
+        }
+
+        private void btn_admin_table1_Click(object sender, EventArgs e)
+        {
+            
+            form6.TopLevel = false;
+            //form6.Dock = System.Windows.Forms.DockStyle.Fill;
+            //form6.Parent = this.pn_olist;
+            //form6.Activate();
+            
+            this.panel2.Visible = false;
+            this.pn_olist.Visible = true;
+            this.pn_daily.Visible = false;
+            this.pn_daily.Controls.Add(form6);
+            form6.Show();
         }
     }
 }

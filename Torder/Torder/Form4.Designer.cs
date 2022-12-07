@@ -35,12 +35,15 @@
             this.btn_admin_table5 = new System.Windows.Forms.Button();
             this.btn_admin_table6 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.btn_daily_ = new System.Windows.Forms.CheckBox();
+            this.admin_btn_olist = new System.Windows.Forms.CheckBox();
+            this.admin_btn_daily = new System.Windows.Forms.CheckBox();
             this.btn_close = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pn_olist = new System.Windows.Forms.Panel();
+            this.pn_daily = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.pn_olist.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_admin_table1
@@ -53,6 +56,7 @@
             this.btn_admin_table1.TabIndex = 2;
             this.btn_admin_table1.Text = "테이블1";
             this.btn_admin_table1.UseVisualStyleBackColor = false;
+            this.btn_admin_table1.Click += new System.EventHandler(this.btn_admin_table1_Click);
             // 
             // btn_admin_table2
             // 
@@ -87,7 +91,6 @@
             this.btn_admin_table4.TabIndex = 5;
             this.btn_admin_table4.Text = "테이블4";
             this.btn_admin_table4.UseVisualStyleBackColor = false;
-            this.btn_admin_table4.Click += new System.EventHandler(this.button6_Click);
             // 
             // btn_admin_table5
             // 
@@ -115,8 +118,8 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.checkBox1);
-            this.panel1.Controls.Add(this.btn_daily_);
+            this.panel1.Controls.Add(this.admin_btn_olist);
+            this.panel1.Controls.Add(this.admin_btn_daily);
             this.panel1.Controls.Add(this.btn_close);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -125,37 +128,42 @@
             this.panel1.Size = new System.Drawing.Size(700, 58);
             this.panel1.TabIndex = 8;
             // 
-            // checkBox1
+            // admin_btn_olist
             // 
-            this.checkBox1.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.checkBox1.FlatAppearance.BorderSize = 0;
-            this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox1.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.checkBox1.ForeColor = System.Drawing.Color.White;
-            this.checkBox1.Location = new System.Drawing.Point(63, 10);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(164, 40);
-            this.checkBox1.TabIndex = 4;
-            this.checkBox1.Text = "주문 내역";
-            this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox1.UseVisualStyleBackColor = false;
+            this.admin_btn_olist.Appearance = System.Windows.Forms.Appearance.Button;
+            this.admin_btn_olist.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.admin_btn_olist.Checked = true;
+            this.admin_btn_olist.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.admin_btn_olist.FlatAppearance.BorderSize = 0;
+            this.admin_btn_olist.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.admin_btn_olist.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.admin_btn_olist.ForeColor = System.Drawing.Color.White;
+            this.admin_btn_olist.Location = new System.Drawing.Point(63, 10);
+            this.admin_btn_olist.Name = "admin_btn_olist";
+            this.admin_btn_olist.Size = new System.Drawing.Size(164, 40);
+            this.admin_btn_olist.TabIndex = 4;
+            this.admin_btn_olist.Text = "주문 내역";
+            this.admin_btn_olist.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.admin_btn_olist.UseVisualStyleBackColor = false;
+            this.admin_btn_olist.Click += new System.EventHandler(this.admin_btn_olist_Click);
             // 
-            // btn_daily_
+            // admin_btn_daily
             // 
-            this.btn_daily_.Appearance = System.Windows.Forms.Appearance.Button;
-            this.btn_daily_.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_daily_.FlatAppearance.BorderSize = 0;
-            this.btn_daily_.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_daily_.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_daily_.ForeColor = System.Drawing.Color.White;
-            this.btn_daily_.Location = new System.Drawing.Point(268, 10);
-            this.btn_daily_.Name = "btn_daily_";
-            this.btn_daily_.Size = new System.Drawing.Size(164, 40);
-            this.btn_daily_.TabIndex = 3;
-            this.btn_daily_.Text = "일일 정산";
-            this.btn_daily_.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btn_daily_.UseVisualStyleBackColor = false;
+            this.admin_btn_daily.Appearance = System.Windows.Forms.Appearance.Button;
+            this.admin_btn_daily.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.admin_btn_daily.FlatAppearance.BorderSize = 0;
+            this.admin_btn_daily.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.admin_btn_daily.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.admin_btn_daily.ForeColor = System.Drawing.Color.White;
+            this.admin_btn_daily.Location = new System.Drawing.Point(268, 10);
+            this.admin_btn_daily.Name = "admin_btn_daily";
+            this.admin_btn_daily.Size = new System.Drawing.Size(164, 40);
+            this.admin_btn_daily.TabIndex = 3;
+            this.admin_btn_daily.Text = "일일 정산";
+            this.admin_btn_daily.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.admin_btn_daily.UseVisualStyleBackColor = false;
+            this.admin_btn_daily.Click += new System.EventHandler(this.admin_btn_daily_Click);
+            
             // 
             // btn_close
             // 
@@ -176,18 +184,38 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.Controls.Add(this.pn_olist);
             this.panel2.Controls.Add(this.btn_admin_table3);
             this.panel2.Controls.Add(this.btn_admin_table6);
             this.panel2.Controls.Add(this.btn_admin_table4);
             this.panel2.Controls.Add(this.btn_admin_table5);
             this.panel2.Controls.Add(this.btn_admin_table1);
             this.panel2.Controls.Add(this.btn_admin_table2);
+            //this.panel2.Controls.Add(new Form6());
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 58);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(700, 302);
             this.panel2.TabIndex = 9;
+            // 
+            // pn_olist
+            // 
+            this.pn_olist.Controls.Add(this.pn_daily);
+            this.pn_olist.Location = new System.Drawing.Point(0, 0);
+            this.pn_olist.Name = "pn_olist";
+            this.pn_olist.Size = new System.Drawing.Size(700, 302);
+            this.pn_olist.TabIndex = 8;
+            this.pn_olist.Visible = false;
+            // 
+            // pn_daily
+            // 
+            this.pn_daily.Location = new System.Drawing.Point(0, 0);
+            this.pn_daily.Name = "pn_daily";
+            this.pn_daily.Size = new System.Drawing.Size(700, 302);
+            this.pn_daily.TabIndex = 9;
+            this.pn_daily.Visible = false;
+            //this.pn_daily.Controls.Add(new Form7());
             // 
             // Form4
             // 
@@ -205,6 +233,7 @@
             this.Load += new System.EventHandler(this.Form4_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.pn_olist.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -219,7 +248,9 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btn_close;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.CheckBox btn_daily_;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox admin_btn_daily;
+        private System.Windows.Forms.CheckBox admin_btn_olist;
+        private System.Windows.Forms.Panel pn_olist;
+        private System.Windows.Forms.Panel pn_daily;
     }
 }
