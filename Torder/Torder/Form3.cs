@@ -40,7 +40,7 @@ namespace Torder
             while(myRead.Read())
             {
                 // 상품명, 수량, 주문일자, 총 가격
-                this.lv_bill.Items.Add(new ListViewItem(new string[] { myRead[0].ToString(), myRead[1].ToString(), myRead[2].ToString()}));
+                //this.lv_bill.Items.Add(new ListViewItem(new string[] { myRead[0].ToString(), myRead[1].ToString(), myRead[2].ToString()}));
                 price += Convert.ToInt32(myRead[2].ToString());
             }
             this.lb_amount.Text = price + "원";

@@ -41,6 +41,7 @@
             this.btnCup = new System.Windows.Forms.Button();
             this.panel_cart = new System.Windows.Forms.Panel();
             this.pnTopbar = new System.Windows.Forms.Panel();
+            this.btnOrder = new System.Windows.Forms.Button();
             this.pnTopbar.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,7 +49,7 @@
             // 
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Font = new System.Drawing.Font("맑은 고딕", 13F);
+            this.btnClose.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.Location = new System.Drawing.Point(613, 12);
             this.btnClose.Name = "btnClose";
@@ -61,44 +62,47 @@
             // lblTop
             // 
             this.lblTop.AutoSize = true;
-            this.lblTop.Font = new System.Drawing.Font("맑은 고딕", 13F);
+            this.lblTop.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblTop.ForeColor = System.Drawing.Color.White;
             this.lblTop.Location = new System.Drawing.Point(13, 19);
             this.lblTop.Name = "lblTop";
-            this.lblTop.Size = new System.Drawing.Size(279, 25);
+            this.lblTop.Size = new System.Drawing.Size(297, 25);
             this.lblTop.TabIndex = 0;
             this.lblTop.Text = "직원호출 - 무엇을 도와드릴까요?";
             // 
             // btnCall
             // 
-            this.btnCall.BackColor = System.Drawing.Color.White;
+            this.btnCall.BackColor = System.Drawing.Color.Red;
             this.btnCall.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCall.Font = new System.Drawing.Font("맑은 고딕", 9F);
+            this.btnCall.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnCall.ForeColor = System.Drawing.Color.White;
             this.btnCall.Location = new System.Drawing.Point(18, 300);
             this.btnCall.Name = "btnCall";
             this.btnCall.Size = new System.Drawing.Size(393, 48);
             this.btnCall.TabIndex = 2;
             this.btnCall.Text = "직원만 호출하기";
             this.btnCall.UseVisualStyleBackColor = false;
+            this.btnCall.Click += new System.EventHandler(this.btnCall_Click);
             // 
             // btnBOpener
             // 
+            this.btnBOpener.BackColor = System.Drawing.Color.White;
             this.btnBOpener.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnBOpener.Font = new System.Drawing.Font("맑은 고딕", 9F);
-            this.btnBOpener.Location = new System.Drawing.Point(18, 71);
+            this.btnBOpener.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnBOpener.Location = new System.Drawing.Point(18, 91);
             this.btnBOpener.Name = "btnBOpener";
             this.btnBOpener.Size = new System.Drawing.Size(75, 64);
             this.btnBOpener.TabIndex = 4;
             this.btnBOpener.Text = "병따개";
-            this.btnBOpener.UseVisualStyleBackColor = true;
+            this.btnBOpener.UseVisualStyleBackColor = false;
             this.btnBOpener.Click += new System.EventHandler(this.btnBOpener_Click);
             // 
             // btnWTissue
             // 
             this.btnWTissue.BackColor = System.Drawing.Color.White;
             this.btnWTissue.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnWTissue.Font = new System.Drawing.Font("맑은 고딕", 9F);
-            this.btnWTissue.Location = new System.Drawing.Point(126, 71);
+            this.btnWTissue.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnWTissue.Location = new System.Drawing.Point(126, 91);
             this.btnWTissue.Name = "btnWTissue";
             this.btnWTissue.Size = new System.Drawing.Size(75, 64);
             this.btnWTissue.TabIndex = 5;
@@ -110,8 +114,8 @@
             // 
             this.btnSpoon.BackColor = System.Drawing.Color.White;
             this.btnSpoon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSpoon.Font = new System.Drawing.Font("맑은 고딕", 9F);
-            this.btnSpoon.Location = new System.Drawing.Point(231, 71);
+            this.btnSpoon.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnSpoon.Location = new System.Drawing.Point(231, 91);
             this.btnSpoon.Name = "btnSpoon";
             this.btnSpoon.Size = new System.Drawing.Size(75, 64);
             this.btnSpoon.TabIndex = 6;
@@ -123,8 +127,8 @@
             // 
             this.btnChopsticks.BackColor = System.Drawing.Color.White;
             this.btnChopsticks.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnChopsticks.Font = new System.Drawing.Font("맑은 고딕", 9F);
-            this.btnChopsticks.Location = new System.Drawing.Point(336, 71);
+            this.btnChopsticks.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnChopsticks.Location = new System.Drawing.Point(336, 91);
             this.btnChopsticks.Name = "btnChopsticks";
             this.btnChopsticks.Size = new System.Drawing.Size(75, 64);
             this.btnChopsticks.TabIndex = 7;
@@ -136,8 +140,8 @@
             // 
             this.btnWater.BackColor = System.Drawing.Color.White;
             this.btnWater.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnWater.Font = new System.Drawing.Font("맑은 고딕", 9F);
-            this.btnWater.Location = new System.Drawing.Point(18, 158);
+            this.btnWater.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnWater.Location = new System.Drawing.Point(18, 192);
             this.btnWater.Name = "btnWater";
             this.btnWater.Size = new System.Drawing.Size(75, 64);
             this.btnWater.TabIndex = 8;
@@ -149,8 +153,8 @@
             // 
             this.btnApron.BackColor = System.Drawing.Color.White;
             this.btnApron.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnApron.Font = new System.Drawing.Font("맑은 고딕", 9F);
-            this.btnApron.Location = new System.Drawing.Point(126, 158);
+            this.btnApron.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnApron.Location = new System.Drawing.Point(126, 192);
             this.btnApron.Name = "btnApron";
             this.btnApron.Size = new System.Drawing.Size(75, 64);
             this.btnApron.TabIndex = 9;
@@ -162,8 +166,8 @@
             // 
             this.btnDish.BackColor = System.Drawing.Color.White;
             this.btnDish.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnDish.Font = new System.Drawing.Font("맑은 고딕", 9F);
-            this.btnDish.Location = new System.Drawing.Point(232, 158);
+            this.btnDish.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnDish.Location = new System.Drawing.Point(232, 192);
             this.btnDish.Name = "btnDish";
             this.btnDish.Size = new System.Drawing.Size(75, 64);
             this.btnDish.TabIndex = 10;
@@ -175,8 +179,8 @@
             // 
             this.btnCup.BackColor = System.Drawing.Color.White;
             this.btnCup.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCup.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnCup.Location = new System.Drawing.Point(336, 158);
+            this.btnCup.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnCup.Location = new System.Drawing.Point(336, 192);
             this.btnCup.Name = "btnCup";
             this.btnCup.Size = new System.Drawing.Size(75, 64);
             this.btnCup.TabIndex = 11;
@@ -196,7 +200,8 @@
             // 
             // pnTopbar
             // 
-            this.pnTopbar.BackColor = System.Drawing.Color.Black;
+            this.pnTopbar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.pnTopbar.Controls.Add(this.btnOrder);
             this.pnTopbar.Controls.Add(this.btnClose);
             this.pnTopbar.Controls.Add(this.lblTop);
             this.pnTopbar.Dock = System.Windows.Forms.DockStyle.Top;
@@ -205,11 +210,26 @@
             this.pnTopbar.Size = new System.Drawing.Size(700, 56);
             this.pnTopbar.TabIndex = 13;
             // 
+            // btnOrder
+            // 
+            this.btnOrder.FlatAppearance.BorderSize = 0;
+            this.btnOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOrder.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnOrder.ForeColor = System.Drawing.Color.White;
+            this.btnOrder.Location = new System.Drawing.Point(518, 12);
+            this.btnOrder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnOrder.Name = "btnOrder";
+            this.btnOrder.Size = new System.Drawing.Size(75, 37);
+            this.btnOrder.TabIndex = 2;
+            this.btnOrder.Text = "주문";
+            this.btnOrder.UseVisualStyleBackColor = true;
+            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(700, 360);
             this.ControlBox = false;
             this.Controls.Add(this.pnTopbar);
@@ -250,5 +270,6 @@
         private System.Windows.Forms.Button btnCup;
         private System.Windows.Forms.Panel panel_cart;
         private System.Windows.Forms.Panel pnTopbar;
+        private System.Windows.Forms.Button btnOrder;
     }
 }

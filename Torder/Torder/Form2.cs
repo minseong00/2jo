@@ -126,7 +126,7 @@ namespace Torder
             label1[p_index].Location = new Point(11, 11);
 
             label2[p_index].Text = "1";
-            label2[p_index].Name = String.Format("lblNum{0}", p_index);
+            label2[p_index].Name = String.Format("lblNum_{0}", p_index);
             label2[p_index].Font = new Font("맑은 고딕", 9);
             label2[p_index].AutoSize = true;
             label2[p_index].Location = new Point(206, 50);
@@ -193,7 +193,6 @@ namespace Torder
                 {
                     panel[panel_index].Name = con.Name;
                     panel[panel_index].Size = con.Size;
-                    panel[panel_index].BorderStyle = BorderStyle.FixedSingle;
                     panel[panel_index].Location = new Point(0, 73 * panel_index); // 0 73 146 219 
                     label1[panel_index].Text = panel[panel_index].Name.ToString();
                     panel_index++;
@@ -224,11 +223,24 @@ namespace Torder
         private void btnM_Click(object sender, EventArgs e)
         {
             Button minus = sender as Button;
-            for (int i = 0; i < panel.Length; i++)
+            for (int i = 0; i < panel.Length; i++) 
             {
-                if (minus.Parent.Name.ToString() == panel[i].Name.ToString())
+                if (minus.Parent.Name.ToString() == panel[i].Name.ToString()) //생성된 패널 중 일치하는 패널 찾기
                 {
-                    MessageBox.Show(i+"");
+                    foreach(Control con in panel[i].Controls)
+                    {
+                        if(con.Name == String.Format("lblNum_{0}", i)) // 패널 중에 일치하는 라벨 찾기
+                        {
+                            label2[i].Text = (int.Parse(label2[i].Text.ToString()) - 1).ToString(); //라벨 배열 데이터 수정
+                            con.Text = label2[i].Text; // 라벨 배열데이터를 라벨 컨트롤에 입력
+                        }
+                        
+                        if (con.Name == String.Format("btnM_{0}", i)) // 패널 중에 일치하는 버튼 찾기
+                        {
+                            if (int.Parse(label2[i].Text) <= 1) // 라벨의 값이 1로 떨어질 경우 Minus 버튼 비활성화
+                                con.Enabled = false;
+                        }
+                    }
                 }
             }
         }
@@ -236,8 +248,37 @@ namespace Torder
         private void btnP_Click(object sender, EventArgs e)
         {
             Button plus = sender as Button;
+            for (int i = 0; i < panel.Length; i++)
+            {
+                if (plus.Parent.Name.ToString() == panel[i].Name.ToString()) //생성된 패널 중 일치하는 패널 찾기
+                {
+                    foreach (Control con in panel[i].Controls)
+                    {
+                        if (con.Name == String.Format("lblNum_{0}", i)) // 패널 중에 일치하는 라벨 찾기
+                        {
+                            label2[i].Text = (int.Parse(label2[i].Text.ToString()) + 1).ToString(); //라벨 배열 데이터 수정
+                            con.Text = label2[i].Text; // 라벨 배열데이터를 라벨 컨트롤에 입력
+                        }
 
+                        if (con.Name == String.Format("btnM_{0}", i)) // 패널 중에 일치하는 버튼 찾기
+                        {
+                            if (int.Parse(label2[i].Text) > 1) // 라벨의 값이 2 이상일 경우 Minus 버튼 활성화
+                                con.Enabled = true;
+                        }
+                    }
+
+                }
+            }
         }
-        
+
+        private void btnOrder_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("이대로 주문하시겠습니까??");
+        }
+
+        private void btnCall_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("이대로 주문하시겠습니까??");
+        }
     }
 }

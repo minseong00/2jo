@@ -46,9 +46,10 @@
             // btn_admin_table1
             // 
             this.btn_admin_table1.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_admin_table1.Location = new System.Drawing.Point(64, 33);
+            this.btn_admin_table1.Location = new System.Drawing.Point(73, 41);
+            this.btn_admin_table1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_admin_table1.Name = "btn_admin_table1";
-            this.btn_admin_table1.Size = new System.Drawing.Size(164, 109);
+            this.btn_admin_table1.Size = new System.Drawing.Size(187, 136);
             this.btn_admin_table1.TabIndex = 2;
             this.btn_admin_table1.Text = "테이블1";
             this.btn_admin_table1.UseVisualStyleBackColor = true;
@@ -56,29 +57,34 @@
             // btn_admin_table2
             // 
             this.btn_admin_table2.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_admin_table2.Location = new System.Drawing.Point(269, 33);
+            this.btn_admin_table2.Location = new System.Drawing.Point(307, 41);
+            this.btn_admin_table2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_admin_table2.Name = "btn_admin_table2";
-            this.btn_admin_table2.Size = new System.Drawing.Size(164, 109);
+            this.btn_admin_table2.Size = new System.Drawing.Size(187, 136);
             this.btn_admin_table2.TabIndex = 3;
             this.btn_admin_table2.Text = "테이블2";
             this.btn_admin_table2.UseVisualStyleBackColor = true;
             // 
             // btn_admin_table3
             // 
-            this.btn_admin_table3.Font = new System.Drawing.Font("맑은 고딕", 18F);
-            this.btn_admin_table3.Location = new System.Drawing.Point(478, 33);
+            this.btn_admin_table3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.btn_admin_table3.Font = new System.Drawing.Font("한컴 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btn_admin_table3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_admin_table3.Location = new System.Drawing.Point(546, 41);
+            this.btn_admin_table3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_admin_table3.Name = "btn_admin_table3";
-            this.btn_admin_table3.Size = new System.Drawing.Size(164, 109);
+            this.btn_admin_table3.Size = new System.Drawing.Size(187, 136);
             this.btn_admin_table3.TabIndex = 4;
             this.btn_admin_table3.Text = "테이블3";
-            this.btn_admin_table3.UseVisualStyleBackColor = true;
+            this.btn_admin_table3.UseVisualStyleBackColor = false;
             // 
             // btn_admin_table4
             // 
             this.btn_admin_table4.Font = new System.Drawing.Font("맑은 고딕", 18F);
-            this.btn_admin_table4.Location = new System.Drawing.Point(64, 171);
+            this.btn_admin_table4.Location = new System.Drawing.Point(73, 214);
+            this.btn_admin_table4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_admin_table4.Name = "btn_admin_table4";
-            this.btn_admin_table4.Size = new System.Drawing.Size(164, 109);
+            this.btn_admin_table4.Size = new System.Drawing.Size(187, 136);
             this.btn_admin_table4.TabIndex = 5;
             this.btn_admin_table4.Text = "테이블4";
             this.btn_admin_table4.UseVisualStyleBackColor = true;
@@ -87,9 +93,10 @@
             // btn_admin_table5
             // 
             this.btn_admin_table5.Font = new System.Drawing.Font("맑은 고딕", 18F);
-            this.btn_admin_table5.Location = new System.Drawing.Point(269, 171);
+            this.btn_admin_table5.Location = new System.Drawing.Point(307, 214);
+            this.btn_admin_table5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_admin_table5.Name = "btn_admin_table5";
-            this.btn_admin_table5.Size = new System.Drawing.Size(164, 109);
+            this.btn_admin_table5.Size = new System.Drawing.Size(187, 136);
             this.btn_admin_table5.TabIndex = 6;
             this.btn_admin_table5.Text = "테이블5";
             this.btn_admin_table5.UseVisualStyleBackColor = true;
@@ -97,9 +104,10 @@
             // btn_admin_table6
             // 
             this.btn_admin_table6.Font = new System.Drawing.Font("맑은 고딕", 18F);
-            this.btn_admin_table6.Location = new System.Drawing.Point(478, 171);
+            this.btn_admin_table6.Location = new System.Drawing.Point(546, 214);
+            this.btn_admin_table6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_admin_table6.Name = "btn_admin_table6";
-            this.btn_admin_table6.Size = new System.Drawing.Size(164, 109);
+            this.btn_admin_table6.Size = new System.Drawing.Size(187, 136);
             this.btn_admin_table6.TabIndex = 7;
             this.btn_admin_table6.Text = "테이블6";
             this.btn_admin_table6.UseVisualStyleBackColor = true;
@@ -115,7 +123,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(700, 58);
+            this.panel1.Size = new System.Drawing.Size(800, 72);
             this.panel1.TabIndex = 8;
             // 
             // checkBox1
@@ -126,9 +134,10 @@
             this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox1.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.checkBox1.ForeColor = System.Drawing.Color.White;
-            this.checkBox1.Location = new System.Drawing.Point(63, 10);
+            this.checkBox1.Location = new System.Drawing.Point(72, 12);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(135, 40);
+            this.checkBox1.Size = new System.Drawing.Size(187, 50);
             this.checkBox1.TabIndex = 4;
             this.checkBox1.Text = "주문 내역";
             this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -142,9 +151,10 @@
             this.btn_daily_.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_daily_.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_daily_.ForeColor = System.Drawing.Color.White;
-            this.btn_daily_.Location = new System.Drawing.Point(216, 10);
+            this.btn_daily_.Location = new System.Drawing.Point(306, 12);
+            this.btn_daily_.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_daily_.Name = "btn_daily_";
-            this.btn_daily_.Size = new System.Drawing.Size(135, 40);
+            this.btn_daily_.Size = new System.Drawing.Size(187, 50);
             this.btn_daily_.TabIndex = 3;
             this.btn_daily_.Text = "일일 정산";
             this.btn_daily_.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -157,10 +167,10 @@
             this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_close.Font = new System.Drawing.Font("맑은 고딕", 13F);
             this.btn_close.ForeColor = System.Drawing.Color.White;
-            this.btn_close.Location = new System.Drawing.Point(613, 12);
+            this.btn_close.Location = new System.Drawing.Point(701, 15);
             this.btn_close.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_close.Name = "btn_close";
-            this.btn_close.Size = new System.Drawing.Size(75, 37);
+            this.btn_close.Size = new System.Drawing.Size(86, 46);
             this.btn_close.TabIndex = 2;
             this.btn_close.Text = "닫기";
             this.btn_close.UseVisualStyleBackColor = false;
@@ -176,20 +186,21 @@
             this.panel2.Controls.Add(this.btn_admin_table1);
             this.panel2.Controls.Add(this.btn_admin_table2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 58);
+            this.panel2.Location = new System.Drawing.Point(0, 72);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(700, 302);
+            this.panel2.Size = new System.Drawing.Size(800, 378);
             this.panel2.TabIndex = 9;
             // 
             // Form4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(700, 360);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form4";
