@@ -94,10 +94,10 @@
             // lv_olist
             // 
             this.lv_olist.HideSelection = false;
-            this.lv_olist.Location = new System.Drawing.Point(13, 68);
+            this.lv_olist.Location = new System.Drawing.Point(0, 63);
             this.lv_olist.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lv_olist.Name = "lv_olist";
-            this.lv_olist.Size = new System.Drawing.Size(677, 244);
+            this.lv_olist.Size = new System.Drawing.Size(701, 260);
             this.lv_olist.TabIndex = 4;
             this.lv_olist.UseCompatibleStateImageBehavior = false;
             // 
@@ -143,10 +143,10 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Location = new System.Drawing.Point(2, 316);
+            this.panel2.Location = new System.Drawing.Point(0, 318);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(701, 42);
             this.panel2.TabIndex = 7;
