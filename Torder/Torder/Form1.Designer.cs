@@ -38,6 +38,8 @@
             this.btn_call = new System.Windows.Forms.Button();
             this.btn_cart = new System.Windows.Forms.CheckBox();
             this.panel_cart = new System.Windows.Forms.Panel();
+            this.PcartLine = new System.Windows.Forms.Panel();
+            this.PcartLabel = new System.Windows.Forms.Label();
             this.panel_center = new System.Windows.Forms.Panel();
             this.meals_5 = new System.Windows.Forms.PictureBox();
             this.label63 = new System.Windows.Forms.Label();
@@ -71,9 +73,7 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.snacks_2 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.snacks_3 = new System.Windows.Forms.PictureBox();
             this.snacks_1 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -155,6 +155,17 @@
             this.btn_left_menu4 = new System.Windows.Forms.Button();
             this.btn_left_menu2 = new System.Windows.Forms.Button();
             this.btn_left_menu3 = new System.Windows.Forms.Button();
+            this.label65 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label66 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.snacks_2 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel_cart.SuspendLayout();
             this.panel_center.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.meals_5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.meals_4)).BeginInit();
@@ -168,7 +179,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.snacks_6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.snacks_5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.snacks_4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.snacks_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.snacks_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.snacks_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.meals_1)).BeginInit();
@@ -192,6 +202,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).BeginInit();
             this.panel_bottom.SuspendLayout();
             this.panel_left.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_2)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_oList
@@ -201,7 +215,7 @@
             this.btn_oList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_oList.Font = new System.Drawing.Font("맑은 고딕", 12F);
             this.btn_oList.ForeColor = System.Drawing.Color.Black;
-            this.btn_oList.Location = new System.Drawing.Point(410, 8);
+            this.btn_oList.Location = new System.Drawing.Point(421, 6);
             this.btn_oList.Name = "btn_oList";
             this.btn_oList.Size = new System.Drawing.Size(88, 31);
             this.btn_oList.TabIndex = 0;
@@ -216,7 +230,7 @@
             this.btn_bill.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_bill.Font = new System.Drawing.Font("맑은 고딕", 12F);
             this.btn_bill.ForeColor = System.Drawing.Color.Black;
-            this.btn_bill.Location = new System.Drawing.Point(505, 8);
+            this.btn_bill.Location = new System.Drawing.Point(516, 6);
             this.btn_bill.Name = "btn_bill";
             this.btn_bill.Size = new System.Drawing.Size(84, 31);
             this.btn_bill.TabIndex = 1;
@@ -291,7 +305,7 @@
             this.btn_call.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_call.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_call.ForeColor = System.Drawing.Color.Black;
-            this.btn_call.Location = new System.Drawing.Point(7, 8);
+            this.btn_call.Location = new System.Drawing.Point(7, 6);
             this.btn_call.Name = "btn_call";
             this.btn_call.Size = new System.Drawing.Size(100, 31);
             this.btn_call.TabIndex = 13;
@@ -308,7 +322,7 @@
             this.btn_cart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_cart.Font = new System.Drawing.Font("맑은 고딕", 12F);
             this.btn_cart.ForeColor = System.Drawing.Color.Black;
-            this.btn_cart.Location = new System.Drawing.Point(595, 8);
+            this.btn_cart.Location = new System.Drawing.Point(607, 6);
             this.btn_cart.Name = "btn_cart";
             this.btn_cart.Size = new System.Drawing.Size(84, 31);
             this.btn_cart.TabIndex = 2;
@@ -320,11 +334,36 @@
             // 
             this.panel_cart.AutoScroll = true;
             this.panel_cart.BackColor = System.Drawing.Color.White;
+            this.panel_cart.Controls.Add(this.label66);
+            this.panel_cart.Controls.Add(this.button3);
+            this.panel_cart.Controls.Add(this.button2);
+            this.panel_cart.Controls.Add(this.button1);
+            this.panel_cart.Controls.Add(this.label65);
+            this.panel_cart.Controls.Add(this.PcartLine);
+            this.panel_cart.Controls.Add(this.PcartLabel);
             this.panel_cart.Location = new System.Drawing.Point(460, -1);
             this.panel_cart.Name = "panel_cart";
             this.panel_cart.Size = new System.Drawing.Size(240, 317);
             this.panel_cart.TabIndex = 12;
             this.panel_cart.Visible = false;
+            // 
+            // PcartLine
+            // 
+            this.PcartLine.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PcartLine.Location = new System.Drawing.Point(3, 38);
+            this.PcartLine.Name = "PcartLine";
+            this.PcartLine.Size = new System.Drawing.Size(220, 1);
+            this.PcartLine.TabIndex = 1;
+            // 
+            // PcartLabel
+            // 
+            this.PcartLabel.AutoSize = true;
+            this.PcartLabel.Font = new System.Drawing.Font("맑은 고딕", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.PcartLabel.Location = new System.Drawing.Point(5, 7);
+            this.PcartLabel.Name = "PcartLabel";
+            this.PcartLabel.Size = new System.Drawing.Size(92, 28);
+            this.PcartLabel.TabIndex = 0;
+            this.PcartLabel.Text = "장바구니";
             // 
             // panel_center
             // 
@@ -332,6 +371,9 @@
             this.panel_center.AutoScrollMinSize = new System.Drawing.Size(0, 4500);
             this.panel_center.BackColor = System.Drawing.Color.Black;
             this.panel_center.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel_center.Controls.Add(this.panel3);
+            this.panel_center.Controls.Add(this.panel2);
+            this.panel_center.Controls.Add(this.panel1);
             this.panel_center.Controls.Add(this.meals_5);
             this.panel_center.Controls.Add(this.label63);
             this.panel_center.Controls.Add(this.label64);
@@ -364,11 +406,6 @@
             this.panel_center.Controls.Add(this.label22);
             this.panel_center.Controls.Add(this.label23);
             this.panel_center.Controls.Add(this.label24);
-            this.panel_center.Controls.Add(this.snacks_2);
-            this.panel_center.Controls.Add(this.label5);
-            this.panel_center.Controls.Add(this.label6);
-            this.panel_center.Controls.Add(this.snacks_3);
-            this.panel_center.Controls.Add(this.snacks_1);
             this.panel_center.Controls.Add(this.label13);
             this.panel_center.Controls.Add(this.label14);
             this.panel_center.Controls.Add(this.label15);
@@ -424,10 +461,6 @@
             this.panel_center.Controls.Add(this.label12);
             this.panel_center.Controls.Add(this.meals_3);
             this.panel_center.Controls.Add(this.meals_2);
-            this.panel_center.Controls.Add(this.label3);
-            this.panel_center.Controls.Add(this.label4);
-            this.panel_center.Controls.Add(this.label1);
-            this.panel_center.Controls.Add(this.label2);
             this.panel_center.Controls.Add(this.lbl_side);
             this.panel_center.Controls.Add(this.lbl_alcohol);
             this.panel_center.Controls.Add(this.main_line6);
@@ -800,43 +833,21 @@
             this.label24.TabIndex = 128;
             this.label24.Text = "콘치즈그라탕";
             // 
-            // snacks_2
-            // 
-            this.snacks_2.Image = ((System.Drawing.Image)(resources.GetObject("snacks_2.Image")));
-            this.snacks_2.Location = new System.Drawing.Point(223, 50);
-            this.snacks_2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.snacks_2.Name = "snacks_2";
-            this.snacks_2.Size = new System.Drawing.Size(117, 106);
-            this.snacks_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.snacks_2.TabIndex = 127;
-            this.snacks_2.TabStop = false;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("맑은 고딕", 16F);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(241, 186);
+            this.label5.Location = new System.Drawing.Point(28, 143);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(83, 30);
             this.label5.TabIndex = 126;
             this.label5.Text = "6000원";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("맑은 고딕", 12F);
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(245, 161);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(74, 21);
-            this.label6.TabIndex = 125;
-            this.label6.Text = "짜빠구리";
-            // 
             // snacks_3
             // 
             this.snacks_3.Image = ((System.Drawing.Image)(resources.GetObject("snacks_3.Image")));
-            this.snacks_3.Location = new System.Drawing.Point(414, 50);
+            this.snacks_3.Location = new System.Drawing.Point(7, 7);
             this.snacks_3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.snacks_3.Name = "snacks_3";
             this.snacks_3.Size = new System.Drawing.Size(115, 106);
@@ -847,7 +858,7 @@
             // snacks_1
             // 
             this.snacks_1.Image = ((System.Drawing.Image)(resources.GetObject("snacks_1.Image")));
-            this.snacks_1.Location = new System.Drawing.Point(33, 50);
+            this.snacks_1.Location = new System.Drawing.Point(11, 5);
             this.snacks_1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.snacks_1.Name = "snacks_1";
             this.snacks_1.Size = new System.Drawing.Size(115, 106);
@@ -1466,7 +1477,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("맑은 고딕", 16F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(435, 186);
+            this.label3.Location = new System.Drawing.Point(28, 143);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 30);
             this.label3.TabIndex = 49;
@@ -1477,7 +1488,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("맑은 고딕", 12F);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(438, 161);
+            this.label4.Location = new System.Drawing.Point(31, 118);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(74, 21);
             this.label4.TabIndex = 48;
@@ -1488,7 +1499,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("맑은 고딕", 16F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(56, 186);
+            this.label1.Location = new System.Drawing.Point(28, 143);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 30);
             this.label1.TabIndex = 47;
@@ -1499,7 +1510,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("맑은 고딕", 12F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(62, 161);
+            this.label2.Location = new System.Drawing.Point(40, 116);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 21);
             this.label2.TabIndex = 46;
@@ -1742,6 +1753,104 @@
             this.btn_left_menu3.UseVisualStyleBackColor = false;
             this.btn_left_menu3.Click += new System.EventHandler(this.btn_left_menu3_Click);
             // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("맑은 고딕", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label65.Location = new System.Drawing.Point(-1, 45);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(146, 23);
+            this.label65.TabIndex = 2;
+            this.label65.Text = "갈릭치즈감자튀김";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(173, 44);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(49, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "삭제";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(150, 78);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(25, 23);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(201, 78);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(21, 23);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Location = new System.Drawing.Point(183, 84);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(11, 12);
+            this.label66.TabIndex = 6;
+            this.label66.Text = "5";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.snacks_1);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(22, 44);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(139, 174);
+            this.panel1.TabIndex = 160;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.snacks_3);
+            this.panel3.Controls.Add(this.label3);
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Location = new System.Drawing.Point(407, 43);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(139, 174);
+            this.panel3.TabIndex = 162;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("맑은 고딕", 12F);
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(34, 117);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(74, 21);
+            this.label6.TabIndex = 125;
+            this.label6.Text = "짜빠구리";
+            // 
+            // snacks_2
+            // 
+            this.snacks_2.Image = ((System.Drawing.Image)(resources.GetObject("snacks_2.Image")));
+            this.snacks_2.Location = new System.Drawing.Point(12, 6);
+            this.snacks_2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.snacks_2.Name = "snacks_2";
+            this.snacks_2.Size = new System.Drawing.Size(117, 106);
+            this.snacks_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.snacks_2.TabIndex = 127;
+            this.snacks_2.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.snacks_2);
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Location = new System.Drawing.Point(211, 44);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(139, 174);
+            this.panel2.TabIndex = 161;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -1760,6 +1869,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "메인";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.panel_cart.ResumeLayout(false);
+            this.panel_cart.PerformLayout();
             this.panel_center.ResumeLayout(false);
             this.panel_center.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.meals_5)).EndInit();
@@ -1774,7 +1885,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.snacks_6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.snacks_5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.snacks_4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.snacks_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.snacks_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.snacks_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.meals_1)).EndInit();
@@ -1799,6 +1909,13 @@
             this.panel_bottom.ResumeLayout(false);
             this.panel_bottom.PerformLayout();
             this.panel_left.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.snacks_2)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1908,9 +2025,7 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.PictureBox snacks_2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox snacks_3;
         private System.Windows.Forms.PictureBox snacks_1;
         private System.Windows.Forms.PictureBox meals_1;
@@ -1931,6 +2046,18 @@
         private System.Windows.Forms.PictureBox meals_4;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Label PcartLabel;
+        private System.Windows.Forms.Panel PcartLine;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox snacks_2;
+        private System.Windows.Forms.Label label6;
     }
 }
 

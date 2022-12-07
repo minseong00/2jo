@@ -35,7 +35,6 @@
             this.gbSum = new System.Windows.Forms.GroupBox();
             this.lb_amount = new System.Windows.Forms.Label();
             this.lblTextSum = new System.Windows.Forms.Label();
-            this.gbDut = new System.Windows.Forms.GroupBox();
             this.lblDutCost = new System.Windows.Forms.Label();
             this.lblDutNum = new System.Windows.Forms.Label();
             this.btnPlus = new System.Windows.Forms.Button();
@@ -45,9 +44,10 @@
             this.time_close = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.gbDut = new System.Windows.Forms.GroupBox();
             this.gbSum.SuspendLayout();
-            this.gbDut.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.gbDut.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblBill
@@ -112,20 +112,6 @@
             this.lblTextSum.Size = new System.Drawing.Size(31, 15);
             this.lblTextSum.TabIndex = 0;
             this.lblTextSum.Text = "합계";
-            // 
-            // gbDut
-            // 
-            this.gbDut.Controls.Add(this.lblDutCost);
-            this.gbDut.Controls.Add(this.lblDutNum);
-            this.gbDut.Controls.Add(this.btnPlus);
-            this.gbDut.Controls.Add(this.btnMinus);
-            this.gbDut.Controls.Add(this.lblNum);
-            this.gbDut.Controls.Add(this.lblTextDut);
-            this.gbDut.Location = new System.Drawing.Point(481, 55);
-            this.gbDut.Name = "gbDut";
-            this.gbDut.Size = new System.Drawing.Size(200, 277);
-            this.gbDut.TabIndex = 5;
-            this.gbDut.TabStop = false;
             // 
             // lblDutCost
             // 
@@ -215,6 +201,20 @@
             this.panel2.Size = new System.Drawing.Size(442, 208);
             this.panel2.TabIndex = 7;
             // 
+            // gbDut
+            // 
+            this.gbDut.Controls.Add(this.lblDutCost);
+            this.gbDut.Controls.Add(this.lblDutNum);
+            this.gbDut.Controls.Add(this.btnPlus);
+            this.gbDut.Controls.Add(this.btnMinus);
+            this.gbDut.Controls.Add(this.lblNum);
+            this.gbDut.Controls.Add(this.lblTextDut);
+            this.gbDut.Location = new System.Drawing.Point(481, 55);
+            this.gbDut.Name = "gbDut";
+            this.gbDut.Size = new System.Drawing.Size(200, 277);
+            this.gbDut.TabIndex = 5;
+            this.gbDut.TabStop = false;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -235,10 +235,10 @@
             this.Load += new System.EventHandler(this.Form3_Load);
             this.gbSum.ResumeLayout(false);
             this.gbSum.PerformLayout();
-            this.gbDut.ResumeLayout(false);
-            this.gbDut.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.gbDut.ResumeLayout(false);
+            this.gbDut.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -249,7 +249,6 @@
         private System.Windows.Forms.Label lblTimer;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.GroupBox gbSum;
-        private System.Windows.Forms.GroupBox gbDut;
         private System.Windows.Forms.Label lblDutCost;
         private System.Windows.Forms.Label lblDutNum;
         private System.Windows.Forms.Button btnPlus;
@@ -262,5 +261,6 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.GroupBox gbDut;
     }
 }
