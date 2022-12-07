@@ -38,6 +38,7 @@
             this.btn_call = new System.Windows.Forms.Button();
             this.btn_cart = new System.Windows.Forms.CheckBox();
             this.panel_cart = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.label66 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -194,8 +195,8 @@
             this.btn_left_menu4 = new System.Windows.Forms.Button();
             this.btn_left_menu2 = new System.Windows.Forms.Button();
             this.btn_left_menu3 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.panel_cart.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.panel_center.SuspendLayout();
             this.optional_3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.optional_img_3)).BeginInit();
@@ -265,7 +266,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).BeginInit();
             this.panel_bottom.SuspendLayout();
             this.panel_left.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_oList
@@ -403,6 +403,19 @@
             this.panel_cart.TabIndex = 12;
             this.panel_cart.Visible = false;
             // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label66);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.label65);
+            this.panel1.Location = new System.Drawing.Point(0, 42);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(223, 60);
+            this.panel1.TabIndex = 7;
+            // 
             // label66
             // 
             this.label66.AutoSize = true;
@@ -532,6 +545,7 @@
             this.optional_3.Name = "optional_3";
             this.optional_3.Size = new System.Drawing.Size(139, 174);
             this.optional_3.TabIndex = 191;
+            this.optional_3.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label13
             // 
@@ -575,6 +589,7 @@
             this.optional_2.Name = "optional_2";
             this.optional_2.Size = new System.Drawing.Size(139, 174);
             this.optional_2.TabIndex = 190;
+            this.optional_2.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label15
             // 
@@ -618,6 +633,7 @@
             this.optional_1.Name = "optional_1";
             this.optional_1.Size = new System.Drawing.Size(139, 174);
             this.optional_1.TabIndex = 189;
+            this.optional_1.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label17
             // 
@@ -661,6 +677,7 @@
             this.drink_4.Name = "drink_4";
             this.drink_4.Size = new System.Drawing.Size(139, 174);
             this.drink_4.TabIndex = 188;
+            this.drink_4.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label46
             // 
@@ -704,6 +721,7 @@
             this.drink_5.Name = "drink_5";
             this.drink_5.Size = new System.Drawing.Size(139, 174);
             this.drink_5.TabIndex = 187;
+            this.drink_5.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label44
             // 
@@ -747,6 +765,7 @@
             this.drink_3.Name = "drink_3";
             this.drink_3.Size = new System.Drawing.Size(139, 174);
             this.drink_3.TabIndex = 186;
+            this.drink_3.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label48
             // 
@@ -790,6 +809,7 @@
             this.drink_2.Name = "drink_2";
             this.drink_2.Size = new System.Drawing.Size(139, 174);
             this.drink_2.TabIndex = 185;
+            this.drink_2.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label50
             // 
@@ -833,6 +853,7 @@
             this.drink_1.Name = "drink_1";
             this.drink_1.Size = new System.Drawing.Size(139, 174);
             this.drink_1.TabIndex = 184;
+            this.drink_1.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label52
             // 
@@ -876,6 +897,7 @@
             this.beverage_4.Name = "beverage_4";
             this.beverage_4.Size = new System.Drawing.Size(139, 174);
             this.beverage_4.TabIndex = 183;
+            this.beverage_4.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label40
             // 
@@ -919,6 +941,7 @@
             this.beverage_1.Name = "beverage_1";
             this.beverage_1.Size = new System.Drawing.Size(139, 174);
             this.beverage_1.TabIndex = 182;
+            this.beverage_1.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label38
             // 
@@ -962,6 +985,7 @@
             this.beverage_3.Name = "beverage_3";
             this.beverage_3.Size = new System.Drawing.Size(139, 174);
             this.beverage_3.TabIndex = 181;
+            this.beverage_3.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label34
             // 
@@ -1005,6 +1029,7 @@
             this.beverage_2.Name = "beverage_2";
             this.beverage_2.Size = new System.Drawing.Size(139, 174);
             this.beverage_2.TabIndex = 180;
+            this.beverage_2.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label36
             // 
@@ -1048,6 +1073,7 @@
             this.fries_4.Name = "fries_4";
             this.fries_4.Size = new System.Drawing.Size(139, 174);
             this.fries_4.TabIndex = 179;
+            this.fries_4.Click += new System.EventHandler(this.btn_food_click);
             // 
             // fries_img_4
             // 
@@ -1091,6 +1117,7 @@
             this.fries_6.Name = "fries_6";
             this.fries_6.Size = new System.Drawing.Size(139, 174);
             this.fries_6.TabIndex = 178;
+            this.fries_6.Click += new System.EventHandler(this.btn_food_click);
             // 
             // fries_img_6
             // 
@@ -1134,6 +1161,7 @@
             this.fries_5.Name = "fries_5";
             this.fries_5.Size = new System.Drawing.Size(139, 174);
             this.fries_5.TabIndex = 177;
+            this.fries_5.Click += new System.EventHandler(this.btn_food_click);
             // 
             // fries_img_5
             // 
@@ -1177,6 +1205,7 @@
             this.fries_1.Name = "fries_1";
             this.fries_1.Size = new System.Drawing.Size(139, 174);
             this.fries_1.TabIndex = 176;
+            this.fries_1.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label30
             // 
@@ -1220,6 +1249,7 @@
             this.fries_3.Name = "fries_3";
             this.fries_3.Size = new System.Drawing.Size(139, 174);
             this.fries_3.TabIndex = 175;
+            this.fries_3.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label26
             // 
@@ -1263,6 +1293,7 @@
             this.fries_2.Name = "fries_2";
             this.fries_2.Size = new System.Drawing.Size(139, 174);
             this.fries_2.TabIndex = 174;
+            this.fries_2.Click += new System.EventHandler(this.btn_food_click);
             // 
             // fries_img_2
             // 
@@ -1306,6 +1337,7 @@
             this.meals_5.Name = "meals_5";
             this.meals_5.Size = new System.Drawing.Size(139, 174);
             this.meals_5.TabIndex = 173;
+            this.meals_5.Click += new System.EventHandler(this.btn_food_click);
             // 
             // meals_img_5
             // 
@@ -1350,6 +1382,7 @@
             this.meals_4.Name = "meals_4";
             this.meals_4.Size = new System.Drawing.Size(139, 174);
             this.meals_4.TabIndex = 172;
+            this.meals_4.Click += new System.EventHandler(this.btn_food_click);
             // 
             // meals_img_4
             // 
@@ -1394,6 +1427,7 @@
             this.meals_1.Name = "meals_1";
             this.meals_1.Size = new System.Drawing.Size(139, 174);
             this.meals_1.TabIndex = 171;
+            this.meals_1.Click += new System.EventHandler(this.btn_food_click);
             // 
             // meals_img_1
             // 
@@ -1438,6 +1472,7 @@
             this.meals_3.Name = "meals_3";
             this.meals_3.Size = new System.Drawing.Size(139, 174);
             this.meals_3.TabIndex = 170;
+            this.meals_3.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label7
             // 
@@ -1481,6 +1516,7 @@
             this.meals_2.Name = "meals_2";
             this.meals_2.Size = new System.Drawing.Size(139, 174);
             this.meals_2.TabIndex = 169;
+            this.meals_2.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label9
             // 
@@ -1524,6 +1560,7 @@
             this.snacks_9.Name = "snacks_9";
             this.snacks_9.Size = new System.Drawing.Size(139, 174);
             this.snacks_9.TabIndex = 168;
+            this.snacks_9.Click += new System.EventHandler(this.btn_food_click);
             // 
             // snacks_img_9
             // 
@@ -1567,6 +1604,7 @@
             this.snacks_8.Name = "snacks_8";
             this.snacks_8.Size = new System.Drawing.Size(139, 174);
             this.snacks_8.TabIndex = 167;
+            this.snacks_8.Click += new System.EventHandler(this.btn_food_click);
             // 
             // snacks_img_8
             // 
@@ -1610,6 +1648,7 @@
             this.snacks_7.Name = "snacks_7";
             this.snacks_7.Size = new System.Drawing.Size(139, 174);
             this.snacks_7.TabIndex = 166;
+            this.snacks_7.Click += new System.EventHandler(this.btn_food_click);
             // 
             // snacks_img_7
             // 
@@ -1653,6 +1692,7 @@
             this.snacks_6.Name = "snacks_6";
             this.snacks_6.Size = new System.Drawing.Size(139, 174);
             this.snacks_6.TabIndex = 165;
+            this.snacks_6.Click += new System.EventHandler(this.btn_food_click);
             // 
             // snacks_img_6
             // 
@@ -1696,6 +1736,7 @@
             this.snacks_5.Name = "snacks_5";
             this.snacks_5.Size = new System.Drawing.Size(139, 174);
             this.snacks_5.TabIndex = 164;
+            this.snacks_5.Click += new System.EventHandler(this.btn_food_click);
             // 
             // snacks_img_5
             // 
@@ -1739,6 +1780,7 @@
             this.snacks_4.Name = "snacks_4";
             this.snacks_4.Size = new System.Drawing.Size(139, 174);
             this.snacks_4.TabIndex = 163;
+            this.snacks_4.Click += new System.EventHandler(this.btn_food_click);
             // 
             // snacks_img_4
             // 
@@ -1782,6 +1824,7 @@
             this.snacks_3.Name = "snacks_3";
             this.snacks_3.Size = new System.Drawing.Size(139, 174);
             this.snacks_3.TabIndex = 162;
+            this.snacks_3.Click += new System.EventHandler(this.btn_food_click);
             // 
             // snacks_img_3
             // 
@@ -2141,29 +2184,16 @@
             this.btn_left_menu3.UseVisualStyleBackColor = false;
             this.btn_left_menu3.Click += new System.EventHandler(this.btn_left_menu3_Click);
             // 
-            // panel1
-            // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label66);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label65);
-            this.panel1.Location = new System.Drawing.Point(0, 42);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(223, 60);
-            this.panel1.TabIndex = 7;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 360);
-            this.Controls.Add(this.panel_cart);
             this.Controls.Add(this.panel_left);
             this.Controls.Add(this.panel_bottom);
             this.Controls.Add(this.panel_top);
             this.Controls.Add(this.panel_center);
+            this.Controls.Add(this.panel_cart);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
@@ -2174,6 +2204,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel_cart.ResumeLayout(false);
             this.panel_cart.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel_center.ResumeLayout(false);
             this.panel_center.PerformLayout();
             this.optional_3.ResumeLayout(false);
@@ -2277,8 +2309,6 @@
             this.panel_bottom.ResumeLayout(false);
             this.panel_bottom.PerformLayout();
             this.panel_left.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
