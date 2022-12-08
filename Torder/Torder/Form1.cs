@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -17,7 +18,7 @@ namespace Torder
         {
             InitializeComponent();
         }
-
+        private string StrSQL = @"Provider=Microsoft.ACE.OLEDB.16.0; Data Source=2jo.accdb;Mode=ReadWrite";
         //데이터 저장 배열
         List<string> fName = new List<string>();
         List<string> fId = new List<string>();
@@ -129,9 +130,16 @@ namespace Torder
                 }
             }
             //1.음식 패널을 클릭 시 해당 패널의 Name과 일치하는  음식 이름과 금액을 가져와 변수에 저장한다.
-            fName.Add(String.Format("test"));
-            fPrice.Add(12310);
-
+            var Conn = new OleDbConnection(StrSQL);
+            Conn.Open();
+            string sql = "SELECT [prod_name], [prod_price] FROM [product] WHERE [prod_id] = '" + foodAdd.Name + "'";
+            var Comm = new OleDbCommand(sql, Conn);
+            var myRead = Comm.ExecuteReader();
+            myRead.Read();
+            fName.Add(myRead[0].ToString());
+            fPrice.Add(Convert.ToInt32(myRead[1].ToString()));
+            myRead.Close();
+            Conn.Close();
             pCart_list.AutoScrollPosition = new Point(0, 0);
 
                 cPanel.Add(new Panel());
@@ -291,8 +299,28 @@ namespace Torder
             DialogResult yes = MessageBox.Show("이대로 주문하시겠습니까??", "메뉴 주문", MessageBoxButtons.YesNo);
             if(yes == DialogResult.Yes)
             {
+                var Conn = new OleDbConnection(StrSQL);
+                Conn.Open();
                 // 여기에서 db 반복문 입력
-
+                for (int i = 0; i < fPrice.Count; i++)
+                {
+                    int cnt = Convert.ToInt32(this.clblNum[i].Text);
+                    string sql = "INSERT INTO [order]([order_table], [order_prod], [order_count], [order_date], [order_total_price]) VALUES (";
+                    sql += 1 + ",'" + fId[i] + "' ," + cnt + ", '" + DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss") + "' , " + cnt * fPrice[i] + ")";
+                    var Comm = new OleDbCommand(sql, Conn);
+                    var result = Comm.ExecuteNonQuery();
+                    if (result == 1)
+                    {
+                        MessageBox.Show("정상적으로 데이터가 저장되었습니다.", "알림",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        // 장바구니 초기화 후 닫기
+                    }
+                    else
+                    {
+                        MessageBox.Show("정상적으로 데이터가 저장되지 않았습니다.", "에러",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
                 // --------------------------------------------------------
 
                 pCart_list.Controls.Clear();
