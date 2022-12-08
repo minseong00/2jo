@@ -231,7 +231,7 @@ namespace Torder
                     {
                         if(con.Name == String.Format("lblNum_{0}", i)) // 패널 중에 일치하는 라벨 찾기
                         {
-                            lblNum[i].Text = (int.Parse(lblNum[i].Text.ToString()) - 1).ToString(); //라벨 배열 데이터 수정
+                            lblNum[i].Text = (int.Parse(lblNum[i].Text) - 1).ToString(); //라벨 배열 데이터 수정
                             con.Text = lblNum[i].Text; // 라벨 배열데이터를 라벨 컨트롤에 입력
                         }
                         
@@ -256,7 +256,7 @@ namespace Torder
                     {
                         if (con.Name == String.Format("lblNum_{0}", i)) // 패널 중에 일치하는 라벨 찾기
                         {
-                            lblNum[i].Text = (int.Parse(lblNum[i].Text.ToString()) + 1).ToString(); //라벨 배열 데이터 수정
+                            lblNum[i].Text = (int.Parse(lblNum[i].Text) + 1).ToString(); //라벨 배열 데이터 수정
                             con.Text = lblNum[i].Text; // 라벨 배열데이터를 라벨 컨트롤에 입력
                         }
 
@@ -273,7 +273,7 @@ namespace Torder
 
         private void btnOrder_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("이대로 주문하시겠습니까??");
+            MessageBox.Show("이대로 주문하시겠습니까??", "요청하기", MessageBoxButtons.YesNo);
             if(panel_cart.Controls.Count > 0)
             {
                 DialogResult ok = MessageBox.Show("선택하신 항목을 요청하셨습니다.", "요청완료", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
@@ -287,10 +287,13 @@ namespace Torder
 
         private void btnCall_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("이대로 주문하시겠습니까??");
-            DialogResult ok = MessageBox.Show("직원을 호출하셨습니다.", "요청완료", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-            if (ok == DialogResult.OK)
-                this.Close();
+            DialogResult yes = MessageBox.Show("직원을 호출하시겠습니까??", "직원호출", MessageBoxButtons.YesNo);
+            if(yes == DialogResult.Yes)
+            {
+                DialogResult ok = MessageBox.Show("직원을 호출하셨습니다.", "요청완료", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                if (ok == DialogResult.OK)
+                    this.Close();
+            }
             
         }
     }

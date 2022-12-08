@@ -112,19 +112,22 @@ namespace Torder
         {
             Panel foodAdd = sender as Panel;
 
-            //1.음식 패널을 클릭 시 해당 패널의 Name과 일치하는  음식 이름과 금액을 가져와 변수에 저장한다.
-            fName.Add(String.Format("test_{0}", foodSelect));
-            fPrice.Add(12310);
+
             fId.Add(foodAdd.Name.ToString());
 
-            for (int i = 0; i < fName.Count; i++)
+            for (foodSelect = 0; foodSelect < fName.Count; foodSelect++)
             {
-                if (foodAdd.Name.ToString() == fName[i])
+                if (foodAdd.Name.ToString() == fId[foodSelect])
+                {
+                    fId.RemoveAt(foodSelect);
                     return;
+                }
             }
+            //1.음식 패널을 클릭 시 해당 패널의 Name과 일치하는  음식 이름과 금액을 가져와 변수에 저장한다.
+            fName.Add(String.Format("test"));
+            fPrice.Add(12310);
 
-            
-                pCart_list.AutoScrollPosition = new Point(0, 0);
+            pCart_list.AutoScrollPosition = new Point(0, 0);
 
                 cPanel.Add(new Panel());
                 clblName.Add(new Label());
@@ -239,16 +242,73 @@ namespace Torder
 
         private void btnM_Click(object sender, EventArgs e)
         {
-
+            Button minus = sender as Button;
+            for (int i = 0; i < fId.Count; i++)
+            {
+                if (minus.Parent.Name.ToString() == cPanel[i].Name.ToString())
+                {
+                    foreach(Control con in cPanel[i].Controls)
+                    {
+                        if(con.Name == String.Format("clblNum_{0}", foodSelect))
+                        {
+                            clblNum[i].Text = (int.Parse(clblNum[i].Text) - 1).ToString();
+                            con.Text = clblNum[i].Text;
+                        }
+                    }
+                }
+            }
         }
 
         private void btnP_Click(object sender, EventArgs e)
         {
-
+            Button plus = sender as Button;
+            for (int i = 0; i < fId.Count; i++)
+            {
+                if (plus.Parent.Name.ToString() == cPanel[i].Name.ToString())
+                {
+                    foreach (Control con in cPanel[i].Controls)
+                    {
+                        if (con.Name == String.Format("clblNum_{0}", i))
+                        {
+                            clblNum[i].Text = (int.Parse(clblNum[i].Text) + 1).ToString();
+                            con.Text = clblNum[i].Text;
+                        }
+                    }
+                }
+            }
         }
 
         private void pCart_order_Click(object sender, EventArgs e)
         {
+            Button order = sender as Button;
+            DialogResult yes = MessageBox.Show("이대로 주문하시겠습니까??", "메뉴 주문", MessageBoxButtons.YesNo);
+            if(yes == DialogResult.Yes)
+            {
+                // 여기에서 db 반복문 입력
+
+                // --------------------------------------------------------
+
+                pCart_list.Controls.Clear();
+                fId.Clear();
+                fName.Clear();
+                fPrice.Clear();
+                cPanel.Clear();
+                clblName.Clear();
+                clblNum.Clear();
+                clblSum.Clear();
+                cBDelete.Clear();
+                cBMinus.Clear();
+                cBPlus.Clear();
+                foodSelect = 0;
+                foodSum = 0;
+                foodPrice = 0;
+                pCart_sum.Text = String.Format("0가지 0개");
+                pCart_price.Text = String.Format("0원");
+
+                DialogResult ok = MessageBox.Show("주문이 완료되었습니다.", "주문 완료", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                if (ok == DialogResult.OK)
+                    panel_cart.Visible = false;
+            }
 
         }
     }
