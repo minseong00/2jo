@@ -206,17 +206,35 @@ namespace Torder
         private void btnD_Click(object sender, EventArgs e)
         {
             Button delete = sender as Button;
-
-            for (int i = 0; i < fName.Count; i++)
+            for(int i = 0; i < fId.Count; i++)
             {
                 if(delete.Parent.Name.ToString() == cPanel[i].Name.ToString())
                 {
-                    pCart_list.Controls.Remove(cPanel[i]);
+                    pCart_list.Controls.RemoveAt(i);
+                    fId.RemoveAt(i);
                     fName.RemoveAt(i);
                     fPrice.RemoveAt(i);
-                    clblNum[i].Text = "1";
+                    cPanel.RemoveAt(i);
+                    clblName.RemoveAt(i);
+                    clblNum.RemoveAt(i);
+                    clblSum.RemoveAt(i);
+                    cBDelete.RemoveAt(i);
+                    cBMinus.RemoveAt(i);
+                    cBPlus.RemoveAt(i);
+                    //cBDelete[i].Click -= new System.EventHandler(btnD_Click);
+                    //cBMinus[i].Click -= new System.EventHandler(btnM_Click);
+                    //cBPlus[i].Click -= new System.EventHandler(btnP_Click);
                 }
             }
+            pCart_list.Controls.Clear();
+            for (foodSelect = 0; foodSelect < cPanel.Count; foodSelect++)
+            {
+                cPanel[foodSelect].Location = new Point(0, 66 * foodSelect);
+                pCart_list.Controls.Add(cPanel[foodSelect]);
+            }
+
+            
+
         }
 
         private void btnM_Click(object sender, EventArgs e)
