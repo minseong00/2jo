@@ -73,6 +73,7 @@ namespace Torder
                 lblFName[i].Name = String.Format("FName_{0}", i);
                 lblFName[i].Text = foodName[i];
                 lblFName[i].Font = new Font("맑은 고딕", 13, FontStyle.Bold);
+                lblFName[i].AutoSize = true;
                 lblFName[i].Location = new Point(8, 16);
 
                 lblFNum[i].Name = String.Format("FNum_{0}", i);

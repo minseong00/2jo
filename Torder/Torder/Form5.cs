@@ -71,28 +71,28 @@ namespace Torder
 
                 lblFName[i].Name = String.Format("FName_{0}", i);
                 lblFName[i].Text = foodName[i];
-                lblFName[i].Font = new Font("맑은 고딕", 20, FontStyle.Bold);
+                lblFName[i].Font = new Font("맑은 고딕", 18, FontStyle.Bold);
                 lblFName[i].TextAlign = ContentAlignment.MiddleRight;
                 lblFName[i].AutoSize = true;
                 lblFName[i].Location = new Point(350, 16);
 
                 lblFNum[i].Name = String.Format("FNum_{0}", i);
                 lblFNum[i].Text = String.Format("{0}개", fNum[i]);
-                lblFNum[i].Font = new Font("맑은 고딕", 20, FontStyle.Bold);
+                lblFNum[i].Font = new Font("맑은 고딕", 18, FontStyle.Bold);
                 lblFNum[i].AutoSize = true;
                 lblFNum[i].Location = new Point(610, 14);
 
                 lblLNum[i].Name = String.Format("LNum_{0}", i);
                 lblLNum[i].Text = String.Format("{0}", last_order-i);
-                lblLNum[i].Font = new Font("맑은 고딕", 20, FontStyle.Bold);
+                lblLNum[i].Font = new Font("맑은 고딕", 18, FontStyle.Bold);
                 lblLNum[i].AutoSize = true;
                 lblLNum[i].Location = new Point(32, 15);
 
                 lblFDate[i].Name = String.Format("fDate_{0}", i);
                 lblFDate[i].Text = fDate[i].ToString();
-                lblFDate[i].Font = new Font("맑은 고딕", 20, FontStyle.Bold);
+                lblFDate[i].Font = new Font("맑은 고딕", 18, FontStyle.Bold);
                 lblFDate[i].AutoSize = true;
-                lblFDate[i].Location = new Point(125, 15);
+                lblFDate[i].Location = new Point(95, 15);
 
                 panel[i].Controls.Add(lblLNum[i]);
                 panel[i].Controls.Add(pLine[i]);

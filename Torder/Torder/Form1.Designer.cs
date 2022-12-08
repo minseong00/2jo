@@ -38,6 +38,11 @@
             this.btn_call = new System.Windows.Forms.Button();
             this.btn_cart = new System.Windows.Forms.CheckBox();
             this.panel_cart = new System.Windows.Forms.Panel();
+            this.pCart_calculate = new System.Windows.Forms.Panel();
+            this.pCart_order = new System.Windows.Forms.Button();
+            this.pCart_price = new System.Windows.Forms.Label();
+            this.pCart_sum = new System.Windows.Forms.Label();
+            this.pCart_list = new System.Windows.Forms.Panel();
             this.PcartLine = new System.Windows.Forms.Panel();
             this.PcartLabel = new System.Windows.Forms.Label();
             this.panel_center = new System.Windows.Forms.Panel();
@@ -189,12 +194,8 @@
             this.btn_left_menu4 = new System.Windows.Forms.Button();
             this.btn_left_menu2 = new System.Windows.Forms.Button();
             this.btn_left_menu3 = new System.Windows.Forms.Button();
-            this.pCart_list = new System.Windows.Forms.Panel();
-            this.pCart_calculate = new System.Windows.Forms.Panel();
-            this.pCart_sum = new System.Windows.Forms.Label();
-            this.pCart_price = new System.Windows.Forms.Label();
-            this.pCart_order = new System.Windows.Forms.Button();
             this.panel_cart.SuspendLayout();
+            this.pCart_calculate.SuspendLayout();
             this.panel_center.SuspendLayout();
             this.optional_3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.optional_img_3)).BeginInit();
@@ -264,7 +265,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).BeginInit();
             this.panel_bottom.SuspendLayout();
             this.panel_left.SuspendLayout();
-            this.pCart_calculate.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_oList
@@ -402,6 +402,59 @@
             this.panel_cart.Size = new System.Drawing.Size(240, 317);
             this.panel_cart.TabIndex = 12;
             this.panel_cart.Visible = false;
+            // 
+            // pCart_calculate
+            // 
+            this.pCart_calculate.Controls.Add(this.pCart_order);
+            this.pCart_calculate.Controls.Add(this.pCart_price);
+            this.pCart_calculate.Controls.Add(this.pCart_sum);
+            this.pCart_calculate.Location = new System.Drawing.Point(0, 260);
+            this.pCart_calculate.Name = "pCart_calculate";
+            this.pCart_calculate.Size = new System.Drawing.Size(240, 57);
+            this.pCart_calculate.TabIndex = 3;
+            // 
+            // pCart_order
+            // 
+            this.pCart_order.BackColor = System.Drawing.Color.Red;
+            this.pCart_order.FlatAppearance.BorderSize = 0;
+            this.pCart_order.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pCart_order.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.pCart_order.ForeColor = System.Drawing.Color.White;
+            this.pCart_order.Location = new System.Drawing.Point(159, 0);
+            this.pCart_order.Name = "pCart_order";
+            this.pCart_order.Size = new System.Drawing.Size(81, 57);
+            this.pCart_order.TabIndex = 2;
+            this.pCart_order.Text = "주문하기";
+            this.pCart_order.UseVisualStyleBackColor = false;
+            this.pCart_order.Click += new System.EventHandler(this.pCart_order_Click);
+            // 
+            // pCart_price
+            // 
+            this.pCart_price.AutoSize = true;
+            this.pCart_price.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.pCart_price.Location = new System.Drawing.Point(19, 28);
+            this.pCart_price.Name = "pCart_price";
+            this.pCart_price.Size = new System.Drawing.Size(102, 25);
+            this.pCart_price.TabIndex = 1;
+            this.pCart_price.Text = "468,221원";
+            // 
+            // pCart_sum
+            // 
+            this.pCart_sum.AutoSize = true;
+            this.pCart_sum.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.pCart_sum.Location = new System.Drawing.Point(24, 5);
+            this.pCart_sum.Name = "pCart_sum";
+            this.pCart_sum.Size = new System.Drawing.Size(91, 21);
+            this.pCart_sum.TabIndex = 0;
+            this.pCart_sum.Text = "5가지 12개";
+            // 
+            // pCart_list
+            // 
+            this.pCart_list.AutoScroll = true;
+            this.pCart_list.Location = new System.Drawing.Point(0, 42);
+            this.pCart_list.Name = "pCart_list";
+            this.pCart_list.Size = new System.Drawing.Size(240, 220);
+            this.pCart_list.TabIndex = 2;
             // 
             // PcartLine
             // 
@@ -2125,59 +2178,6 @@
             this.btn_left_menu3.UseVisualStyleBackColor = false;
             this.btn_left_menu3.Click += new System.EventHandler(this.btn_left_menu3_Click);
             // 
-            // pCart_list
-            // 
-            this.pCart_list.AutoScroll = true;
-            this.pCart_list.Location = new System.Drawing.Point(0, 42);
-            this.pCart_list.Name = "pCart_list";
-            this.pCart_list.Size = new System.Drawing.Size(240, 220);
-            this.pCart_list.TabIndex = 2;
-            // 
-            // pCart_calculate
-            // 
-            this.pCart_calculate.Controls.Add(this.pCart_order);
-            this.pCart_calculate.Controls.Add(this.pCart_price);
-            this.pCart_calculate.Controls.Add(this.pCart_sum);
-            this.pCart_calculate.Location = new System.Drawing.Point(0, 260);
-            this.pCart_calculate.Name = "pCart_calculate";
-            this.pCart_calculate.Size = new System.Drawing.Size(240, 57);
-            this.pCart_calculate.TabIndex = 3;
-            // 
-            // pCart_sum
-            // 
-            this.pCart_sum.AutoSize = true;
-            this.pCart_sum.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.pCart_sum.Location = new System.Drawing.Point(24, 5);
-            this.pCart_sum.Name = "pCart_sum";
-            this.pCart_sum.Size = new System.Drawing.Size(91, 21);
-            this.pCart_sum.TabIndex = 0;
-            this.pCart_sum.Text = "5가지 12개";
-            // 
-            // pCart_price
-            // 
-            this.pCart_price.AutoSize = true;
-            this.pCart_price.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.pCart_price.Location = new System.Drawing.Point(19, 28);
-            this.pCart_price.Name = "pCart_price";
-            this.pCart_price.Size = new System.Drawing.Size(102, 25);
-            this.pCart_price.TabIndex = 1;
-            this.pCart_price.Text = "468,221원";
-            // 
-            // pCart_order
-            // 
-            this.pCart_order.BackColor = System.Drawing.Color.Red;
-            this.pCart_order.FlatAppearance.BorderSize = 0;
-            this.pCart_order.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pCart_order.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.pCart_order.ForeColor = System.Drawing.Color.White;
-            this.pCart_order.Location = new System.Drawing.Point(159, 0);
-            this.pCart_order.Name = "pCart_order";
-            this.pCart_order.Size = new System.Drawing.Size(81, 57);
-            this.pCart_order.TabIndex = 2;
-            this.pCart_order.Text = "주문하기";
-            this.pCart_order.UseVisualStyleBackColor = false;
-            this.pCart_order.Click += new System.EventHandler(this.pCart_order_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -2198,6 +2198,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel_cart.ResumeLayout(false);
             this.panel_cart.PerformLayout();
+            this.pCart_calculate.ResumeLayout(false);
+            this.pCart_calculate.PerformLayout();
             this.panel_center.ResumeLayout(false);
             this.panel_center.PerformLayout();
             this.optional_3.ResumeLayout(false);
@@ -2301,8 +2303,6 @@
             this.panel_bottom.ResumeLayout(false);
             this.panel_bottom.PerformLayout();
             this.panel_left.ResumeLayout(false);
-            this.pCart_calculate.ResumeLayout(false);
-            this.pCart_calculate.PerformLayout();
             this.ResumeLayout(false);
 
         }
