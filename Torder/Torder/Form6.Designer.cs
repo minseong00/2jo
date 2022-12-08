@@ -38,6 +38,7 @@
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
+            
             // 
             // label1
             // 

@@ -38,12 +38,6 @@
             this.btn_call = new System.Windows.Forms.Button();
             this.btn_cart = new System.Windows.Forms.CheckBox();
             this.panel_cart = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label66 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label65 = new System.Windows.Forms.Label();
             this.PcartLine = new System.Windows.Forms.Panel();
             this.PcartLabel = new System.Windows.Forms.Label();
             this.panel_center = new System.Windows.Forms.Panel();
@@ -195,9 +189,12 @@
             this.btn_left_menu4 = new System.Windows.Forms.Button();
             this.btn_left_menu2 = new System.Windows.Forms.Button();
             this.btn_left_menu3 = new System.Windows.Forms.Button();
-            this.label67 = new System.Windows.Forms.Label();
+            this.pCart_list = new System.Windows.Forms.Panel();
+            this.pCart_calculate = new System.Windows.Forms.Panel();
+            this.pCart_sum = new System.Windows.Forms.Label();
+            this.pCart_price = new System.Windows.Forms.Label();
+            this.pCart_order = new System.Windows.Forms.Button();
             this.panel_cart.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.panel_center.SuspendLayout();
             this.optional_3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.optional_img_3)).BeginInit();
@@ -267,6 +264,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).BeginInit();
             this.panel_bottom.SuspendLayout();
             this.panel_left.SuspendLayout();
+            this.pCart_calculate.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_oList
@@ -395,7 +393,8 @@
             // 
             this.panel_cart.AutoScroll = true;
             this.panel_cart.BackColor = System.Drawing.Color.White;
-            this.panel_cart.Controls.Add(this.panel1);
+            this.panel_cart.Controls.Add(this.pCart_calculate);
+            this.panel_cart.Controls.Add(this.pCart_list);
             this.panel_cart.Controls.Add(this.PcartLine);
             this.panel_cart.Controls.Add(this.PcartLabel);
             this.panel_cart.Location = new System.Drawing.Point(460, -1);
@@ -404,71 +403,12 @@
             this.panel_cart.TabIndex = 12;
             this.panel_cart.Visible = false;
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.label67);
-            this.panel1.Controls.Add(this.label66);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label65);
-            this.panel1.Location = new System.Drawing.Point(0, 42);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(223, 66);
-            this.panel1.TabIndex = 7;
-            // 
-            // label66
-            // 
-            this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(43, 40);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(11, 12);
-            this.label66.TabIndex = 6;
-            this.label66.Text = "5";
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(61, 34);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(21, 23);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(10, 34);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(25, 23);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(174, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(49, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "삭제";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // label65
-            // 
-            this.label65.AutoSize = true;
-            this.label65.Font = new System.Drawing.Font("맑은 고딕", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label65.Location = new System.Drawing.Point(-1, 1);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(146, 23);
-            this.label65.TabIndex = 2;
-            this.label65.Text = "갈릭치즈감자튀김";
-            // 
             // PcartLine
             // 
             this.PcartLine.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PcartLine.Location = new System.Drawing.Point(3, 38);
+            this.PcartLine.Location = new System.Drawing.Point(1, 38);
             this.PcartLine.Name = "PcartLine";
-            this.PcartLine.Size = new System.Drawing.Size(220, 1);
+            this.PcartLine.Size = new System.Drawing.Size(232, 2);
             this.PcartLine.TabIndex = 1;
             // 
             // PcartLabel
@@ -2185,15 +2125,58 @@
             this.btn_left_menu3.UseVisualStyleBackColor = false;
             this.btn_left_menu3.Click += new System.EventHandler(this.btn_left_menu3_Click);
             // 
-            // label67
+            // pCart_list
             // 
-            this.label67.AutoSize = true;
-            this.label67.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label67.Location = new System.Drawing.Point(129, 34);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(91, 25);
-            this.label67.TabIndex = 7;
-            this.label67.Text = "38,200원";
+            this.pCart_list.AutoScroll = true;
+            this.pCart_list.Location = new System.Drawing.Point(0, 42);
+            this.pCart_list.Name = "pCart_list";
+            this.pCart_list.Size = new System.Drawing.Size(240, 220);
+            this.pCart_list.TabIndex = 2;
+            // 
+            // pCart_calculate
+            // 
+            this.pCart_calculate.Controls.Add(this.pCart_order);
+            this.pCart_calculate.Controls.Add(this.pCart_price);
+            this.pCart_calculate.Controls.Add(this.pCart_sum);
+            this.pCart_calculate.Location = new System.Drawing.Point(0, 260);
+            this.pCart_calculate.Name = "pCart_calculate";
+            this.pCart_calculate.Size = new System.Drawing.Size(240, 57);
+            this.pCart_calculate.TabIndex = 3;
+            // 
+            // pCart_sum
+            // 
+            this.pCart_sum.AutoSize = true;
+            this.pCart_sum.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.pCart_sum.Location = new System.Drawing.Point(24, 5);
+            this.pCart_sum.Name = "pCart_sum";
+            this.pCart_sum.Size = new System.Drawing.Size(91, 21);
+            this.pCart_sum.TabIndex = 0;
+            this.pCart_sum.Text = "5가지 12개";
+            // 
+            // pCart_price
+            // 
+            this.pCart_price.AutoSize = true;
+            this.pCart_price.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.pCart_price.Location = new System.Drawing.Point(19, 28);
+            this.pCart_price.Name = "pCart_price";
+            this.pCart_price.Size = new System.Drawing.Size(102, 25);
+            this.pCart_price.TabIndex = 1;
+            this.pCart_price.Text = "468,221원";
+            // 
+            // pCart_order
+            // 
+            this.pCart_order.BackColor = System.Drawing.Color.Red;
+            this.pCart_order.FlatAppearance.BorderSize = 0;
+            this.pCart_order.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pCart_order.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.pCart_order.ForeColor = System.Drawing.Color.White;
+            this.pCart_order.Location = new System.Drawing.Point(159, 0);
+            this.pCart_order.Name = "pCart_order";
+            this.pCart_order.Size = new System.Drawing.Size(81, 57);
+            this.pCart_order.TabIndex = 2;
+            this.pCart_order.Text = "주문하기";
+            this.pCart_order.UseVisualStyleBackColor = false;
+            this.pCart_order.Click += new System.EventHandler(this.pCart_order_Click);
             // 
             // Form1
             // 
@@ -2215,8 +2198,6 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel_cart.ResumeLayout(false);
             this.panel_cart.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panel_center.ResumeLayout(false);
             this.panel_center.PerformLayout();
             this.optional_3.ResumeLayout(false);
@@ -2320,6 +2301,8 @@
             this.panel_bottom.ResumeLayout(false);
             this.panel_bottom.PerformLayout();
             this.panel_left.ResumeLayout(false);
+            this.pCart_calculate.ResumeLayout(false);
+            this.pCart_calculate.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2452,11 +2435,6 @@
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.Label PcartLabel;
         private System.Windows.Forms.Panel PcartLine;
-        private System.Windows.Forms.Label label66;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label65;
         private System.Windows.Forms.Panel snacks_3;
         private System.Windows.Forms.Panel snacks_1;
         private System.Windows.Forms.Panel snacks_2;
@@ -2491,8 +2469,11 @@
         private System.Windows.Forms.Panel optional_3;
         private System.Windows.Forms.Panel optional_2;
         private System.Windows.Forms.Panel optional_1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.Panel pCart_calculate;
+        private System.Windows.Forms.Button pCart_order;
+        private System.Windows.Forms.Label pCart_price;
+        private System.Windows.Forms.Label pCart_sum;
+        private System.Windows.Forms.Panel pCart_list;
     }
 }
 
