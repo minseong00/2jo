@@ -62,6 +62,11 @@ namespace Torder
             if (btn_cart.Checked == true)
             {
                 panel_cart.Visible = true;
+                if(pCart_list.Controls.Count < 1)
+                {
+                    pCart_sum.Visible = false;
+                    pCart_price.Visible = false;
+                }
             }
             else
                 panel_cart.Visible = false;
@@ -197,6 +202,8 @@ namespace Torder
                     pCart_price.Text = String.Format("{0}원", foodPrice);
                 }
                 foodSelect++;
+
+            panel_cart.Visible = true;
         }
 
         /*
@@ -304,6 +311,8 @@ namespace Torder
                 foodPrice = 0;
                 pCart_sum.Text = String.Format("0가지 0개");
                 pCart_price.Text = String.Format("0원");
+                pCart_sum.Visible = false;
+                pCart_price.Visible = false;
 
                 DialogResult ok = MessageBox.Show("주문이 완료되었습니다.", "주문 완료", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 if (ok == DialogResult.OK)
