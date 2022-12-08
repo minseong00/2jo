@@ -20,6 +20,7 @@ namespace Torder
 
         //데이터 저장 배열
         List<string> fName = new List<string>();
+        List<string> fId = new List<string>();
         List<int> fPrice = new List<int>();
 
         List<Panel> cPanel = new List<Panel>();
@@ -58,14 +59,6 @@ namespace Torder
 
         private void btn_cart_CheckedChanged(object sender, EventArgs e)
         {
-            /*
-                ++ 데이터 추가 시 조건에 데이터 배열안에 데이터가 있는지 체크 후 추가한다.
-                --------------------------------------------------
-                1. 장바구니 내부 삭제 버튼 클릭 시 해당 패널을 삭제 시킨다.
-                2. 해당 패널 인덱스의 음식명, 주문 개수, 가격 배열도 초기화 시킨다.
-                3. 위치 당기기
-                --------------------------------------------------
-             */
             if (btn_cart.Checked == true)
             {
                 panel_cart.Visible = true;
@@ -122,6 +115,7 @@ namespace Torder
             //1.음식 패널을 클릭 시 해당 패널의 Name과 일치하는  음식 이름과 금액을 가져와 변수에 저장한다.
             fName.Add(String.Format("test_{0}", foodSelect));
             fPrice.Add(12310);
+            fId.Add(foodAdd.Name.ToString());
 
             for (int i = 0; i < fName.Count; i++)
             {
@@ -202,14 +196,34 @@ namespace Torder
                 foodSelect++;
         }
 
+        /*
+            --------------------------------------------------
+            1. 장바구니 내부 삭제 버튼 클릭 시 해당 패널을 삭제 시킨다.
+            2. 해당 패널 인덱스의 음식명, 주문 개수, 가격 배열도 초기화 시킨다.
+            3. 위치 당기기
+            --------------------------------------------------
+         */
         private void btnD_Click(object sender, EventArgs e)
         {
+            Button delete = sender as Button;
 
+            for (int i = 0; i < fName.Count; i++)
+            {
+                if(delete.Parent.Name.ToString() == cPanel[i].Name.ToString())
+                {
+                    pCart_list.Controls.Remove(cPanel[i]);
+                    fName.RemoveAt(i);
+                    fPrice.RemoveAt(i);
+                    clblNum[i].Text = "1";
+                }
+            }
         }
+
         private void btnM_Click(object sender, EventArgs e)
         {
 
         }
+
         private void btnP_Click(object sender, EventArgs e)
         {
 
