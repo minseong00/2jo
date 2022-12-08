@@ -19,6 +19,7 @@ namespace Torder
         }
         int closeTime = 29;
         int total_order = 0;
+        int last_order = 0;
         List<Panel> panel = new List<Panel>(); // 주문 내역 각각의 패널
         List<Panel> pLine = new List<Panel>(); // 주문 사이 패널 줄
         List<Label> lblFName = new List<Label>(); // 음식명
@@ -38,7 +39,11 @@ namespace Torder
 
             var Conn = new OleDbConnection(StrSQL);
             Conn.Open();
-            var Comm = new OleDbCommand("SELECT TOP 3 [prod_name], [order_count], [order_date] FROM [order], [product] WHERE [order_prod] = [prod_id] and [order_table] = 1 ORDER BY [order_date] DESC", Conn);
+            var Comm = new OleDbCommand("SELECT COUNT(*) FROM [order]", Conn);
+            var Reader = Comm.ExecuteReader();
+            Reader.Read();
+            last_order = Convert.ToInt32(Reader[0].ToString());
+            Comm = new OleDbCommand("SELECT [prod_name], [order_count], [order_date] FROM [order], [product] WHERE [order_prod] = [prod_id] and [order_table] = 1 ORDER BY [order_date] DESC", Conn);
             var myRead = Comm.ExecuteReader();
             while (myRead.Read())
             {
@@ -47,6 +52,7 @@ namespace Torder
                 fNum.Add(Convert.ToInt32(myRead[1].ToString()));
                 fDate.Add(myRead[2].ToString());
                 total_order += Convert.ToInt32(myRead[1].ToString());
+
                 panel.Add(new Panel());
                 pLine.Add(new Panel());
                 lblFName.Add(new Label());
@@ -77,7 +83,7 @@ namespace Torder
                 lblFNum[i].Location = new Point(610, 14);
 
                 lblLNum[i].Name = String.Format("LNum_{0}", i);
-                lblLNum[i].Text = String.Format("{0}", 3-i);
+                lblLNum[i].Text = String.Format("{0}", last_order-i);
                 lblLNum[i].Font = new Font("맑은 고딕", 20, FontStyle.Bold);
                 lblLNum[i].AutoSize = true;
                 lblLNum[i].Location = new Point(32, 15);
