@@ -33,12 +33,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblTimer = new System.Windows.Forms.Label();
-            this.lv_olist = new System.Windows.Forms.ListView();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lbl_onum = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.time_close = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pn_olist = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -91,26 +91,17 @@
             this.lblTimer.TabIndex = 3;
             this.lblTimer.Text = "30초 후에 닫힙니다.";
             // 
-            // lv_olist
+            // lbl_onum
             // 
-            this.lv_olist.HideSelection = false;
-            this.lv_olist.Location = new System.Drawing.Point(0, 63);
-            this.lv_olist.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.lv_olist.Name = "lv_olist";
-            this.lv_olist.Size = new System.Drawing.Size(701, 260);
-            this.lv_olist.TabIndex = 4;
-            this.lv_olist.UseCompatibleStateImageBehavior = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("맑은 고딕", 15F);
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(641, 7);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 28);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "원";
+            this.lbl_onum.Dock = System.Windows.Forms.DockStyle.Right;
+            this.lbl_onum.Font = new System.Drawing.Font("맑은 고딕", 15F);
+            this.lbl_onum.ForeColor = System.Drawing.Color.White;
+            this.lbl_onum.Location = new System.Drawing.Point(521, 0);
+            this.lbl_onum.Name = "lbl_onum";
+            this.lbl_onum.Size = new System.Drawing.Size(180, 42);
+            this.lbl_onum.TabIndex = 6;
+            this.lbl_onum.Text = "개   ";
+            this.lbl_onum.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label4
             // 
@@ -145,11 +136,20 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.lbl_onum);
             this.panel2.Location = new System.Drawing.Point(0, 318);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(701, 42);
             this.panel2.TabIndex = 7;
+            // 
+            // pn_olist
+            // 
+            this.pn_olist.AutoScroll = true;
+            this.pn_olist.BackColor = System.Drawing.Color.White;
+            this.pn_olist.Location = new System.Drawing.Point(0, 64);
+            this.pn_olist.Name = "pn_olist";
+            this.pn_olist.Size = new System.Drawing.Size(701, 254);
+            this.pn_olist.TabIndex = 7;
             // 
             // Form5
             // 
@@ -158,9 +158,9 @@
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(700, 360);
             this.ControlBox = false;
+            this.Controls.Add(this.pn_olist);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.lv_olist);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -182,11 +182,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblTimer;
-        private System.Windows.Forms.ListView lv_olist;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Timer time_close;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbl_onum;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel pn_olist;
     }
 }
