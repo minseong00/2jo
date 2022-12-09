@@ -133,7 +133,7 @@ namespace Torder
                     return;
                 }
             }
-
+            
 
             // 엑세스 없는 테스트용 코드 2줄 --------------------
             fName.Add(String.Format("test{0}",foodSelect));
@@ -145,7 +145,7 @@ namespace Torder
             /*
             var Conn = new OleDbConnection(StrSQL);
             Conn.Open();
-            string sql = "SELECT [prod_name], [prod_price] FROM [product] WHERE [prod_id] = '" + foodAdd.Name + "'";
+            string sql = "SELECT [prod_name], [prod_price] FROM [product] WHERE [prod_id] = '" + foodAdd + "'";
             var Comm = new OleDbCommand(sql, Conn);
             var myRead = Comm.ExecuteReader();
             myRead.Read();
