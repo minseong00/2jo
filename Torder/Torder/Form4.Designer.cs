@@ -200,7 +200,7 @@
             // pn_olist
             // 
             this.pn_olist.Controls.Add(this.pn_daily);
-            this.pn_olist.Location = new System.Drawing.Point(27, 89);
+            this.pn_olist.Location = new System.Drawing.Point(46, 111);
             this.pn_olist.Name = "pn_olist";
             this.pn_olist.Size = new System.Drawing.Size(700, 302);
             this.pn_olist.TabIndex = 8;
@@ -208,7 +208,7 @@
             // 
             // pn_daily
             // 
-            this.pn_daily.Location = new System.Drawing.Point(156, 98);
+            this.pn_daily.Location = new System.Drawing.Point(68, 69);
             this.pn_daily.Name = "pn_daily";
             this.pn_daily.Size = new System.Drawing.Size(700, 302);
             this.pn_daily.TabIndex = 9;

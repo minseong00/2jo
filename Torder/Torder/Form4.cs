@@ -35,7 +35,7 @@ namespace Torder
             this.pn_olist.Visible = false;
             this.pn_daily.Visible = false;
             this.admin_btn_daily.Checked = false;
-            if (this.admin_btn_olist.Checked == true) this.admin_btn_olist.Checked = true;
+            if (this.admin_btn_olist.Checked == false) this.admin_btn_olist.Checked = true;
 
         }
 
@@ -52,7 +52,7 @@ namespace Torder
             this.pn_daily.Visible = true;
             form7.Show();
             this.admin_btn_olist.Checked = false;
-            if (this.admin_btn_daily.Checked == true) this.admin_btn_daily.Checked = true;
+            if (this.admin_btn_daily.Checked == false) this.admin_btn_daily.Checked = true;
         }
 
         private void btn_admin_table1_Click(object sender, EventArgs e)
@@ -70,5 +70,6 @@ namespace Torder
             this.pn_daily.Controls.Add(form6);
             form6.Show();
         }
+        
     }
 }

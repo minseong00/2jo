@@ -82,38 +82,116 @@ namespace Torder
         private void btn_left_menu1_Click(object sender, EventArgs e)
         {
             panel_center.AutoScrollPosition = new Point(0, 0);
+            if (this.btn_left_menu1.Checked == false)
+                this.btn_left_menu1.Checked = true;
+
+            this.btn_left_menu2.Checked = false;
+            this.btn_left_menu3.Checked = false;
+
+            this.btn_top_menu1.Checked = true;
+            this.btn_top_menu2.Checked = false;
+            this.btn_top_menu3.Checked = false;
+            this.btn_top_menu4.Checked = false;
+            this.btn_top_menu5.Checked = false;
+
+            this.btn_top_menu1.Visible = true;
+            this.btn_top_menu2.Visible = true;
+            this.btn_top_menu3.Visible = true;
+            this.btn_top_menu4.Visible = false;
+            this.btn_top_menu5.Visible = false;
         }
 
         private void btn_top_menu1_Click(object sender, EventArgs e)
         {
             panel_center.AutoScrollPosition = new Point(0, 0);
+            if (this.btn_top_menu1.Checked == false)
+                this.btn_top_menu1.Checked = true;
+
+            this.btn_top_menu2.Checked = false;
+            this.btn_top_menu3.Checked = false;
         }
 
         private void btn_top_menu2_Click(object sender, EventArgs e)
         {
             panel_center.AutoScrollPosition = new Point(0, 580);
+            if (this.btn_top_menu2.Checked == false)
+                this.btn_top_menu2.Checked = true;
+
+            this.btn_top_menu1.Checked = false;
+            this.btn_top_menu3.Checked = false;
         }
 
         private void btn_top_menu3_Click(object sender, EventArgs e)
         {
             panel_center.AutoScrollPosition = new Point(0, 1160);
+            if (this.btn_top_menu3.Checked == false)
+                this.btn_top_menu3.Checked = true;
+            
+            this.btn_top_menu1.Checked = false;
+            this.btn_top_menu2.Checked = false;
         }
 
         private void btn_left_menu2_Click(object sender, EventArgs e)
         {
             panel_center.AutoScrollPosition = new Point(0, 1740);
+            if (this.btn_left_menu2.Checked == false)
+                this.btn_left_menu2.Checked = true;
+
+            this.btn_left_menu1.Checked = false;
+            this.btn_left_menu3.Checked = false;
+
+            this.btn_top_menu1.Checked = false;
+            this.btn_top_menu2.Checked = false;
+            this.btn_top_menu3.Checked = false;
+            this.btn_top_menu4.Checked = true;
+            this.btn_top_menu5.Checked = false;
+
+            this.btn_top_menu1.Visible = false;
+            this.btn_top_menu2.Visible = false;
+            this.btn_top_menu3.Visible = false;
+            this.btn_top_menu4.Visible = true;
+            this.btn_top_menu5.Visible = true;
         }
 
         private void btn_left_menu3_Click(object sender, EventArgs e)
         {
-            panel_center.AutoScrollPosition = new Point(0, 2320);
+            panel_center.AutoScrollPosition = new Point(0, 2900);
+            if (this.btn_left_menu3.Checked == false)
+                this.btn_left_menu3.Checked = true;
+
+            this.btn_left_menu1.Checked = false;
+            this.btn_left_menu2.Checked = false;
+
+            this.btn_top_menu1.Checked = false;
+            this.btn_top_menu2.Checked = false;
+            this.btn_top_menu3.Checked = false;
+            this.btn_top_menu4.Checked = false;
+            this.btn_top_menu5.Checked = false;
+
+            this.btn_top_menu1.Visible = false;
+            this.btn_top_menu2.Visible = false;
+            this.btn_top_menu3.Visible = false;
+            this.btn_top_menu4.Visible = false;
+            this.btn_top_menu5.Visible = false;
         }
 
-        private void btn_left_menu4_Click(object sender, EventArgs e)
+        private void btn_top_menu4_Click(object sender, EventArgs e)
         {
-            panel_center.AutoScrollPosition = new Point(0, 2900);
+            panel_center.AutoScrollPosition = new Point(0, 1740);
+            if (this.btn_top_menu4.Checked == false)
+                this.btn_top_menu4.Checked = true;
+
+            this.btn_top_menu5.Checked = false;
         }
-        
+        private void btn_top_menu5_Click(object sender, EventArgs e)
+        {
+            panel_center.AutoScrollPosition = new Point(0, 2320);
+            if (this.btn_top_menu5.Checked == false)
+                this.btn_top_menu5.Checked = true;
+
+            this.btn_top_menu4.Checked = false;
+        }
+
         private void btn_food_click(object sender, EventArgs e)
         {
             String foodAdd = ((Control)sender).Name.ToString();
@@ -405,5 +483,6 @@ namespace Torder
             }
 
         }
+        
     }
 }
