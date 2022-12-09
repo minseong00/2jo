@@ -371,17 +371,6 @@ namespace Torder
                         sql += 1 + ",'" + fId[i] + "' ," + cnt + ", '" + DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss") + "' , " + cnt * fPrice[i] + ")";
                         var Comm = new OleDbCommand(sql, Conn);
                         var result = Comm.ExecuteNonQuery();
-                        if (result == 1)
-                        {
-                            MessageBox.Show("정상적으로 데이터가 저장되었습니다.", "알림",
-                            MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            // 장바구니 초기화 후 닫기
-                        }
-                        else
-                        {
-                            MessageBox.Show("정상적으로 데이터가 저장되지 않았습니다.", "에러",
-                            MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        }
                     }
                     */
                     // --------------------------------------------------------
