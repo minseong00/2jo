@@ -273,16 +273,21 @@ namespace Torder
 
         private void btnOrder_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("이대로 주문하시겠습니까??", "요청하기", MessageBoxButtons.YesNo);
-            if(panel_cart.Controls.Count > 0)
+            DialogResult yes = MessageBox.Show("이대로 주문하시겠습니까??", "요청하기", MessageBoxButtons.YesNo);
+            if(yes == DialogResult.Yes)
             {
-                DialogResult ok = MessageBox.Show("선택하신 항목을 요청하셨습니다.", "요청완료", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                if (ok == DialogResult.OK)
-                    this.Close();
-            } else
-            {
-                MessageBox.Show("항목을 선택해주세요.","요청오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (panel_cart.Controls.Count > 0)
+                {
+                    DialogResult ok = MessageBox.Show("선택하신 항목을 요청하셨습니다.", "요청완료", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    if (ok == DialogResult.OK)
+                        this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("항목을 선택해주세요.", "요청오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
+            
         }
 
         private void btnCall_Click(object sender, EventArgs e)

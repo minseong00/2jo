@@ -53,7 +53,7 @@
             // lblBill
             // 
             this.lblBill.AutoSize = true;
-            this.lblBill.Font = new System.Drawing.Font("맑은 고딕", 20F);
+            this.lblBill.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblBill.ForeColor = System.Drawing.Color.White;
             this.lblBill.Location = new System.Drawing.Point(16, 9);
             this.lblBill.Name = "lblBill";
@@ -64,11 +64,11 @@
             // lblTimer
             // 
             this.lblTimer.AutoSize = true;
-            this.lblTimer.Font = new System.Drawing.Font("맑은 고딕", 10F);
+            this.lblTimer.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblTimer.ForeColor = System.Drawing.Color.White;
             this.lblTimer.Location = new System.Drawing.Point(453, 27);
             this.lblTimer.Name = "lblTimer";
-            this.lblTimer.Size = new System.Drawing.Size(136, 19);
+            this.lblTimer.Size = new System.Drawing.Size(128, 17);
             this.lblTimer.TabIndex = 1;
             this.lblTimer.Text = "30초 후에 닫힙니다.";
             // 
@@ -76,7 +76,7 @@
             // 
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Font = new System.Drawing.Font("맑은 고딕", 13F);
+            this.btnClose.Font = new System.Drawing.Font("맑은 고딕", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.Location = new System.Drawing.Point(614, 12);
             this.btnClose.Name = "btnClose";
@@ -90,7 +90,7 @@
             // 
             this.lb_amount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lb_amount.Dock = System.Windows.Forms.DockStyle.Right;
-            this.lb_amount.Font = new System.Drawing.Font("맑은 고딕", 15F);
+            this.lb_amount.Font = new System.Drawing.Font("맑은 고딕", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb_amount.ForeColor = System.Drawing.Color.White;
             this.lb_amount.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.lb_amount.Location = new System.Drawing.Point(96, 0);
@@ -104,7 +104,7 @@
             // 
             this.lblTextSum.AutoSize = true;
             this.lblTextSum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblTextSum.Font = new System.Drawing.Font("맑은 고딕", 15F);
+            this.lblTextSum.Font = new System.Drawing.Font("맑은 고딕", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblTextSum.ForeColor = System.Drawing.Color.White;
             this.lblTextSum.Location = new System.Drawing.Point(22, 15);
             this.lblTextSum.Name = "lblTextSum";
@@ -114,7 +114,7 @@
             // 
             // lblDutCost
             // 
-            this.lblDutCost.Font = new System.Drawing.Font("맑은 고딕", 25F);
+            this.lblDutCost.Font = new System.Drawing.Font("맑은 고딕", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblDutCost.ForeColor = System.Drawing.Color.White;
             this.lblDutCost.Location = new System.Drawing.Point(4, 204);
             this.lblDutCost.Name = "lblDutCost";
@@ -126,11 +126,11 @@
             // lblDutNum
             // 
             this.lblDutNum.AutoSize = true;
-            this.lblDutNum.Font = new System.Drawing.Font("맑은 고딕", 15F);
+            this.lblDutNum.Font = new System.Drawing.Font("맑은 고딕", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblDutNum.ForeColor = System.Drawing.Color.White;
             this.lblDutNum.Location = new System.Drawing.Point(71, 161);
             this.lblDutNum.Name = "lblDutNum";
-            this.lblDutNum.Size = new System.Drawing.Size(70, 28);
+            this.lblDutNum.Size = new System.Drawing.Size(71, 28);
             this.lblDutNum.TabIndex = 10;
             this.lblDutNum.Text = "1 인당";
             // 
@@ -160,18 +160,18 @@
             // lblNum
             // 
             this.lblNum.AutoSize = true;
-            this.lblNum.Font = new System.Drawing.Font("맑은 고딕", 18F);
+            this.lblNum.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblNum.ForeColor = System.Drawing.Color.White;
             this.lblNum.Location = new System.Drawing.Point(89, 92);
             this.lblNum.Name = "lblNum";
-            this.lblNum.Size = new System.Drawing.Size(28, 32);
+            this.lblNum.Size = new System.Drawing.Size(29, 32);
             this.lblNum.TabIndex = 7;
             this.lblNum.Text = "1";
             // 
             // lblTextDut
             // 
             this.lblTextDut.AutoSize = true;
-            this.lblTextDut.Font = new System.Drawing.Font("맑은 고딕", 23F);
+            this.lblTextDut.Font = new System.Drawing.Font("맑은 고딕", 23.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblTextDut.ForeColor = System.Drawing.Color.White;
             this.lblTextDut.Location = new System.Drawing.Point(32, 17);
             this.lblTextDut.Name = "lblTextDut";

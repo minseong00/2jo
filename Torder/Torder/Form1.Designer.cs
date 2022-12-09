@@ -144,9 +144,9 @@
             this.label43 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
             this.snacks_7 = new System.Windows.Forms.Panel();
+            this.label56 = new System.Windows.Forms.Label();
             this.snacks_img_7 = new System.Windows.Forms.PictureBox();
             this.label55 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
             this.snacks_6 = new System.Windows.Forms.Panel();
             this.snacks_img_6 = new System.Windows.Forms.PictureBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -347,7 +347,6 @@
             // 
             // panel_cart
             // 
-            this.panel_cart.AutoScroll = true;
             this.panel_cart.BackColor = System.Drawing.Color.White;
             this.panel_cart.Controls.Add(this.pCart_calculate);
             this.panel_cart.Controls.Add(this.pCart_list);
@@ -386,30 +385,30 @@
             // 
             // pCart_price
             // 
-            this.pCart_price.AutoSize = true;
             this.pCart_price.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.pCart_price.Location = new System.Drawing.Point(19, 28);
+            this.pCart_price.Location = new System.Drawing.Point(10, 28);
             this.pCart_price.Name = "pCart_price";
-            this.pCart_price.Size = new System.Drawing.Size(42, 25);
+            this.pCart_price.Size = new System.Drawing.Size(138, 25);
             this.pCart_price.TabIndex = 1;
             this.pCart_price.Text = "0원";
+            this.pCart_price.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // pCart_sum
             // 
-            this.pCart_sum.AutoSize = true;
             this.pCart_sum.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.pCart_sum.Location = new System.Drawing.Point(24, 5);
+            this.pCart_sum.Location = new System.Drawing.Point(10, 5);
             this.pCart_sum.Name = "pCart_sum";
-            this.pCart_sum.Size = new System.Drawing.Size(82, 21);
+            this.pCart_sum.Size = new System.Drawing.Size(136, 21);
             this.pCart_sum.TabIndex = 0;
             this.pCart_sum.Text = "0가지 0개";
+            this.pCart_sum.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // pCart_list
             // 
             this.pCart_list.AutoScroll = true;
             this.pCart_list.Location = new System.Drawing.Point(0, 42);
             this.pCart_list.Name = "pCart_list";
-            this.pCart_list.Size = new System.Drawing.Size(240, 220);
+            this.pCart_list.Size = new System.Drawing.Size(273, 220);
             this.pCart_list.TabIndex = 2;
             // 
             // PcartLine
@@ -1750,6 +1749,19 @@
             this.snacks_7.TabIndex = 166;
             this.snacks_7.Click += new System.EventHandler(this.btn_food_click);
             // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("맑은 고딕", 12F);
+            this.label56.ForeColor = System.Drawing.Color.White;
+            this.label56.Location = new System.Drawing.Point(7, 116);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(122, 21);
+            this.label56.TabIndex = 137;
+            this.label56.Tag = "notP";
+            this.label56.Text = "고르곤졸라피자";
+            this.label56.Click += new System.EventHandler(this.btn_food_click);
+            // 
             // snacks_img_7
             // 
             this.snacks_img_7.Image = ((System.Drawing.Image)(resources.GetObject("snacks_img_7.Image")));
@@ -1775,19 +1787,6 @@
             this.label55.Tag = "notP";
             this.label55.Text = "10000원";
             this.label55.Click += new System.EventHandler(this.btn_food_click);
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("맑은 고딕", 12F);
-            this.label56.ForeColor = System.Drawing.Color.White;
-            this.label56.Location = new System.Drawing.Point(7, 116);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(122, 21);
-            this.label56.TabIndex = 137;
-            this.label56.Tag = "notP";
-            this.label56.Text = "고르곤졸라피자";
-            this.label56.Click += new System.EventHandler(this.btn_food_click);
             // 
             // snacks_6
             // 
@@ -2414,11 +2413,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 360);
+            this.Controls.Add(this.panel_cart);
             this.Controls.Add(this.panel_left);
             this.Controls.Add(this.panel_bottom);
             this.Controls.Add(this.panel_top);
             this.Controls.Add(this.panel_center);
-            this.Controls.Add(this.panel_cart);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
@@ -2430,7 +2429,6 @@
             this.panel_cart.ResumeLayout(false);
             this.panel_cart.PerformLayout();
             this.pCart_calculate.ResumeLayout(false);
-            this.pCart_calculate.PerformLayout();
             this.panel_center.ResumeLayout(false);
             this.panel_center.PerformLayout();
             this.optional_3.ResumeLayout(false);

@@ -47,7 +47,7 @@
             // 
             this.btn_close.FlatAppearance.BorderSize = 0;
             this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_close.Font = new System.Drawing.Font("맑은 고딕", 13F);
+            this.btn_close.Font = new System.Drawing.Font("맑은 고딕", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_close.ForeColor = System.Drawing.Color.White;
             this.btn_close.Location = new System.Drawing.Point(614, 11);
             this.btn_close.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -61,40 +61,40 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("맑은 고딕 Semilight", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(10, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(133, 37);
+            this.label1.Size = new System.Drawing.Size(134, 37);
             this.label1.TabIndex = 1;
             this.label1.Text = "주문 내역";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("맑은 고딕", 11F);
+            this.label2.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(149, 24);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(208, 20);
+            this.label2.Size = new System.Drawing.Size(210, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "*마지막 주문건만 표시됩니다.";
             // 
             // lblTimer
             // 
             this.lblTimer.AutoSize = true;
-            this.lblTimer.Font = new System.Drawing.Font("맑은 고딕", 10F);
+            this.lblTimer.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblTimer.ForeColor = System.Drawing.Color.White;
             this.lblTimer.Location = new System.Drawing.Point(453, 27);
             this.lblTimer.Name = "lblTimer";
-            this.lblTimer.Size = new System.Drawing.Size(136, 19);
+            this.lblTimer.Size = new System.Drawing.Size(128, 17);
             this.lblTimer.TabIndex = 3;
             this.lblTimer.Text = "30초 후에 닫힙니다.";
             // 
             // lbl_onum
             // 
             this.lbl_onum.Dock = System.Windows.Forms.DockStyle.Right;
-            this.lbl_onum.Font = new System.Drawing.Font("맑은 고딕", 15F);
+            this.lbl_onum.Font = new System.Drawing.Font("맑은 고딕", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lbl_onum.ForeColor = System.Drawing.Color.White;
             this.lbl_onum.Location = new System.Drawing.Point(521, 0);
             this.lbl_onum.Name = "lbl_onum";
@@ -106,7 +106,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("맑은 고딕", 15F);
+            this.label4.Font = new System.Drawing.Font("맑은 고딕", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(10, 7);
             this.label4.Name = "label4";

@@ -13,6 +13,7 @@ namespace Torder
     public partial class Form5 : Form
     {
         private string StrSQL = @"Provider=Microsoft.ACE.OLEDB.16.0; Data Source=2jo.accdb;Mode=ReadWrite";
+
         public Form5()
         {
             InitializeComponent();

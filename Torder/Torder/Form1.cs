@@ -245,7 +245,7 @@ namespace Torder
                 cBPlus.Add(new Button());
 
                 cPanel[foodSelect].Name = String.Format("cPanel_{0}", foodSelect);
-                cPanel[foodSelect].Size = new Size(223, 66);
+                cPanel[foodSelect].Size = new Size(238, 66);
                 cPanel[foodSelect].Location = new Point(0, 66 * foodSelect);
 
                 clblName[foodSelect].Name = String.Format("clblName_{0}", foodSelect);
@@ -258,26 +258,28 @@ namespace Torder
                 clblNum[foodSelect].Text = "1";
                 clblNum[foodSelect].Font = new Font("맑은 고딕", 10, FontStyle.Bold);
                 clblNum[foodSelect].AutoSize = true;
-                clblNum[foodSelect].Location = new Point(39, 39);
+                clblNum[foodSelect].Location = new Point(36, 39);
 
                 clblSum[foodSelect].Name = String.Format("clblSum_{0}", foodSelect);
                 clblSum[foodSelect].Text = String.Format("{0}원", fPrice[foodSelect]);
                 clblSum[foodSelect].Font = new Font("맑은 고딕", 15, FontStyle.Bold);
-                clblSum[foodSelect].AutoSize = true;
-                clblSum[foodSelect].Location = new Point(120, 32);
+                clblSum[foodSelect].AutoSize = false;
+                clblSum[foodSelect].Size = new Size(145, 30);
+                clblSum[foodSelect].TextAlign = ContentAlignment.MiddleRight;
+                clblSum[foodSelect].Location = new Point(92, 32);
 
                 cBDelete[foodSelect].Name = String.Format("cBDelete_{0}", foodSelect);
                 cBDelete[foodSelect].Text = "삭제";
                 cBDelete[foodSelect].Font = new Font("맑은 고딕", 9);
                 cBDelete[foodSelect].Size = new Size(49, 23);
-                cBDelete[foodSelect].Location = new Point(174, 0);
+                cBDelete[foodSelect].Location = new Point(179, 0);
                 cBDelete[foodSelect].Click += new System.EventHandler(btnD_Click);
 
                 cBMinus[foodSelect].Name = String.Format("cBMinus_{0}", foodSelect);
                 cBMinus[foodSelect].Text = "-";
                 cBMinus[foodSelect].Font = new Font("맑은 고딕", 9);
                 cBMinus[foodSelect].Size = new Size(25, 23);
-                cBMinus[foodSelect].Location = new Point(10, 38);
+                cBMinus[foodSelect].Location = new Point(5, 38);
                 cBMinus[foodSelect].Enabled = false;
                 cBMinus[foodSelect].Click += new System.EventHandler(btnM_Click);
 

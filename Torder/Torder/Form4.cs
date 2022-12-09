@@ -43,9 +43,10 @@ namespace Torder
         {
             
             form7.TopLevel = false;
-            //form7.Dock = System.Windows.Forms.DockStyle.Fill;
-            //form7.Parent = this.pn_daily;
-            //form7.Activate();
+            form7.Dock = System.Windows.Forms.DockStyle.Fill;
+            form7.FormBorderStyle = FormBorderStyle.None;
+            form7.Parent = this.pn_daily;
+            form7.Activate();
             this.pn_daily.Controls.Add(form7);
             this.panel2.Visible = false;
             this.pn_olist.Visible = false;
@@ -55,20 +56,22 @@ namespace Torder
             if (this.admin_btn_daily.Checked == false) this.admin_btn_daily.Checked = true;
         }
 
-        private void btn_admin_table1_Click(object sender, EventArgs e)
+        private void btn_admin_table_Click(object sender, EventArgs e)
         {
-            
             form6.TopLevel = false;
-            //form6.Dock = System.Windows.Forms.DockStyle.Fill;
-            //form6.FormBorderStyle = FormBorderStyle.None;
-            //form6.Parent = this.pn_olist;
-            //form6.Activate();
-            
+            form6.Dock = System.Windows.Forms.DockStyle.Fill;
+            form6.FormBorderStyle = FormBorderStyle.None;
+            form6.Parent = this.pn_olist;
+            form6.Activate();
+
+            form6.lbl_tName.Text = "테이블 " + ((Control)sender).Tag.ToString();
+
+            this.pn_olist.Controls.Add(form6);
             this.panel2.Visible = false;
             this.pn_olist.Visible = true;
             this.pn_daily.Visible = false;
-            this.pn_daily.Controls.Add(form6);
             form6.Show();
+
         }
         
     }

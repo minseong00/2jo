@@ -43,7 +43,6 @@
             this.pn_daily = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.pn_olist.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_admin_table1
@@ -54,9 +53,10 @@
             this.btn_admin_table1.Name = "btn_admin_table1";
             this.btn_admin_table1.Size = new System.Drawing.Size(164, 109);
             this.btn_admin_table1.TabIndex = 2;
+            this.btn_admin_table1.Tag = "1";
             this.btn_admin_table1.Text = "테이블1";
             this.btn_admin_table1.UseVisualStyleBackColor = false;
-            this.btn_admin_table1.Click += new System.EventHandler(this.btn_admin_table1_Click);
+            this.btn_admin_table1.Click += new System.EventHandler(this.btn_admin_table_Click);
             // 
             // btn_admin_table2
             // 
@@ -66,8 +66,10 @@
             this.btn_admin_table2.Name = "btn_admin_table2";
             this.btn_admin_table2.Size = new System.Drawing.Size(164, 109);
             this.btn_admin_table2.TabIndex = 3;
+            this.btn_admin_table2.Tag = "2";
             this.btn_admin_table2.Text = "테이블2";
             this.btn_admin_table2.UseVisualStyleBackColor = false;
+            this.btn_admin_table2.Click += new System.EventHandler(this.btn_admin_table_Click);
             // 
             // btn_admin_table3
             // 
@@ -78,8 +80,10 @@
             this.btn_admin_table3.Name = "btn_admin_table3";
             this.btn_admin_table3.Size = new System.Drawing.Size(164, 109);
             this.btn_admin_table3.TabIndex = 4;
+            this.btn_admin_table3.Tag = "3";
             this.btn_admin_table3.Text = "테이블3";
             this.btn_admin_table3.UseVisualStyleBackColor = false;
+            this.btn_admin_table3.Click += new System.EventHandler(this.btn_admin_table_Click);
             // 
             // btn_admin_table4
             // 
@@ -89,8 +93,10 @@
             this.btn_admin_table4.Name = "btn_admin_table4";
             this.btn_admin_table4.Size = new System.Drawing.Size(164, 109);
             this.btn_admin_table4.TabIndex = 5;
+            this.btn_admin_table4.Tag = "4";
             this.btn_admin_table4.Text = "테이블4";
             this.btn_admin_table4.UseVisualStyleBackColor = false;
+            this.btn_admin_table4.Click += new System.EventHandler(this.btn_admin_table_Click);
             // 
             // btn_admin_table5
             // 
@@ -100,8 +106,10 @@
             this.btn_admin_table5.Name = "btn_admin_table5";
             this.btn_admin_table5.Size = new System.Drawing.Size(164, 109);
             this.btn_admin_table5.TabIndex = 6;
+            this.btn_admin_table5.Tag = "5";
             this.btn_admin_table5.Text = "테이블5";
             this.btn_admin_table5.UseVisualStyleBackColor = false;
+            this.btn_admin_table5.Click += new System.EventHandler(this.btn_admin_table_Click);
             // 
             // btn_admin_table6
             // 
@@ -111,8 +119,10 @@
             this.btn_admin_table6.Name = "btn_admin_table6";
             this.btn_admin_table6.Size = new System.Drawing.Size(164, 109);
             this.btn_admin_table6.TabIndex = 7;
+            this.btn_admin_table6.Tag = "6";
             this.btn_admin_table6.Text = "테이블6";
             this.btn_admin_table6.UseVisualStyleBackColor = false;
+            this.btn_admin_table6.Click += new System.EventHandler(this.btn_admin_table_Click);
             // 
             // panel1
             // 
@@ -183,34 +193,33 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Black;
-            this.panel2.Controls.Add(this.pn_olist);
             this.panel2.Controls.Add(this.btn_admin_table3);
             this.panel2.Controls.Add(this.btn_admin_table6);
             this.panel2.Controls.Add(this.btn_admin_table4);
             this.panel2.Controls.Add(this.btn_admin_table5);
             this.panel2.Controls.Add(this.btn_admin_table1);
             this.panel2.Controls.Add(this.btn_admin_table2);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 58);
+            this.panel2.Location = new System.Drawing.Point(0, 57);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(700, 302);
+            this.panel2.Size = new System.Drawing.Size(700, 303);
             this.panel2.TabIndex = 9;
             // 
             // pn_olist
             // 
-            this.pn_olist.Controls.Add(this.pn_daily);
-            this.pn_olist.Location = new System.Drawing.Point(46, 111);
+            this.pn_olist.BackColor = System.Drawing.Color.Silver;
+            this.pn_olist.Location = new System.Drawing.Point(0, 57);
             this.pn_olist.Name = "pn_olist";
-            this.pn_olist.Size = new System.Drawing.Size(700, 302);
+            this.pn_olist.Size = new System.Drawing.Size(700, 303);
             this.pn_olist.TabIndex = 8;
             this.pn_olist.Visible = false;
             // 
             // pn_daily
             // 
-            this.pn_daily.Location = new System.Drawing.Point(68, 69);
+            this.pn_daily.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pn_daily.Location = new System.Drawing.Point(0, 57);
             this.pn_daily.Name = "pn_daily";
-            this.pn_daily.Size = new System.Drawing.Size(700, 302);
+            this.pn_daily.Size = new System.Drawing.Size(700, 303);
             this.pn_daily.TabIndex = 9;
             this.pn_daily.Visible = false;
             // 
@@ -221,6 +230,8 @@
             this.ClientSize = new System.Drawing.Size(700, 360);
             this.ControlBox = false;
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.pn_olist);
+            this.Controls.Add(this.pn_daily);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -230,7 +241,6 @@
             this.Load += new System.EventHandler(this.Form4_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.pn_olist.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

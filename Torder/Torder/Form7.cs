@@ -17,11 +17,16 @@ namespace Torder
             InitializeComponent();
         }
 
+        List<Panel> panel = new List<Panel>(); // 테이블 각각의 패널
+        List<Label> lblTName = new List<Label>(); // 테이블 명
+        List<Label> lblTSum = new List<Label>(); // 테이블 정산 가격
+        List<Button> btn = new List<Button>(); // 테이블 주문내역 이동 버튼
+
         private void Form7_Load(object sender, EventArgs e)
         {
             this.MinimumSize = new Size(716, 399);
             this.MaximumSize = new Size(716, 399);
-
+            MessageBox.Show(this.Parent.Name);
         }
 
         private void btn_close_Click(object sender, EventArgs e)
