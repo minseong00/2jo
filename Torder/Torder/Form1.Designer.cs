@@ -434,9 +434,9 @@
             this.pCart_price.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.pCart_price.Location = new System.Drawing.Point(19, 28);
             this.pCart_price.Name = "pCart_price";
-            this.pCart_price.Size = new System.Drawing.Size(102, 25);
+            this.pCart_price.Size = new System.Drawing.Size(42, 25);
             this.pCart_price.TabIndex = 1;
-            this.pCart_price.Text = "468,221원";
+            this.pCart_price.Text = "0원";
             // 
             // pCart_sum
             // 
@@ -444,9 +444,9 @@
             this.pCart_sum.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.pCart_sum.Location = new System.Drawing.Point(24, 5);
             this.pCart_sum.Name = "pCart_sum";
-            this.pCart_sum.Size = new System.Drawing.Size(91, 21);
+            this.pCart_sum.Size = new System.Drawing.Size(82, 21);
             this.pCart_sum.TabIndex = 0;
-            this.pCart_sum.Text = "5가지 12개";
+            this.pCart_sum.Text = "0가지 0개";
             // 
             // pCart_list
             // 
@@ -550,6 +550,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(83, 30);
             this.label13.TabIndex = 122;
+            this.label13.Tag = "notP";
             this.label13.Text = "1000원";
             this.label13.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -562,6 +563,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(74, 21);
             this.label14.TabIndex = 121;
+            this.label14.Tag = "notP";
             this.label14.Text = "라면사리";
             this.label14.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -575,6 +577,7 @@
             this.optional_img_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.optional_img_3.TabIndex = 116;
             this.optional_img_3.TabStop = false;
+            this.optional_img_3.Tag = "notP";
             this.optional_img_3.Click += new System.EventHandler(this.btn_food_click);
             // 
             // optional_2
@@ -597,6 +600,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(83, 30);
             this.label15.TabIndex = 120;
+            this.label15.Tag = "notP";
             this.label15.Text = "1500원";
             this.label15.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -609,6 +613,7 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(58, 21);
             this.label16.TabIndex = 119;
+            this.label16.Tag = "notP";
             this.label16.Text = "주먹밥";
             this.label16.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -622,6 +627,7 @@
             this.optional_img_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.optional_img_2.TabIndex = 115;
             this.optional_img_2.TabStop = false;
+            this.optional_img_2.Tag = "notP";
             this.optional_img_2.Click += new System.EventHandler(this.btn_food_click);
             // 
             // optional_1
@@ -644,6 +650,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(83, 30);
             this.label17.TabIndex = 118;
+            this.label17.Tag = "notP";
             this.label17.Text = "1000원";
             this.label17.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -656,6 +663,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(58, 21);
             this.label18.TabIndex = 117;
+            this.label18.Tag = "notP";
             this.label18.Text = "공기밥";
             this.label18.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -669,6 +677,7 @@
             this.optional_img_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.optional_img_1.TabIndex = 114;
             this.optional_img_1.TabStop = false;
+            this.optional_img_1.Tag = "notP";
             this.optional_img_1.Click += new System.EventHandler(this.btn_food_click);
             // 
             // drink_4
@@ -691,6 +700,7 @@
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(83, 30);
             this.label46.TabIndex = 110;
+            this.label46.Tag = "notP";
             this.label46.Text = "4000원";
             this.label46.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -703,6 +713,7 @@
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(42, 21);
             this.label47.TabIndex = 109;
+            this.label47.Tag = "notP";
             this.label47.Text = "카스";
             this.label47.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -716,6 +727,7 @@
             this.drink_img_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.drink_img_4.TabIndex = 108;
             this.drink_img_4.TabStop = false;
+            this.drink_img_4.Tag = "notP";
             this.drink_img_4.Click += new System.EventHandler(this.btn_food_click);
             // 
             // drink_5
@@ -738,6 +750,7 @@
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(83, 30);
             this.label44.TabIndex = 113;
+            this.label44.Tag = "notP";
             this.label44.Text = "6000원";
             this.label44.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -750,6 +763,7 @@
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(74, 21);
             this.label45.TabIndex = 112;
+            this.label45.Tag = "notP";
             this.label45.Text = "클라우드";
             this.label45.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -763,6 +777,7 @@
             this.drink_img_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.drink_img_5.TabIndex = 111;
             this.drink_img_5.TabStop = false;
+            this.drink_img_5.Tag = "notP";
             this.drink_img_5.Click += new System.EventHandler(this.btn_food_click);
             // 
             // drink_3
@@ -785,6 +800,7 @@
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(83, 30);
             this.label48.TabIndex = 107;
+            this.label48.Tag = "notP";
             this.label48.Text = "4000원";
             this.label48.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -797,6 +813,7 @@
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(42, 21);
             this.label49.TabIndex = 106;
+            this.label49.Tag = "notP";
             this.label49.Text = "테라";
             this.label49.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -810,6 +827,7 @@
             this.drink_img_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.drink_img_3.TabIndex = 101;
             this.drink_img_3.TabStop = false;
+            this.drink_img_3.Tag = "notP";
             this.drink_img_3.Click += new System.EventHandler(this.btn_food_click);
             // 
             // drink_2
@@ -832,6 +850,7 @@
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(83, 30);
             this.label50.TabIndex = 105;
+            this.label50.Tag = "notP";
             this.label50.Text = "4000원";
             this.label50.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -844,6 +863,7 @@
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(74, 21);
             this.label51.TabIndex = 104;
+            this.label51.Tag = "notP";
             this.label51.Text = "처음처럼";
             this.label51.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -857,6 +877,7 @@
             this.drink_img_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.drink_img_2.TabIndex = 100;
             this.drink_img_2.TabStop = false;
+            this.drink_img_2.Tag = "notP";
             this.drink_img_2.Click += new System.EventHandler(this.btn_food_click);
             // 
             // drink_1
@@ -879,6 +900,7 @@
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(83, 30);
             this.label52.TabIndex = 103;
+            this.label52.Tag = "notP";
             this.label52.Text = "4000원";
             this.label52.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -891,6 +913,7 @@
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(58, 21);
             this.label53.TabIndex = 102;
+            this.label53.Tag = "notP";
             this.label53.Text = "참이슬";
             this.label53.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -904,6 +927,7 @@
             this.drink_img_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.drink_img_1.TabIndex = 99;
             this.drink_img_1.TabStop = false;
+            this.drink_img_1.Tag = "notP";
             this.drink_img_1.Click += new System.EventHandler(this.btn_food_click);
             // 
             // beverage_4
@@ -926,6 +950,7 @@
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(83, 30);
             this.label40.TabIndex = 95;
+            this.label40.Tag = "notP";
             this.label40.Text = "2000원";
             this.label40.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -938,6 +963,7 @@
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(42, 21);
             this.label41.TabIndex = 94;
+            this.label41.Tag = "notP";
             this.label41.Text = "환타";
             this.label41.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -951,6 +977,7 @@
             this.beverage_img_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.beverage_img_4.TabIndex = 93;
             this.beverage_img_4.TabStop = false;
+            this.beverage_img_4.Tag = "notP";
             this.beverage_img_4.Click += new System.EventHandler(this.btn_food_click);
             // 
             // beverage_1
@@ -973,6 +1000,7 @@
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(83, 30);
             this.label38.TabIndex = 88;
+            this.label38.Tag = "notP";
             this.label38.Text = "2000원";
             this.label38.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -985,6 +1013,7 @@
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(42, 21);
             this.label39.TabIndex = 87;
+            this.label39.Tag = "notP";
             this.label39.Text = "콜라";
             this.label39.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -998,6 +1027,7 @@
             this.beverage_img_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.beverage_img_1.TabIndex = 84;
             this.beverage_img_1.TabStop = false;
+            this.beverage_img_1.Tag = "notP";
             this.beverage_img_1.Click += new System.EventHandler(this.btn_food_click);
             // 
             // beverage_3
@@ -1020,6 +1050,7 @@
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(83, 30);
             this.label34.TabIndex = 92;
+            this.label34.Tag = "notP";
             this.label34.Text = "2000원";
             this.label34.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1032,6 +1063,7 @@
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(90, 21);
             this.label35.TabIndex = 91;
+            this.label35.Tag = "notP";
             this.label35.Text = "스프라이트";
             this.label35.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1045,6 +1077,7 @@
             this.beverage_img_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.beverage_img_3.TabIndex = 86;
             this.beverage_img_3.TabStop = false;
+            this.beverage_img_3.Tag = "notP";
             this.beverage_img_3.Click += new System.EventHandler(this.btn_food_click);
             // 
             // beverage_2
@@ -1067,6 +1100,7 @@
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(83, 30);
             this.label36.TabIndex = 90;
+            this.label36.Tag = "notP";
             this.label36.Text = "2000원";
             this.label36.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1079,6 +1113,7 @@
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(58, 21);
             this.label37.TabIndex = 89;
+            this.label37.Tag = "notP";
             this.label37.Text = "사이다";
             this.label37.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1092,6 +1127,7 @@
             this.beverage_img_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.beverage_img_2.TabIndex = 85;
             this.beverage_img_2.TabStop = false;
+            this.beverage_img_2.Tag = "notP";
             this.beverage_img_2.Click += new System.EventHandler(this.btn_food_click);
             // 
             // fries_4
@@ -1115,6 +1151,7 @@
             this.fries_img_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fries_img_4.TabIndex = 151;
             this.fries_img_4.TabStop = false;
+            this.fries_img_4.Tag = "notP";
             this.fries_img_4.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label32
@@ -1126,6 +1163,7 @@
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(95, 30);
             this.label32.TabIndex = 83;
+            this.label32.Tag = "notP";
             this.label32.Text = "10000원";
             this.label32.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1138,6 +1176,7 @@
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(106, 21);
             this.label33.TabIndex = 82;
+            this.label33.Tag = "notP";
             this.label33.Text = "양념순살치킨";
             this.label33.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1162,6 +1201,7 @@
             this.fries_img_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fries_img_6.TabIndex = 152;
             this.fries_img_6.TabStop = false;
+            this.fries_img_6.Tag = "notP";
             this.fries_img_6.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label59
@@ -1173,6 +1213,7 @@
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(95, 30);
             this.label59.TabIndex = 150;
+            this.label59.Tag = "notP";
             this.label59.Text = "13000원";
             this.label59.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1185,6 +1226,7 @@
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(74, 21);
             this.label60.TabIndex = 149;
+            this.label60.Tag = "notP";
             this.label60.Text = "새우튀김";
             this.label60.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1209,6 +1251,7 @@
             this.fries_img_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fries_img_5.TabIndex = 153;
             this.fries_img_5.TabStop = false;
+            this.fries_img_5.Tag = "notP";
             this.fries_img_5.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label57
@@ -1220,6 +1263,7 @@
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(95, 30);
             this.label57.TabIndex = 148;
+            this.label57.Tag = "notP";
             this.label57.Text = "13000원";
             this.label57.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1232,6 +1276,7 @@
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(58, 21);
             this.label58.TabIndex = 147;
+            this.label58.Tag = "notP";
             this.label58.Text = "멘보샤";
             this.label58.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1255,6 +1300,7 @@
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(83, 30);
             this.label30.TabIndex = 76;
+            this.label30.Tag = "notP";
             this.label30.Text = "7000원";
             this.label30.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1267,6 +1313,7 @@
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(74, 21);
             this.label31.TabIndex = 75;
+            this.label31.Tag = "notP";
             this.label31.Text = "가라아게";
             this.label31.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1280,6 +1327,7 @@
             this.fries_img_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fries_img_1.TabIndex = 72;
             this.fries_img_1.TabStop = false;
+            this.fries_img_1.Tag = "notP";
             this.fries_img_1.Click += new System.EventHandler(this.btn_food_click);
             // 
             // fries_3
@@ -1302,6 +1350,7 @@
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(83, 30);
             this.label26.TabIndex = 80;
+            this.label26.Tag = "notP";
             this.label26.Text = "9000원";
             this.label26.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1314,6 +1363,7 @@
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(74, 21);
             this.label27.TabIndex = 79;
+            this.label27.Tag = "notP";
             this.label27.Text = "순살치킨";
             this.label27.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1327,6 +1377,7 @@
             this.fries_img_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fries_img_3.TabIndex = 74;
             this.fries_img_3.TabStop = false;
+            this.fries_img_3.Tag = "notP";
             this.fries_img_3.Click += new System.EventHandler(this.btn_food_click);
             // 
             // fries_2
@@ -1350,6 +1401,7 @@
             this.fries_img_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fries_img_2.TabIndex = 146;
             this.fries_img_2.TabStop = false;
+            this.fries_img_2.Tag = "notP";
             this.fries_img_2.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label28
@@ -1361,6 +1413,7 @@
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(83, 30);
             this.label28.TabIndex = 78;
+            this.label28.Tag = "notP";
             this.label28.Text = "7000원";
             this.label28.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1373,6 +1426,7 @@
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(138, 21);
             this.label29.TabIndex = 77;
+            this.label29.Tag = "notP";
             this.label29.Text = "갈릭치즈감자튀김";
             this.label29.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1398,6 +1452,7 @@
             this.meals_img_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.meals_img_5.TabIndex = 157;
             this.meals_img_5.TabStop = false;
+            this.meals_img_5.Tag = "notP";
             this.meals_img_5.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label63
@@ -1409,6 +1464,7 @@
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(95, 30);
             this.label63.TabIndex = 159;
+            this.label63.Tag = "notP";
             this.label63.Text = "12000원";
             this.label63.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1421,6 +1477,7 @@
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(90, 21);
             this.label64.TabIndex = 158;
+            this.label64.Tag = "notP";
             this.label64.Text = "소고기콩불";
             this.label64.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1446,6 +1503,7 @@
             this.meals_img_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.meals_img_4.TabIndex = 154;
             this.meals_img_4.TabStop = false;
+            this.meals_img_4.Tag = "notP";
             this.meals_img_4.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label61
@@ -1457,6 +1515,7 @@
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(95, 30);
             this.label61.TabIndex = 156;
+            this.label61.Tag = "notP";
             this.label61.Text = "12000원";
             this.label61.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1469,6 +1528,7 @@
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(128, 21);
             this.label62.TabIndex = 155;
+            this.label62.Tag = "notP";
             this.label62.Text = "소고기 숙주볶음";
             this.label62.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1494,6 +1554,7 @@
             this.meals_img_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.meals_img_1.TabIndex = 63;
             this.meals_img_1.TabStop = false;
+            this.meals_img_1.Tag = "notP";
             this.meals_img_1.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label11
@@ -1505,6 +1566,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(83, 30);
             this.label11.TabIndex = 67;
+            this.label11.Tag = "notP";
             this.label11.Text = "7000원";
             this.label11.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1517,6 +1579,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(122, 21);
             this.label12.TabIndex = 66;
+            this.label12.Tag = "notP";
             this.label12.Text = "치즈김치볶음밥";
             this.label12.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1540,6 +1603,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(95, 30);
             this.label7.TabIndex = 71;
+            this.label7.Tag = "notP";
             this.label7.Text = "11000원";
             this.label7.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1552,6 +1616,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(106, 21);
             this.label8.TabIndex = 70;
+            this.label8.Tag = "notP";
             this.label8.Text = "오돌뼈주먹밥";
             this.label8.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1565,6 +1630,7 @@
             this.meals_img_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.meals_img_3.TabIndex = 65;
             this.meals_img_3.TabStop = false;
+            this.meals_img_3.Tag = "notP";
             this.meals_img_3.Click += new System.EventHandler(this.btn_food_click);
             // 
             // meals_2
@@ -1587,6 +1653,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(95, 30);
             this.label9.TabIndex = 69;
+            this.label9.Tag = "notP";
             this.label9.Text = "12000원";
             this.label9.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1599,6 +1666,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(90, 21);
             this.label10.TabIndex = 68;
+            this.label10.Tag = "notP";
             this.label10.Text = "국물떡볶이";
             this.label10.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1612,6 +1680,7 @@
             this.meals_img_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.meals_img_2.TabIndex = 64;
             this.meals_img_2.TabStop = false;
+            this.meals_img_2.Tag = "notP";
             this.meals_img_2.Click += new System.EventHandler(this.btn_food_click);
             // 
             // snacks_9
@@ -1635,6 +1704,7 @@
             this.snacks_img_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.snacks_img_9.TabIndex = 145;
             this.snacks_img_9.TabStop = false;
+            this.snacks_img_9.Tag = "notP";
             this.snacks_img_9.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label25
@@ -1646,6 +1716,7 @@
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(83, 30);
             this.label25.TabIndex = 144;
+            this.label25.Tag = "notP";
             this.label25.Text = "5000원";
             this.label25.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1658,6 +1729,7 @@
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(74, 21);
             this.label42.TabIndex = 143;
+            this.label42.Tag = "notP";
             this.label42.Text = "염통꼬치";
             this.label42.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1682,6 +1754,7 @@
             this.snacks_img_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.snacks_img_8.TabIndex = 142;
             this.snacks_img_8.TabStop = false;
+            this.snacks_img_8.Tag = "notP";
             this.snacks_img_8.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label43
@@ -1693,6 +1766,7 @@
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(83, 30);
             this.label43.TabIndex = 140;
+            this.label43.Tag = "notP";
             this.label43.Text = "5000원";
             this.label43.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1705,6 +1779,7 @@
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(74, 21);
             this.label54.TabIndex = 139;
+            this.label54.Tag = "notP";
             this.label54.Text = "오징어입";
             this.label54.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1729,6 +1804,7 @@
             this.snacks_img_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.snacks_img_7.TabIndex = 141;
             this.snacks_img_7.TabStop = false;
+            this.snacks_img_7.Tag = "notP";
             this.snacks_img_7.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label55
@@ -1740,6 +1816,7 @@
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(95, 30);
             this.label55.TabIndex = 138;
+            this.label55.Tag = "notP";
             this.label55.Text = "10000원";
             this.label55.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1752,6 +1829,7 @@
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(122, 21);
             this.label56.TabIndex = 137;
+            this.label56.Tag = "notP";
             this.label56.Text = "고르곤졸라피자";
             this.label56.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1776,6 +1854,7 @@
             this.snacks_img_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.snacks_img_6.TabIndex = 136;
             this.snacks_img_6.TabStop = false;
+            this.snacks_img_6.Tag = "notP";
             this.snacks_img_6.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label19
@@ -1787,6 +1866,7 @@
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(83, 30);
             this.label19.TabIndex = 135;
+            this.label19.Tag = "notP";
             this.label19.Text = "9000원";
             this.label19.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1799,6 +1879,7 @@
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(58, 21);
             this.label20.TabIndex = 134;
+            this.label20.Tag = "notP";
             this.label20.Text = "김피탕";
             this.label20.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1823,6 +1904,7 @@
             this.snacks_img_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.snacks_img_5.TabIndex = 133;
             this.snacks_img_5.TabStop = false;
+            this.snacks_img_5.Tag = "notP";
             this.snacks_img_5.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label21
@@ -1834,6 +1916,7 @@
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(83, 30);
             this.label21.TabIndex = 131;
+            this.label21.Tag = "notP";
             this.label21.Text = "6000원";
             this.label21.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1846,6 +1929,7 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(90, 21);
             this.label22.TabIndex = 130;
+            this.label22.Tag = "notP";
             this.label22.Text = "모듬소세지";
             this.label22.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1870,6 +1954,7 @@
             this.snacks_img_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.snacks_img_4.TabIndex = 132;
             this.snacks_img_4.TabStop = false;
+            this.snacks_img_4.Tag = "notP";
             this.snacks_img_4.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label23
@@ -1881,6 +1966,7 @@
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(83, 30);
             this.label23.TabIndex = 129;
+            this.label23.Tag = "notP";
             this.label23.Text = "6000원";
             this.label23.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1893,6 +1979,7 @@
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(106, 21);
             this.label24.TabIndex = 128;
+            this.label24.Tag = "notP";
             this.label24.Text = "콘치즈그라탕";
             this.label24.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1917,6 +2004,7 @@
             this.snacks_img_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.snacks_img_3.TabIndex = 124;
             this.snacks_img_3.TabStop = false;
+            this.snacks_img_3.Tag = "notP";
             this.snacks_img_3.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label3
@@ -1928,6 +2016,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 30);
             this.label3.TabIndex = 49;
+            this.label3.Tag = "notP";
             this.label3.Text = "8000원";
             this.label3.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1940,6 +2029,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(74, 21);
             this.label4.TabIndex = 48;
+            this.label4.Tag = "notP";
             this.label4.Text = "부대찌개";
             this.label4.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1964,6 +2054,7 @@
             this.snacks_img_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.snacks_img_2.TabIndex = 127;
             this.snacks_img_2.TabStop = false;
+            this.snacks_img_2.Tag = "notP";
             this.snacks_img_2.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label6
@@ -1975,6 +2066,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(74, 21);
             this.label6.TabIndex = 125;
+            this.label6.Tag = "notP";
             this.label6.Text = "짜빠구리";
             this.label6.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -1987,6 +2079,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(83, 30);
             this.label5.TabIndex = 126;
+            this.label5.Tag = "notP";
             this.label5.Text = "6000원";
             this.label5.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -2011,6 +2104,7 @@
             this.snacks_img_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.snacks_img_1.TabIndex = 123;
             this.snacks_img_1.TabStop = false;
+            this.snacks_img_1.Tag = "notP";
             this.snacks_img_1.Click += new System.EventHandler(this.btn_food_click);
             // 
             // label2
@@ -2022,6 +2116,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 21);
             this.label2.TabIndex = 46;
+            this.label2.Tag = "notP";
             this.label2.Text = "어묵탕";
             this.label2.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -2034,6 +2129,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 30);
             this.label1.TabIndex = 47;
+            this.label1.Tag = "notP";
             this.label1.Text = "7000원";
             this.label1.Click += new System.EventHandler(this.btn_food_click);
             // 
@@ -2279,11 +2375,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 360);
+            this.Controls.Add(this.panel_cart);
             this.Controls.Add(this.panel_left);
             this.Controls.Add(this.panel_bottom);
             this.Controls.Add(this.panel_top);
             this.Controls.Add(this.panel_center);
-            this.Controls.Add(this.panel_cart);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;

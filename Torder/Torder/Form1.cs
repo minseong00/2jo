@@ -116,14 +116,18 @@ namespace Torder
         
         private void btn_food_click(object sender, EventArgs e)
         {
-            Panel foodAdd = sender as Panel;
-
-
-            fId.Add(foodAdd.Name.ToString());
-
+            String foodAdd = ((Control)sender).Name.ToString();
+            if(((Control)sender).Tag == "notP")
+            {
+                foodAdd = ((Control)sender).Parent.Name.ToString();
+                fId.Add(foodAdd);
+            }
+            else
+                fId.Add(foodAdd);
+            
             for (int i = 0; i < fName.Count; i++)
             {
-                if (foodAdd.Name.ToString() == fId[i])
+                if (foodAdd == fId[i])
                 {
                     fId.RemoveAt(i);
                     return;
