@@ -49,7 +49,7 @@ namespace Torder
             var Reader = Comm.ExecuteReader();
             Reader.Read();
             orderCount = Convert.ToInt32(Reader[0].ToString());
-            sql = "SELECT [prod_name], [order_date], [order_count], [order_total] FROM [order], [product] WHERE [order_prod] = [prod_id] and [order_table] = " + tableNum + " ORDER BY [order_date] DESC";
+            sql = "SELECT [prod_name], [order_date], [order_count], [order_total_price] FROM [order], [product] WHERE [order_prod] = [prod_id] and [order_table] = " + tableNum + " ORDER BY [order_date] DESC";
             Comm = new OleDbCommand(sql, Conn);
             var myRead = Comm.ExecuteReader();
             while(myRead.Read())
@@ -85,7 +85,7 @@ namespace Torder
                 lblDate[i].Name = String.Format("oDate_{0}", i);
                 lblDate[i].Text = String.Format("{0}", oDate.ToString());
                 lblDate[i].Font = new Font("맑은 고딕", 12, FontStyle.Bold);
-                lblName[i].AutoSize = true;
+                lblDate[i].AutoSize = true;
                 lblDate[i].Location = new Point(262, 17);
 
                 lblCount[i].Name = String.Format("oFCount_{0}", i);
