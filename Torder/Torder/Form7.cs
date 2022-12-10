@@ -33,27 +33,23 @@ namespace Torder
 
             int i = 0;
             string tName;
-            string tSum;
+            int tSum;
             int ATSum = 0;
 
             
             var Conn = new OleDbConnection(StrSQL);
             Conn.Open();
-            string sql = "SELECT SUM(order_total_price) FROM [order] WHERE [order_table] = " + i;
+            string sql = "SELECT SUM([order_total_price]) FROM [order] WHERE [order_table] = " + i + 1;
             var Comm = new OleDbCommand(sql, Conn);
             var Reader = Comm.ExecuteReader();
             while(Reader.Read())
             {
-                tName = String.Format("테이블 {0}", i);
-                tSum = Reader[0].ToString();
-                ATSum += int.Parse(tSum);
+                tName = String.Format("테이블 {0}", i+1);
+                tSum = Convert.ToInt32(Reader[0].ToString());
+                ATSum += tSum;
                 
 
             //for (int j = 0; j < 6; j++) { // 이 라인만 위에 주석이랑 전환하면 댐
-
-                tName = String.Format("테이블 {0}", i + 1);
-                tSum = String.Format("{0}", i);
-                ATSum += int.Parse(tSum);
 
                 panel.Add(new Panel());
                 lblTName.Add(new Label());
