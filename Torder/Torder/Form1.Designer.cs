@@ -392,6 +392,7 @@
             this.pCart_price.TabIndex = 1;
             this.pCart_price.Text = "0원";
             this.pCart_price.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.pCart_price.Visible = false;
             // 
             // pCart_sum
             // 
@@ -402,6 +403,7 @@
             this.pCart_sum.TabIndex = 0;
             this.pCart_sum.Text = "0가지 0개";
             this.pCart_sum.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.pCart_sum.Visible = false;
             // 
             // pCart_list
             // 

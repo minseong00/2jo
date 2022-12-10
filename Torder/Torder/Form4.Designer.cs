@@ -254,10 +254,10 @@
         private System.Windows.Forms.Button btn_admin_table6;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btn_close;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.CheckBox admin_btn_daily;
-        private System.Windows.Forms.CheckBox admin_btn_olist;
-        private System.Windows.Forms.Panel pn_olist;
-        private System.Windows.Forms.Panel pn_daily;
+        public System.Windows.Forms.CheckBox admin_btn_daily;
+        public System.Windows.Forms.CheckBox admin_btn_olist;
+        public System.Windows.Forms.Panel panel2;
+        public System.Windows.Forms.Panel pn_olist;
+        public System.Windows.Forms.Panel pn_daily;
     }
 }

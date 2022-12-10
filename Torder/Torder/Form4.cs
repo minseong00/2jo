@@ -16,8 +16,10 @@ namespace Torder
         {
             InitializeComponent();
         }
+
         Form7 form7 = new Form7();
         Form6 form6 = new Form6();
+
         private void Form4_Load(object sender, EventArgs e)
         {
             this.MinimumSize = new Size(716, 399);
@@ -41,7 +43,7 @@ namespace Torder
 
         private void admin_btn_daily_Click(object sender, EventArgs e)
         {
-            
+
             form7.TopLevel = false;
             form7.Dock = System.Windows.Forms.DockStyle.Fill;
             form7.FormBorderStyle = FormBorderStyle.None;
@@ -73,6 +75,9 @@ namespace Torder
             form6.Show();
 
         }
+
+
+
         
     }
 }

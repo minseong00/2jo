@@ -120,10 +120,6 @@ namespace Torder
             order_sum.Text = String.Format("{0}원", priceSum);
 
         }
-
-        private void btn_close_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        
     }
 }
