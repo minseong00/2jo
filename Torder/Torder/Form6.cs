@@ -41,7 +41,7 @@ namespace Torder
             int fNum;
             int fPrice;
             int priceSum = 0;
-
+            
             var Conn = new OleDbConnection(StrSQL);
             Conn.Open();
             string sql = "SELECT COUNT(*) FROM [order] WHERE [order_table] = " + tableNum;
@@ -49,7 +49,7 @@ namespace Torder
             var Reader = Comm.ExecuteReader();
             Reader.Read();
             orderCount = Convert.ToInt32(Reader[0].ToString());
-            sql = "SELECT [prod_name], [order_date], [order_count], [order_total] FROM [order], [product] WHERE [order_table] = " + tableNum + " ORDER BY [order_date] DESC";
+            sql = "SELECT [prod_name], [order_date], [order_count], [order_total] FROM [order], [product] WHERE [order_prod] = [prod_id] and [order_table] = " + tableNum + " ORDER BY [order_date] DESC";
             Comm = new OleDbCommand(sql, Conn);
             var myRead = Comm.ExecuteReader();
             while(myRead.Read())
@@ -59,12 +59,12 @@ namespace Torder
                 fNum = Convert.ToInt32(myRead[2].ToString());
                 fPrice = Convert.ToInt32(myRead[3].ToString());
 
-                panel.Add(new Panel());
-                lblNum.Add(new Label());
-                lblName.Add(new Label());
-                lblDate.Add(new Label());
-                lblCount.Add(new Label());
-                lblPrice.Add(new Label());
+                panel.Add(new Panel());     // 주문 내역 각각의 패널
+                lblNum.Add(new Label());    // 주문 번호
+                lblName.Add(new Label());   // 음식명
+                lblDate.Add(new Label());   // 주문 일자
+                lblCount.Add(new Label());  // 음식 수량
+                lblPrice.Add(new Label());  // 음식 총 가격
 
                 panel[i].Name = String.Format("oList_{0}", i);
                 panel[i].Size = new Size(701, 50);
@@ -73,31 +73,34 @@ namespace Torder
                 lblNum[i].Name = String.Format("oCount_{0}", i);
                 lblNum[i].Text = String.Format("{0}", orderCount - i);
                 lblNum[i].Font = new Font("맑은 고딕", 16, FontStyle.Bold);
+                lblNum[i].AutoSize = true;
                 lblNum[i].Location = new Point(6, 8);
 
                 lblName[i].Name = String.Format("oFName_{0}", i);
                 lblName[i].Text = String.Format("{0}", fName);
                 lblName[i].Font = new Font("맑은 고딕", 15, FontStyle.Bold);
+                lblName[i].AutoSize = true;
                 lblName[i].Location = new Point(62, 14);
 
                 lblDate[i].Name = String.Format("oDate_{0}", i);
-                lblDate[i].Text = String.Format("{0}", oDate);
+                lblDate[i].Text = String.Format("{0}", oDate.ToString());
                 lblDate[i].Font = new Font("맑은 고딕", 12, FontStyle.Bold);
-                lblDate[i].Location = new Point(260, 17);
+                lblName[i].AutoSize = true;
+                lblDate[i].Location = new Point(262, 17);
 
                 lblCount[i].Name = String.Format("oFCount_{0}", i);
                 lblCount[i].Text = String.Format("{0}개", fNum);
                 lblCount[i].Font = new Font("맑은 고딕", 12, FontStyle.Bold);
                 lblCount[i].AutoSize = false;
-                lblCount[i].Size = new Size(100, 23);
+                lblCount[i].Size = new Size(70, 35);
                 lblCount[i].TextAlign = ContentAlignment.MiddleRight;
-                lblCount[i].Location = new Point(419, 16);
+                lblCount[i].Location = new Point(445, 10);
 
                 lblPrice[i].Name = String.Format("oPrice_{0}", i);
                 lblPrice[i].Text = String.Format("{0}원", fPrice);
                 lblPrice[i].Font = new Font("맑은 고딕", 15, FontStyle.Bold);
                 lblPrice[i].AutoSize = false;
-                lblPrice[i].Size = new Size(154, 32);
+                lblPrice[i].Size = new Size(155, 35);
                 lblPrice[i].TextAlign = ContentAlignment.MiddleRight;
                 lblPrice[i].Location = new Point(544, 10);
 
