@@ -212,15 +212,8 @@ namespace Torder
                 }
             }
             
-
-            // 엑세스 없는 테스트용 코드 2줄 --------------------
-            fName.Add(String.Format("test{0}",foodSelect));
-            fPrice.Add(int.Parse(String.Format("10{0}", foodSelect)));
-            //-----------------------------------------------------
-
-            //엑세스 있는 테스트용 DB코드-----------------------------
-            //1.음식 패널을 클릭 시 해당 패널의 Name과 일치하는  음식 이름과 금액을 가져와 변수에 저장한다.
-            /*
+            
+            
             var Conn = new OleDbConnection(StrSQL);
             Conn.Open();
             string sql = "SELECT [prod_name], [prod_price] FROM [product] WHERE [prod_id] = '" + foodAdd + "'";
@@ -231,8 +224,6 @@ namespace Torder
             fPrice.Add(Convert.ToInt32(myRead[1].ToString()));
             myRead.Close();
             Conn.Close();
-            */
-            //-------------------------------------------------
 
             pCart_list.AutoScrollPosition = new Point(0, 0);
 

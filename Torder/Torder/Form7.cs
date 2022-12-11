@@ -48,8 +48,7 @@ namespace Torder
                 tSum = Convert.ToInt32(Reader[0].ToString());
                 ATSum += tSum;
                 
-
-            //for (int j = 0; j < 6; j++) { // 이 라인만 위에 주석이랑 전환하면 댐
+                
 
                 panel.Add(new Panel());
                 lblTName.Add(new Label());
