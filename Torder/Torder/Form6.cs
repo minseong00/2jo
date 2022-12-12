@@ -34,7 +34,6 @@ namespace Torder
             this.MaximumSize = new Size(716, 399);
 
             int tableNum = int.Parse((lbl_tName.ToString()).Substring((lbl_tName.ToString().Length - 1)));
-
             int i = 0;
             string fName;
             string oDate;

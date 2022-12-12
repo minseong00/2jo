@@ -431,7 +431,7 @@ namespace Torder
                 }
                 else
                 {
-                    /* 엑세스 전용 코드
+                    /* 엑세스 전용 코드 */
                     var Conn = new OleDbConnection(StrSQL);
                     Conn.Open();
                     // 여기에서 db 반복문 입력
@@ -443,7 +443,7 @@ namespace Torder
                         var Comm = new OleDbCommand(sql, Conn);
                         var result = Comm.ExecuteNonQuery();
                     }
-                    */
+                    
                     // --------------------------------------------------------
 
                     pCart_list.Controls.Clear();
